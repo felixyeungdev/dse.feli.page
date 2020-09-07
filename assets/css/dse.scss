@@ -22,7 +22,7 @@
         grid-template-columns: min-content 1fr;
         .dse-list-prefix {
             min-width: $prefix-min-width;
-            margin-top: 3.5px;
+            // margin-top: 3.5px;
             margin-right: 8px;
             font-weight: bold;
         }
@@ -34,7 +34,7 @@
         grid-template-columns: min-content 1fr;
         .dse-text-prefix {
             min-width: $prefix-min-width;
-            margin-top: 3.5px;
+            // margin-top: 3.5px;
             margin-right: 8px;
             font-weight: bold;
         }
