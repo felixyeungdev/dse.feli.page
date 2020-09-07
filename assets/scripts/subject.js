@@ -6,6 +6,25 @@ if (!subject) window.location.href = "/";
 
 var allQuestionsAndAnswers = [];
 
+function checkDuplicateId(json = []) {
+    let ids = json.map((qA) => qA.id);
+    let filtered = [];
+    let duplicated = [];
+    ids.forEach((id) => {
+        if (filtered.includes(id)) {
+            duplicated.push(id);
+        } else {
+            filtered.push(id);
+        }
+    });
+    console.log({ filtered, duplicated });
+    if (duplicated.length > 0)
+        console.warn(
+            "Question-Answers with duplicate IDs found: " +
+                duplicated.join(", ")
+        );
+}
+
 async function show(questionsAndAnswers) {
     holder.innerHTML = "";
     const questionsAndAnswersElement = await dse.renderQuestions(
@@ -31,6 +50,7 @@ function search(keyword) {
 async function initContent() {
     var response = await fetch(`/assets/source/${subject}.json`);
     var json = await response.json();
+    checkDuplicateId(json);
     allQuestionsAndAnswers = json;
     show(allQuestionsAndAnswers);
     console.log("Fetched and Loaded");
