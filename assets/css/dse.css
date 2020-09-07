@@ -17,6 +17,10 @@
   margin-top: 16px;
 }
 
+.dse-question_answer .dse-explanation {
+  margin-top: 16px;
+}
+
 .dse-question_answer .dse-list {
   display: -ms-grid;
   display: grid;
