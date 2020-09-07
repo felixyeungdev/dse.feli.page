@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DSE Chinese | feli.page</title>
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="/assets/css/dse.css" />
+        <script src="/assets/scripts/utilities.js"></script>
+        <script src="/assets/scripts/dse.js" defer></script>
+        <style>
+            body {
+                padding: 16px;
+                margin-bottom: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="/" class="home">Return Home</a>
+        <div class="wrapper"></div>
+        <script>
+            async function main() {
+                var response = await fetch("/assets/source/chi.json");
+                var json = await response.json();
+
+                document
+                    .querySelector(".wrapper")
+                    .append(await dse.renderQuestions(json));
+            }
+            main();
+        </script>
+    </body>
+</html>

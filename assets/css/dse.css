@@ -1,0 +1,45 @@
+.dse-question_answer {
+  border: 2px solid lightgray;
+  border-radius: 16px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.dse-question_answer .dse-question {
+  margin-top: 16px;
+}
+
+.dse-question_answer .dse-answer {
+  margin-top: 16px;
+}
+
+.dse-question_answer .dse-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content 1fr;
+      grid-template-columns: -webkit-min-content 1fr;
+      grid-template-columns: min-content 1fr;
+}
+
+.dse-question_answer .dse-list .dse-list-prefix {
+  min-width: 28px;
+  margin-top: 3.5px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.dse-question_answer .dse-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: min-content 1fr;
+      grid-template-columns: -webkit-min-content 1fr;
+      grid-template-columns: min-content 1fr;
+}
+
+.dse-question_answer .dse-text .dse-text-prefix {
+  min-width: 28px;
+  margin-top: 3.5px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=dse.css.map */
