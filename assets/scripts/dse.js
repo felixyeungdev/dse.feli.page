@@ -62,6 +62,14 @@ const dse = (function () {
             answersDiv.classList.add("dse-answer");
             base.append(answersDiv);
 
+            if (question.explanation) {
+                let explanationDiv = createListElement({
+                    prefix: "E",
+                    list: question.explanation,
+                });
+                explanationDiv.classList.add("dse-explanation");
+                base.append(explanationDiv);
+            }
             // return base;
         }
         return base;
