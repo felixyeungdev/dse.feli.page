@@ -10,7 +10,7 @@ main {
         height: 48px;
         border: $border;
         display: grid;
-        grid-template-columns: 1fr min-content;
+        grid-template-columns: min-content 1fr min-content;
         place-items: center;
         border-radius: 16px;
         margin-bottom: 16px;
@@ -21,6 +21,12 @@ main {
             background-color: white;
             display: flex;
             place-items: center;
+            cursor: pointer;
+        }
+        .icon-search {
+            border-radius: 16px 0 0 16px;
+        }
+        .icon-cross {
             border-radius: 0 16px 16px 0;
         }
         input {
@@ -28,7 +34,6 @@ main {
             width: 100%;
             border: none;
             outline: none;
-            border-radius: 16px 0 0 16px;
             padding: 0 16px;
             font-size: 16px;
         }

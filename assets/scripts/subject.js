@@ -1,4 +1,5 @@
 const searchBox = document.querySelector("#searchBox");
+const searchClear = document.querySelector("#clearInput");
 const searchChips = document.querySelector("#searchChips");
 const subject = new URLSearchParams(window.location.search).get("subject");
 const holder = document.querySelector(".wrapper");
@@ -78,6 +79,11 @@ async function initSearch() {
                 search(searchBox.value);
             });
             searchChips.append(base);
+        });
+
+        searchClear.addEventListener("click", (e) => {
+            searchBox.value = "";
+            search(searchBox.value);
         });
     }
 

@@ -14,9 +14,9 @@ main .search {
   border: 2px solid lightgray;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr min-content;
-      grid-template-columns: 1fr -webkit-min-content;
-      grid-template-columns: 1fr min-content;
+  -ms-grid-columns: min-content 1fr min-content;
+      grid-template-columns: -webkit-min-content 1fr -webkit-min-content;
+      grid-template-columns: min-content 1fr min-content;
   place-items: center;
   border-radius: 16px;
   margin-bottom: 16px;
@@ -31,6 +31,14 @@ main .search label {
   display: -ms-flexbox;
   display: flex;
   place-items: center;
+  cursor: pointer;
+}
+
+main .search .icon-search {
+  border-radius: 16px 0 0 16px;
+}
+
+main .search .icon-cross {
   border-radius: 0 16px 16px 0;
 }
 
@@ -39,7 +47,6 @@ main .search input {
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 16px 0 0 16px;
   padding: 0 16px;
   font-size: 16px;
 }
