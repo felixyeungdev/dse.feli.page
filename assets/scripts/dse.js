@@ -1,15 +1,6 @@
 const dse = (function () {
     const indent = 16;
 
-    // async function test() {
-    //     var response = await fetch("./assets/source/chi.json");
-    //     var json = await response.json();
-    //     console.log(json);
-    //     renderQuestions(json.reverse());
-    // }
-
-    // test();
-
     function createTextElement(text = {}) {
         let base = document.createElement("p");
         base.classList.add("dse-text");
