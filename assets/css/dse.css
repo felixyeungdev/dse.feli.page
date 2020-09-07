@@ -6,6 +6,7 @@
   border: 2px solid lightgray;
   border-radius: 16px;
   padding: 16px;
+  padding-bottom: 24px;
 }
 
 .dse-question_answer .dse-question {
