@@ -12,3 +12,12 @@ a {
     text-decoration: none;
     color: rgb(0, 136, 255);
 }
+
+body {
+    display: grid;
+    justify-content: center;
+    main {
+        width: 100%;
+        max-width: 800px;
+    }
+}
