@@ -1,0 +1,44 @@
+main {
+  padding: 16px;
+  margin: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    margin: 0;
+  }
+}
+
+main .search {
+  height: 48px;
+  border: 2px solid lightgray;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr min-content;
+      grid-template-columns: 1fr -webkit-min-content;
+      grid-template-columns: 1fr min-content;
+  place-items: center;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+main .search label {
+  height: 100%;
+  padding: 0 16px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  border-radius: 0 16px 16px 0;
+}
+
+main .search input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 16px 0 0 16px;
+  padding: 0 16px;
+}
+/*# sourceMappingURL=subject.css.map */

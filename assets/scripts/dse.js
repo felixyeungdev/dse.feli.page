@@ -69,6 +69,7 @@ const dse = (function () {
 
     function renderQuestions(questions = []) {
         let base = document.createElement("div");
+        base.classList.add("dse-question_answer-collection");
 
         for (const key in questions) {
             if (questions.hasOwnProperty(key)) {

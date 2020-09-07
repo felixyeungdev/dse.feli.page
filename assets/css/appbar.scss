@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+nav {
+    .main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 64px;
+        border-bottom: $border;
+        display: grid;
+        background-color: white;
+        // justify-content: center;
+        align-content: center;
+        a {
+            margin-left: 32px;
+        }
+    }
+    .spacer {
+        height: 64px;
+    }
+}

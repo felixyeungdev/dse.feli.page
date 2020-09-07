@@ -1,0 +1,22 @@
+nav .main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 64px;
+  border-bottom: 2px solid lightgray;
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav .main a {
+  margin-left: 32px;
+}
+
+nav .spacer {
+  height: 64px;
+}
+/*# sourceMappingURL=appbar.css.map */

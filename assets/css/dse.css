@@ -1,7 +1,10 @@
+.dse-question_answer-collection > * {
+  margin-bottom: 16px;
+}
+
 .dse-question_answer {
   border: 2px solid lightgray;
   border-radius: 16px;
-  margin: 16px;
   padding: 16px;
 }
 

@@ -6,32 +6,37 @@
         <title>DSE Chinese | feli.page</title>
         <link rel="stylesheet" href="/assets/css/styles.css" />
         <link rel="stylesheet" href="/assets/css/dse.css" />
+        <link rel="stylesheet" href="/assets/css/subject.css" />
+        <link rel="stylesheet" href="/assets/css/appbar.css" />
+
+        <script
+            src="https://kit.fontawesome.com/f583587016.js"
+            crossorigin="anonymous"
+        ></script>
         <script src="/assets/scripts/utilities.js"></script>
         <script src="/assets/scripts/dse.js" defer></script>
-        <style>
-            body {
-                padding: 16px;
-                margin-bottom: 32px;
-            }
-        </style>
+        <script src="/assets/scripts/subject.js" defer></script>
     </head>
     <body>
-        <a href="/" class="home">Return Home</a>
-        <div class="wrapper"></div>
-        <script>
-            const subject = new URLSearchParams(window.location.search).get(
-                "subject"
-            );
-            if (!subject) window.location.href = "/";
-            async function main() {
-                var response = await fetch(`/assets/source/${subject}.json`);
-                var json = await response.json();
-
-                document
-                    .querySelector(".wrapper")
-                    .append(await dse.renderQuestions(json));
-            }
-            main();
-        </script>
+        <nav>
+            <div class="main">
+                <a href="/" class="home">dse.feli.page</a>
+            </div>
+            <div class="spacer"></div>
+        </nav>
+        <main>
+            <div class="search">
+                <input
+                    type="text"
+                    name="search"
+                    id="searchBox"
+                    placeholder="Search"
+                />
+                <label for="searchBox">
+                    <i class="fas fa-search"></i>
+                </label>
+            </div>
+            <div class="wrapper"></div>
+        </main>
     </body>
 </html>
