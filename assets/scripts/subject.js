@@ -31,7 +31,6 @@ async function init() {
             let copy = [...allQuestionsAndAnswers].filter((qA) =>
                 JSON.stringify(qA).includes(searchBox.value)
             );
-            console.log(copy);
             show(copy);
         } else {
             show(allQuestionsAndAnswers);
