@@ -24,6 +24,7 @@ main .search {
 
 main .search label {
   height: 100%;
+  width: 100%;
   padding: 0 16px;
   background-color: white;
   display: -webkit-box;
@@ -40,6 +41,7 @@ main .search input {
   outline: none;
   border-radius: 16px 0 0 16px;
   padding: 0 16px;
+  font-size: 16px;
 }
 
 main .search-chips {
@@ -47,6 +49,7 @@ main .search-chips {
 }
 
 main .search-chips .search-chip {
+  font-size: 14px;
   display: inline-block;
   height: 36px;
   padding: 0 12px;
