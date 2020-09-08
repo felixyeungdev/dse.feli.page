@@ -8,3 +8,5 @@ function randomID() {
 function isASCII(str) {
     return /^[\x00-\x7F]*$/.test(str);
 }
+
+document.body.addEventListener("click", () => {});

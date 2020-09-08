@@ -35,6 +35,10 @@ workbox.precaching.precacheAndRoute([
     "revision": "c5b5ed24b11f74906302f3dc98e89922"
   },
   {
+    "url": "assets/css/fab.css",
+    "revision": "791b07536d890a7d83d3126393f3cd1f"
+  },
+  {
     "url": "assets/css/home.css",
     "revision": "10122aa69b9ccd1b9c6a83d4d4e7fd6c"
   },
@@ -44,7 +48,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/questions.css",
-    "revision": "9e8087ad9774b4f82a835978881289e8"
+    "revision": "b8e77ba4fe28a7b9ccdce18b4668f7b7"
   },
   {
     "url": "assets/css/shadow.css",
@@ -52,7 +56,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/styles.css",
-    "revision": "d4945845c14b2703b5eea6965c87958b"
+    "revision": "c3a7931d6543530ed06fcdb80d433c68"
   },
   {
     "url": "assets/css/variables.css",
@@ -64,7 +68,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/dse.js",
-    "revision": "4d96bd8401e87163d69b91fd5a59b0cf"
+    "revision": "930fa8b7fbfe0c45bf25b2427c18c334"
   },
   {
     "url": "assets/scripts/home.js",
@@ -72,15 +76,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/questions.js",
-    "revision": "5b1afc256da1636e33249c30a043b1a0"
+    "revision": "d12b6c8069802cc08e937136fefb4771"
   },
   {
     "url": "assets/scripts/utilities.js",
-    "revision": "d6c6047330706425d598c9ac6b69ef33"
+    "revision": "35ab15ac8afbb8092e971e31ab74cc7e"
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "6f64236a27954a5715ca0783c756e263"
+    "revision": "9c3483279475b60ef51108085e2fe22c"
   },
   {
     "url": "assets/source/data.json",
@@ -92,7 +96,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "73cea3f44796612cfa6716d0d5d016c1"
+    "revision": "38583f0ebb43de1246f2a9a8879da93e"
   },
   {
     "url": "manifest.json",
@@ -100,7 +104,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "feb18cfafd9fc6c59ac96dac82bb3464"
+    "revision": "bceae197fc0325d12775479ef0bee830"
   },
   {
     "url": "src-sw.js",
@@ -108,7 +112,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "09f8dba188e234785547e540d35b2965"
+    "revision": "ddbca40d799304c071ece0d812a59904"
   },
   {
     "url": "workbox-config.js",
