@@ -18,14 +18,14 @@ function installServiceWorker() {
             );
             console.log("Service Worker Registered");
             registration.addEventListener("updatefound", (e) => {
-                showVersion(`${version} Update found`);
+                // showVersion(`${version} Update found`);
 
                 console.log("New Service Worker Found");
 
                 let newWorker = registration.installing;
                 newWorker.addEventListener("statechange", (e) => {
                     if (newWorker.state === "installed") {
-                        showVersion(`${version} Update installed`);
+                        // showVersion(`${version} Update installed`);
                         console.log("New Service Installed");
                         if (navigator.serviceWorker.controller) {
                             newWorker.postMessage({
