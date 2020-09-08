@@ -28,19 +28,19 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
-    "revision": "1dc3836db08866269a69d2b369d5a5d8"
+    "revision": "fa0a2f286404903c759ccc7406631ed8"
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "f89467f373b547afe94018d282a8857d"
+    "revision": "027b03cabe683f924d36f83ba826b29f"
   },
   {
     "url": "assets/css/home.css",
-    "revision": "0fd199b95d91717df25daccdad9fff4f"
+    "revision": "10122aa69b9ccd1b9c6a83d4d4e7fd6c"
   },
   {
     "url": "assets/css/styles.css",
-    "revision": "405dec96680705e7d6f9329ed404d796"
+    "revision": "75eaa61af53a5fc30b8f6ff5dd994f04"
   },
   {
     "url": "assets/css/subject.css",
@@ -56,7 +56,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/dse.js",
-    "revision": "b7a5581112f84a2e0e89c672365a8e8a"
+    "revision": "4d96bd8401e87163d69b91fd5a59b0cf"
+  },
+  {
+    "url": "assets/scripts/home.js",
+    "revision": "a296b177a18cc6cc84fea6e9aed281e4"
   },
   {
     "url": "assets/scripts/subject.js",
@@ -68,15 +72,19 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "94ba3b6da026783f1618176c8585841a"
+    "revision": "6f64236a27954a5715ca0783c756e263"
   },
   {
     "url": "assets/source/data.json",
-    "revision": "c27fc10b18df365bb20e8a42739380cf"
+    "revision": "b7e17a32dac2b13a5e2c2595b3ec4b30"
+  },
+  {
+    "url": "assets/source/temp.json",
+    "revision": "58e0494c51d30eb3494f7c9198986bb9"
   },
   {
     "url": "index.html",
-    "revision": "c2426ea7d3167a58b87e64eb47c2cd42"
+    "revision": "cbdc995d8c17895844c7e9578c347e24"
   },
   {
     "url": "manifest.json",
@@ -92,7 +100,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "3548d0b3b9411c6c78465dd6c4011903"
+    "revision": "b680083b4924e70bfb978066cf3bfb6a"
   },
   {
     "url": "workbox-config.js",
