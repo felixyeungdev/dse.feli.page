@@ -31,7 +31,6 @@ main {
         }
         label::after {
             padding: 0 12px;
-            display: grid;
             place-items: center;
             z-index: 5;
             position: absolute;
@@ -43,12 +42,14 @@ main {
             color: #232f34;
 
             content: attr(data-tooltip);
+            display: none;
             opacity: 0%;
             border-radius: 50px;
-            transition: opacity 250ms ease-in-out;
+            // transition: opacity 250ms ease-in-out;
             @include MaterialBoxShadow(2);
         }
         label:hover::after {
+            display: grid;
             opacity: 100%;
             // content: attr(data-tooltip);
         }
