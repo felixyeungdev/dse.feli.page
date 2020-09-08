@@ -13,13 +13,16 @@
         border-radius: 500px;
         display: grid;
         place-items: center;
-        transition: box-shadow 250ms ease-in-out;
+        transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out;
         @include MaterialBoxShadow(2);
+        color: black;
+
         i {
             font-size: 18px;
         }
     }
     .fab:hover {
+        color: $primary-color;
         @include MaterialBoxShadow(3);
     }
     .fab:active {

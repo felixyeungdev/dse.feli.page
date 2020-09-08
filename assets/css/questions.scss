@@ -28,6 +28,11 @@ main {
             place-items: center;
             position: relative;
             cursor: pointer;
+            transition: color 250ms ease-in-out;
+            color: black;
+        }
+        label:hover {
+            color: $primary-color;
         }
         label::after {
             padding: 0 12px;
@@ -40,6 +45,7 @@ main {
             height: 36px;
             background-color: #f2f2f2;
             color: #232f34;
+            font-size: 14px;
 
             content: attr(data-tooltip);
             display: none;
