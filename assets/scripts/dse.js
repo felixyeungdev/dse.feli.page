@@ -22,8 +22,6 @@ const dse = (function () {
             }
         }
 
-        console.log(base);
-
         return base;
     }
 
@@ -67,7 +65,6 @@ const dse = (function () {
     }
 
     function createElement(element, depth) {
-        // console.log(element);
         if (element.type == "regular") {
             return createTextElement(element);
         } else if (element.type == "list") {
