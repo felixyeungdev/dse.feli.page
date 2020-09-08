@@ -14,7 +14,7 @@ const dse = (function () {
 
         base.style.display = "grid";
         base.style.gridTemplateColumns = `repeat(${table.columns}, 1fr)`;
-        base.style.gridTemplateRows = `repeat(${table.rows}, 1fr)`;
+        base.style.gridTemplateRows = `repeat(${table.rows}, 'min-content')`;
 
         for (let rows of table.data) {
             for (let cell of rows) {
@@ -67,6 +67,7 @@ const dse = (function () {
     }
 
     function createElement(element, depth) {
+        // console.log(element);
         if (element.type == "regular") {
             return createTextElement(element);
         } else if (element.type == "list") {
