@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "material-box-shadow.scss";
 
 main {
     padding: 16px;
@@ -8,7 +9,9 @@ main {
     }
     .search {
         height: 48px;
-        border: $border;
+        // border: $border;
+        @include MaterialBoxShadow(2);
+        transition: box-shadow 250ms ease-in-out;
         display: grid;
         grid-template-columns: min-content 1fr min-content;
         place-items: center;
@@ -38,16 +41,25 @@ main {
             font-size: 16px;
         }
     }
+    .search:hover {
+        @include MaterialBoxShadow(3);
+    }
+    .search:active {
+        @include MaterialBoxShadow(1);
+    }
     .search-chips {
         .search-chip {
+            transition: box-shadow 250ms ease-in-out,
+                background-color 250ms ease-in-out;
             font-size: 14px;
             display: inline-block;
             height: 36px;
             padding: 0 12px;
             min-width: 64px;
-            background-color: white;
+            background-color: rgba($color: #232f34, $alpha: 0.12);
             border-radius: 100px;
-            border: $border;
+            color: #232f34;
+            // border: $border;
             margin: 4px 4px;
             user-select: none;
             cursor: pointer;
@@ -57,6 +69,16 @@ main {
                 display: grid;
                 place-items: center;
             }
+        }
+        .search-chip:hover {
+            background-color: rgba($color: #232f34, $alpha: 0.17);
+
+            @include MaterialBoxShadow(2);
+        }
+        .search-chip:active {
+            background-color: rgba($color: #232f34, $alpha: 0.22);
+
+            @include MaterialBoxShadow(1);
         }
         margin-bottom: 16px;
     }

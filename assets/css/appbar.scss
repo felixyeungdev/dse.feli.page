@@ -1,13 +1,14 @@
 @import "variables.scss";
+@import "material-box-shadow.scss";
 
 nav {
     .main {
+        @include MaterialBoxShadow(4);
         position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
         height: 64px;
-        border-bottom: $border;
         display: grid;
         background-color: white;
         // justify-content: center;

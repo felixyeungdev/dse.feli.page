@@ -1,3 +1,15 @@
+/* 
+
+https://material.io/design/environment/elevation.html#elevation-in-material-design
+Component elevation values
+1. Nav drawer: 16dp
+2. App bar: 4dp
+3. Card: 1dp to 8dp
+4. FAB: 6dp
+5. Button: 2dp to 8dp
+6. Dialog: 24dp
+
+*/
 main {
   padding: 16px;
   margin: 16px;
@@ -11,7 +23,12 @@ main {
 
 main .search {
   height: 48px;
-  border: 2px solid lightgray;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-box-shadow 250ms ease-in-out;
+  transition: -webkit-box-shadow 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: min-content 1fr min-content;
@@ -51,19 +68,33 @@ main .search input {
   font-size: 16px;
 }
 
+main .search:hover {
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .search:active {
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
 main .search-chips {
   margin-bottom: 16px;
 }
 
 main .search-chips .search-chip {
+  -webkit-transition: background-color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, background-color 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, background-color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out;
   font-size: 14px;
   display: inline-block;
   height: 36px;
   padding: 0 12px;
   min-width: 64px;
-  background-color: white;
+  background-color: rgba(35, 47, 52, 0.12);
   border-radius: 100px;
-  border: 2px solid lightgray;
+  color: #232f34;
   margin: 4px 4px;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -78,5 +109,17 @@ main .search-chips .search-chip span {
   display: -ms-grid;
   display: grid;
   place-items: center;
+}
+
+main .search-chips .search-chip:hover {
+  background-color: rgba(35, 47, 52, 0.17);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .search-chips .search-chip:active {
+  background-color: rgba(35, 47, 52, 0.22);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=questions.css.map */

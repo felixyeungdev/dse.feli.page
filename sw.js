@@ -28,19 +28,27 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
-    "revision": "12b97a665473fd4df89cfcb8e021af1a"
+    "revision": "f085389e4bbe82b7eab8b73b06f9512a"
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "027b03cabe683f924d36f83ba826b29f"
+    "revision": "d15268f714d4f6c276376b7fcc12955b"
   },
   {
     "url": "assets/css/home.css",
     "revision": "10122aa69b9ccd1b9c6a83d4d4e7fd6c"
   },
   {
+    "url": "assets/css/material-box-shadow.css",
+    "revision": "93142434960c9bd55a1aa07c8d8ce85f"
+  },
+  {
     "url": "assets/css/questions.css",
-    "revision": "bcf928cc5295a332250cc885cf00bc74"
+    "revision": "0daebf932f6941af1b242d31d2c09444"
+  },
+  {
+    "url": "assets/css/shadow.css",
+    "revision": "6ef7c12b15edf6bbc2454183c1a510cd"
   },
   {
     "url": "assets/css/styles.css",
@@ -92,7 +100,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "318eae3059e6d663136eb236e312707c"
+    "revision": "a3a6d7cf3e6b842390647414fbdd0302"
   },
   {
     "url": "src-sw.js",
