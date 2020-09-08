@@ -2,32 +2,6 @@
 @import "material-box-shadow.scss";
 @import "fab.scss";
 
-.fabs {
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    .fab {
-        background-color: white;
-        cursor: pointer;
-        height: 48px;
-        width: 48px;
-        border-radius: 500px;
-        display: grid;
-        place-items: center;
-        transition: box-shadow 250ms ease-in-out;
-        @include MaterialBoxShadow(2);
-        i {
-            font-size: 18px;
-        }
-    }
-    .fab:hover {
-        @include MaterialBoxShadow(3);
-    }
-    .fab:active {
-        @include MaterialBoxShadow(1);
-    }
-}
-
 main {
     padding: 16px;
     margin: 16px;

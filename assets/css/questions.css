@@ -10,6 +10,18 @@ Component elevation values
 6. Dialog: 24dp
 
 */
+/* 
+
+https://material.io/design/environment/elevation.html#elevation-in-material-design
+Component elevation values
+1. Nav drawer: 16dp
+2. App bar: 4dp
+3. Card: 1dp to 8dp
+4. FAB: 6dp
+5. Button: 2dp to 8dp
+6. Dialog: 24dp
+
+*/
 .fabs {
   position: fixed;
   bottom: 16px;
@@ -19,8 +31,8 @@ Component elevation values
 .fabs .fab {
   background-color: white;
   cursor: pointer;
-  height: 48px;
-  width: 48px;
+  height: 56px;
+  width: 56px;
   border-radius: 500px;
   display: -ms-grid;
   display: grid;
