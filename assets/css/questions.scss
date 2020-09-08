@@ -24,7 +24,31 @@ main {
             background-color: white;
             display: flex;
             place-items: center;
+            position: relative;
             cursor: pointer;
+        }
+        label::after {
+            padding: 0 12px;
+            display: grid;
+            place-items: center;
+            z-index: 5;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -150%);
+            height: 36px;
+            background-color: #f2f2f2;
+            color: #232f34;
+
+            content: attr(data-tooltip);
+            opacity: 0%;
+            border-radius: 50px;
+            transition: opacity 250ms ease-in-out;
+            @include MaterialBoxShadow(2);
+        }
+        label:hover::after {
+            opacity: 100%;
+            // content: attr(data-tooltip);
         }
         .icon-search {
             border-radius: 16px 0 0 16px;
