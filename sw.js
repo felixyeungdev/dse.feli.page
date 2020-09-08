@@ -28,7 +28,7 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
-    "revision": "1f117fa08091f78969b2e2b973eba07f"
+    "revision": "2c0ae1faa504f2965b4284b0e60ffe14"
   },
   {
     "url": "assets/css/dse.css",
@@ -44,7 +44,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/questions.css",
-    "revision": "e8bdca3072bc7b68351c2971eda03189"
+    "revision": "9e8087ad9774b4f82a835978881289e8"
   },
   {
     "url": "assets/css/shadow.css",
@@ -72,7 +72,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/questions.js",
-    "revision": "2df6dce952253823b0227c344417df53"
+    "revision": "5b1afc256da1636e33249c30a043b1a0"
   },
   {
     "url": "assets/scripts/utilities.js",
