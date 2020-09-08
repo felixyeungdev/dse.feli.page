@@ -43,9 +43,21 @@
       grid-template-columns: min-content 1fr;
 }
 
+.dse-question_answer .dse-text .dse-style-quote {
+  font-weight: lighter;
+}
+
 .dse-question_answer .dse-text .dse-text-prefix {
   min-width: 28px;
   margin-right: 8px;
   font-weight: bold;
+}
+
+.dse-question_answer .dse-table .dse-table-cell {
+  padding: 8px;
+  border: 2px solid lightgray;
+  margin-left: -2px;
+  margin-top: -2px;
+  border-radius: 3px;
 }
 /*# sourceMappingURL=dse.css.map */
