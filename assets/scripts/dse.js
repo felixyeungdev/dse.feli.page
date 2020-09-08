@@ -1,6 +1,32 @@
 const dse = (function () {
     const indent = 16;
 
+    function createTableCellElement(tableCell = {}) {
+        let base = document.createElement("div");
+        base.classList.add("dse-table-cell");
+        base.append(createElement(tableCell.cell));
+        return base;
+    }
+
+    function createTableElement(table = {}) {
+        let base = document.createElement("div");
+        base.classList.add("dse-table");
+
+        base.style.display = "grid";
+        base.style.gridTemplateColumns = `repeat(${table.columns}, 1fr)`;
+        base.style.gridTemplateRows = `repeat(${table.rows}, 1fr)`;
+
+        for (let rows of table.data) {
+            for (let cell of rows) {
+                base.append(createTableCellElement(cell));
+            }
+        }
+
+        console.log(base);
+
+        return base;
+    }
+
     function createTextElement(text = {}) {
         let base = document.createElement("p");
         base.classList.add("dse-text");
@@ -13,7 +39,9 @@ const dse = (function () {
         }
         let content = document.createElement("span");
         content.classList.add("dse-text-content");
-
+        if (text.style && text.style == "quote") {
+            content.classList.add("dse-style-quote");
+        }
         content.innerText = text.text;
         base.append(prefix, content);
         return base;
@@ -32,14 +60,20 @@ const dse = (function () {
         let content = document.createElement("div");
         content.classList.add("dse-list-content");
         list.list.forEach((element) => {
-            if (element.type == "regular") {
-                content.append(createTextElement(element));
-            } else if (element.type == "list") {
-                content.append(createListElement(element, depth + 1));
-            }
+            content.append(createElement(element, depth + 1));
         });
         base.append(prefix, content);
         return base;
+    }
+
+    function createElement(element, depth) {
+        if (element.type == "regular") {
+            return createTextElement(element);
+        } else if (element.type == "list") {
+            return createListElement(element, depth);
+        } else if (element.type == "table") {
+            return createTableElement(element);
+        }
     }
 
     function renderQuestion(question) {
