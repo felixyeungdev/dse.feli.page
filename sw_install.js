@@ -1,6 +1,14 @@
-const version = "v1.0.7d";
+const version = "v1.0.7e";
 
 function installServiceWorker() {
+    if (
+        window.location.host.startsWith("localhost") ||
+        window.location.host.startsWith("192.168.")
+    ) {
+        console.log("Development environment, skipping service worker install");
+        return;
+    }
+
     let displayer = document.querySelector("#version");
     showVersion(version);
 
