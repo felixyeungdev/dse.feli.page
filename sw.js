@@ -52,7 +52,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/styles.css",
-    "revision": "aee1551ed37e22d9b109197212c6a095"
+    "revision": "d4945845c14b2703b5eea6965c87958b"
   },
   {
     "url": "assets/css/variables.css",
