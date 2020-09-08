@@ -1,6 +1,9 @@
-.subjects .a {
-  padding-top: 16px;
+.subjects {
   margin-top: 16px;
+}
+
+.subjects p {
+  margin-top: 8px;
 }
 
 main {
