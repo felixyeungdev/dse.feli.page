@@ -58,4 +58,4 @@ function installServiceWorker() {
     }
 }
 
-installServiceWorker();
+// installServiceWorker();

@@ -10,7 +10,7 @@ nav {
         top: 0;
         left: 0;
         width: 100vw;
-        height: 64px;
+        height: 54px;
         display: grid;
         background-color: white;
         // justify-content: center;
@@ -18,14 +18,29 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .left {
+            margin-left: 16px;
+            display: flex;
+            align-items: center;
+            .logo {
+                display: block;
+                content: " ";
+                height: 48px;
+                width: 48px;
+                // @include MaterialBoxShadow(1);
+                border-radius: 8px;
+                background-image: url($logo-url);
+                background-size: contain;
+                margin-right: 8px;
+            }
+            .title {
+            }
+        }
         .right {
             margin-right: 32px;
             #version {
                 transition: color 250ms ease-in-out;
             }
-        }
-        .left {
-            margin-left: 32px;
         }
         a {
             font-size: 18px;

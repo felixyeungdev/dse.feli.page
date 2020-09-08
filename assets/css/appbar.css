@@ -25,7 +25,7 @@ nav .main {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 64px;
+  height: 54px;
   display: -ms-grid;
   display: grid;
   background-color: white;
@@ -42,6 +42,27 @@ nav .main {
           align-items: center;
 }
 
+nav .main .left {
+  margin-left: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .main .left .logo {
+  display: block;
+  content: " ";
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  background-image: url("/assets/icons/dse.png");
+  background-size: contain;
+  margin-right: 8px;
+}
+
 nav .main .right {
   margin-right: 32px;
 }
@@ -49,10 +70,6 @@ nav .main .right {
 nav .main .right #version {
   -webkit-transition: color 250ms ease-in-out;
   transition: color 250ms ease-in-out;
-}
-
-nav .main .left {
-  margin-left: 32px;
 }
 
 nav .main a {
