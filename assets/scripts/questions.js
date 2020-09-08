@@ -1,4 +1,5 @@
 const searchBox = document.querySelector("#searchBox");
+const randomButton = document.querySelector("#random");
 const searchClear = document.querySelector("#clearInput");
 const searchChips = document.querySelector("#searchChips");
 const subject = new URLSearchParams(window.location.search).get("subject");
@@ -98,9 +99,24 @@ async function initSearch() {
     console.log("Search ready");
 }
 
+async function initRandom() {
+    randomButton.addEventListener("click", (e) => {
+        const target =
+            allQuestionsAndAnswers[
+                Math.round(Math.random() * allQuestionsAndAnswers.length)
+            ];
+
+        searchBox.value = target.id;
+        search(searchBox.value);
+
+        console.log(target);
+    });
+}
+
 async function init() {
     await initContent();
     await initSearch();
+    await initRandom();
 }
 
 init();

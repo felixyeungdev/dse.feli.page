@@ -1,0 +1,10 @@
+.fabs {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+.fabs .fab i {
+  font-size: 18px;
+}
+/*# sourceMappingURL=fab.css.map */
