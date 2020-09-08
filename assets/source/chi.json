@@ -1,9 +1,923 @@
 [
     {
+        "id": "23c5cbdcbe1f71588736c4885e",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "結合辛棄疾寫《青玉案•元夕》時的政局和他的處境分析，你認為詞的上、下兩片分別有甚麼寄意？試加以說明。（6分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "上片："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "下片："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "上片：當時正值南宋偏安江左，金兵環伺，局勢危急，（1分）作者藉上片所寫的元宵熱鬧景象，諷喻南宋朝廷只顧醉生夢死，不思振作（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "下片：作者屬抗金主戰派，屢遭主和派排斥，鬱鬱不得志，（1分）所以藉下片所寫的「那人」自喻，寄託自己孤高傲世、自甘寂寞、不願隨俗同流的高尚情操（2分）"
+            }
+        ]
+    },
+    {
+        "id": "11c79868b2f8df155b696c4ce935",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《青玉案•元夕》作者運用甚麼手法來突顯「那人」的形象？試加以說明。（5分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "手法："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "手法：襯托 / 反襯。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明：佳節當前，婦女出遊都盛裝打扮，在街上走路時「笑語盈盈」，又傳來陣陣「暗香」，嫵媚吸引，惹人注目；（1分）而「那人」卻偏偏不在眾人之中，只獨自留在「燈火闌珊處」，不隨俗不造作。（1分）作者藉一般婦女的表現反襯「那人」超凡脫俗、不慕繁華、自甘寂寞的形象。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1ded9ccadf1fb2dbcbaca667135",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "內容", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "以下哪一項不是《青玉案•元夕》下片塑造「那人」的形象？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "超凡脫俗"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "不黯世事"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "不慕繁華"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "自甘寂寞"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ]
+    },
+    {
+        "id": "18dcfc284ad88c1b2d9584d9ac37",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "內容", "複述", "引申"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試摘錄《青玉案•元夕》下片敍寫尋覓「那人」經過的句子，並說明作者的心情變化及對「那人」的感情。（8 分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：眾裏尋他千百度；驀然回首，那人卻在、燈火闌珊處。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "作者在眾人之中尋覓「那人」，百次千回也遍尋不獲，失望的心情躍然紙上；（2分）後來，他不經意回首，竟發現原來「那人」就在燈火疏落之處，他的喜悅也就不言而喻了。（2分）從遍尋不獲的失望到後來忽然發現「那人」的喜悅，可知他對「那人」的愛慕。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "234b67c1f0619e129c80a0fff4d7",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "內容", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《青玉案•元夕》上片描寫元宵佳節怎樣的熱鬧氣氛？試從景物、人事兩方面說明。（6分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "景物："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "人事："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "景物：元宵的晚上，滿城張掛花燈（和滿天煙火），火樹銀花，璀璨奪目。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "人事：遊人絡繹不絕，車水馬龍，香氣彌漫，（2分）周圍傳來悠揚的音樂，整夜舞動魚燈、龍燈（百戲表演），熱鬧非常。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "123e3f9c4dd67c21ed8b055d064",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元夕", "內容", "修辭", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試指出《青玉案•元夕》開首「東風夜放花千樹，更吹落、星如雨」描寫的對象和突顯的特點，並扼要說明詞句所運用的修辭手法。（4分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "描寫對象："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "突顯特點："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "修辭手法："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "描寫對象：元宵節晚上璀璨的花燈（和煙火）。（1分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "突顯特點：花燈（和煙火）鋪天蓋地，閃閃生輝。（1分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "修辭手法：作者一連以「花」、「星」、「雨」三個比喻來刻畫既漂亮又密集的燈火（和煙火）。（1分）寫出花燈（和煙火）的色彩鮮豔、閃亮發光和密密麻麻地分佈。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "63bf07dcfeaa220d8ed2fadf0c0",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試指出以下句子中粗體字所要強調的意思。（4分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "三杯兩盞淡酒，怎敵他晚來風急！"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "守着窗兒，獨自怎生得黑！"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "「敵」字強調了晚風的凜冽程度，難以抵受。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "「守」字強調了作者獨自呆在窗邊時間之長、心境之孤寂無聊。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "47cbb35ca95731c89f680e66c4a",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《聲聲慢•秋情》中運用了借景抒情，以下為有關詞句。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": "甲",
+                "text": "雁過也，正傷心，卻是舊時相識。（上片）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": "乙",
+                "text": "滿地黃花堆積，憔悴損，如今有誰堪摘？（下片）"
+            },
+            {
+                "type": "regular",
+                "text": "以上兩句借景抒情，你認為當中情與景的關係是怎樣的？試加以說明。（6分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "情景關係：甲句運用________的手法，乙句運用________的手法。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "情景關係：甲句運用觸景生情（1分）的手法，乙句運用緣情寫景（1分）的手法。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明：甲句：作者本居北方，因中原淪陷，避走南方，當看見從北方南下的大雁飛過，便勾起她對故國家鄉的想念，傷心不已，屬於觸景生情；（2分）乙句：寫庭院中菊花枯萎凋謝，作者惋惜菊花憔悴，其實出於自己年華老去，飄零異鄉，孤苦無依的感情，屬於緣情寫景。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "c8f72f514c99abdeeb3ca04597",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "以下引錄《聲聲慢•秋情》的詞句中，哪句不屬於直接抒情？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "尋尋覓覓，冷冷清清，悽悽慘慘戚戚。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "三杯兩盞淡酒，怎敵他晚來風急！"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "守着窗兒，獨自怎生得黑！"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "這次第，怎一箇愁字了得！"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ]
+    },
+
+    {
+        "id": "122aa7dfe9bb42642b5dde1637a",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "整合", "引申"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《聲聲慢•秋情》一詞真情流露，試指出作者在以下各句中表達的情思。（8分）"
+            },
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 5,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "詞句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "作者的情思"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "三杯兩盞淡酒，怎敵他晚來風急！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "滿地黃花堆積，憔悴損，如今有誰堪摘？"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "守着窗兒，獨自怎生得黑！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "這次第，怎一箇愁字了得！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(4)",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 5,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "詞句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "作者的情思"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "三杯兩盞淡酒，怎敵他晚來風急！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "作者圖借酒取暖，卻難以抵禦凜冽的秋風，正如作者圖借酒消愁，卻難以排遣滿腔愁緒。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "滿地黃花堆積，憔悴損，如今有誰堪摘？"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "黃花凋謝枯萎，正如作者面容憔悴，流露對自己年華老去的感歎。 / 黃花殞落遍地，正如作者飄零異鄉，孤苦無依，作者藉此抒發自憐身世之感。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "守着窗兒，獨自怎生得黑！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": "作者獨個兒呆坐窗邊，苦悶無聊，度日如年，可見她感到極度孤苦。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "這次第，怎一箇愁字了得！"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(4)",
+                                "text": "作者百感交集，愁思揮之不去，眼前景物都勾起她心中悲苦，已不能訴之於筆墨和言語。（2分）"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1aa422f7e49ec697febacf49388",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《聲聲慢•秋情》開首以「尋尋覓覓，冷冷清清，悽悽慘慘戚戚」抒發愁情，以下哪一項不符合這些詞句在抒情方面的分析？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "逐步交代感情變化。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "運用疊字，加強語氣感情。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "運用直接抒情。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "運用借景抒情。"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "D"
+            }
+        ]
+    },
+    {
+        "id": "1ae053242e4a7aeb9eb967f14f",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "登樓", "修辭", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "這種體裁在以下哪些項目有嚴格要求？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "style": "regular",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "借喻"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "誇飾"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": "借代"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(4)",
+                                "text": "對比"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "style": "regular",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "prefix": "A",
+                                "text": "(1) (2)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "B",
+                                "text": "(1) (4)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "C",
+                                "text": "(2) (3)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "D",
+                                "text": "(3) (4)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "C"
+            }
+        ]
+    },
+    {
+        "id": "188188f0539371dbe5a3bc6a1ab",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "作法", "主旨", "整合", "引申"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》作者慨歎「人間如夢」後，以「一尊還酹江月」作結。這兩句並列，有甚麼用意？作者藉這二句寄託了自己怎樣的人生態度？試加以說明。（5分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "用意："
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "寄託："
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "用意：作者有感「人間如夢」，只有眼前的明月可以永恆長存，把這兩句並列，是以短暫虛幻的人生對比永恆不變的月亮。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "寄託：作者藉此寄託了自己豁達的人生態度。（1分）既然「人間如夢」，即使功業顯赫如周瑜的「千古風流人物」和「豪傑」，最後也煙消雲散，不能如月亮長存，故此作者雖然仕途失意，屢遭貶謫，也就不足介懷了。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "1e7704c8ed0897edc47c29082bb",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "內容", "複述", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》上片如何呼應作者在下片中「人間如夢」的感慨？試摘錄有關詞句，並加以說明。（5分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "句子："
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "說明："
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：大江東去，浪淘盡、千古風流人物；（1分）江山如畫，一時多少豪傑！（1分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "說明：上片寫千古以來的「風流人物」，雖曾叱吒風雲，最終都淹沒在時間洪流中，隨着歷史過去；（1分）而「多少豪傑」，也只是叱吒「一時」，即使建立了豐功偉業，都不能長存，（1分）這正呼應了作者在下片「人間如夢」的感慨：人間一切都是短暫而虛幻。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "66fe578adf1c31ff7dabb634135",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "內容", "複述", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》下片塑造了周瑜怎樣的形象？試據相關詞句加以說明，完成下表。（5分）"
+            },
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 3,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "詞句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "形象"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "遙想公瑾當年，小喬初嫁了，雄姿英發。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 3,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "詞句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "形象"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "遙想公瑾當年，小喬初嫁了，雄姿英發。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "寫周瑜適值壯年，娶得美人小喬，姿態雄偉，神采飛揚，表現出他年青得意、氣宇軒昂的超凡形象。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "羽扇綸巾，談笑間、檣櫓灰飛煙滅。（1分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": "寫周瑜在戰場手搖羽扇、頭戴綸巾，在談笑之間，就將敵人戰船付諸一炬，大獲全勝，表現他風度翩翩、從容瀟灑、指揮若定的儒雅形象。（2分）"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "118ddde212c5d718eeabcb1c2db8",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "作法", "整合"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》上片末以「江山如畫」總述赤壁景色，試分析詞中寫景部分如何符合「充滿動感」、「比喻傳神」這兩項特點。（5分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "充滿動感："
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "比喻傳神："
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "充滿動感：詞的開首以「大江東去，浪淘盡、千古風流人物」形容長江江水滾滾東流的氣勢；（1分）至於赤壁，作者以「穿空」來描繪不會動的「亂石」，賦予靜態的景物動感；（1分）而寫洶湧的波濤拍打岸邊，浪花四濺，用「拍」字和「捲」字，都傳神地道出了景物的動感和氣勢。（1分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "比喻傳神：作者以「千堆雪」來借喻浪濤拍打崖岸而產生的浪花泡沫，既切合浪花的顏色，又能表現出浪花四濺的震撼場面。（2分）"
+            }
+        ]
+    },
+    {
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["登樓", "梁甫吟", "主旨", "引申"],
+        "tags": ["唐詩三首", "登樓", "主旨", "引申"],
         "question": [
             {
                 "type": "regular",
@@ -21,7 +935,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["登樓", "內容", "引申"],
+        "tags": ["唐詩三首", "登樓", "內容", "引申"],
 
         "question": [
             {
@@ -72,7 +986,7 @@
         "id": "d9a34fbe1563a1fe50783d06fe8",
         "version": "1",
         "subject": "chi",
-        "tags": ["登樓", "內容", "整合"],
+        "tags": ["唐詩三首", "登樓", "內容", "整合"],
 
         "question": [
             {
@@ -122,7 +1036,7 @@
         "id": "d9a34fbe1563a1fe50783d06fe8",
         "version": "1",
         "subject": "chi",
-        "tags": ["登樓", "作法", "整合"],
+        "tags": ["唐詩三首", "登樓", "作法", "整合"],
 
         "question": [
             {
@@ -173,7 +1087,7 @@
         "id": "d9a34fbe1563a1fe50783d06fe8",
         "version": "1",
         "subject": "chi",
-        "tags": ["整合", "內容", "作法", "整合"],
+        "tags": ["唐詩三首", "整合", "內容", "作法", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -203,7 +1117,7 @@
         "id": "d9a34fbe1563a1fe50783d06fe8",
         "version": "1",
         "subject": "chi",
-        "tags": ["登樓", "體裁", "文學", "整合"],
+        "tags": ["唐詩三首", "登樓", "體裁", "文學", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -290,7 +1204,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌", "主旨", "整合", "引申"],
+        "tags": ["唐詩三首", "月下獨酌", "主旨", "整合", "引申"],
         "question": [
             {
                 "type": "regular",
@@ -308,7 +1222,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌", "作法", "複述", "整合"],
+        "tags": ["唐詩三首", "月下獨酌", "作法", "複述", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -343,7 +1257,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌", "內容", "引申"],
+        "tags": ["唐詩三首", "月下獨酌", "內容", "引申"],
         "question": [
             {
                 "type": "regular",
@@ -361,7 +1275,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌", "內容", "整合"],
+        "tags": ["唐詩三首", "月下獨酌", "內容", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -422,7 +1336,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌", "內容", "作法", "複述", "整合"],
+        "tags": ["唐詩三首", "月下獨酌", "內容", "作法", "複述", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -536,7 +1450,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝", "作法", "複述", "引申"],
+        "tags": ["唐詩三首", "山居秋暝", "作法", "複述", "引申"],
         "question": [
             {
                 "type": "regular",
@@ -570,7 +1484,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝", "主旨", "引申"],
+        "tags": ["唐詩三首", "山居秋暝", "主旨", "引申"],
         "question": [
             {
                 "type": "regular",
@@ -604,7 +1518,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝", "作法", "整合"],
+        "tags": ["唐詩三首", "山居秋暝", "作法", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -648,7 +1562,7 @@
         "id": "",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝", "內容", "整合"],
+        "tags": ["唐詩三首", "山居秋暝", "內容", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -666,7 +1580,7 @@
         "id": "d9a34fbe1563a1fe50783d06fe8",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝", "文學", "整合"],
+        "tags": ["唐詩三首", "山居秋暝", "文學", "整合"],
         "question": [
             {
                 "type": "regular",
@@ -736,7 +1650,7 @@
         "id": "abfd1a47d7045de327e26d0a2a",
         "version": "1",
         "subject": "chi",
-        "tags": ["山居秋暝"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -760,7 +1674,7 @@
         "id": "16208816fe594316b6ae0bdc85e5",
         "version": "1",
         "subject": "chi",
-        "tags": ["月下獨酌"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -874,7 +1788,7 @@
         "id": "729821bc03e011b67ad2e44e627",
         "version": "1",
         "subject": "chi",
-        "tags": [],
+        "tags": ["唐詩三首"],
 
         "question": [
             {
@@ -899,7 +1813,7 @@
         "id": "1411e52fbbf1d1af238099f37ee",
         "version": "1",
         "subject": "chi",
-        "tags": [],
+        "tags": ["唐詩三首"],
 
         "question": [
             {
@@ -924,7 +1838,7 @@
         "id": "7688a3c7a43c623ded2648965b",
         "version": "1",
         "subject": "chi",
-        "tags": [],
+        "tags": ["唐詩三首"],
         "question": [
             {
                 "type": "regular",
