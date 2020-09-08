@@ -1,4 +1,4 @@
-const version = "v1.0.1";
+const version = "v1.0.2";
 
 function installServiceWorker() {
     let displayer = document.querySelector("#version");
