@@ -49,12 +49,16 @@ function search(keyword) {
 }
 
 async function initContent() {
-    var response = await fetch(`/assets/source/${subject}.json`);
-    var json = await response.json();
-    checkDuplicateId(json);
-    allQuestionsAndAnswers = json;
-    show(allQuestionsAndAnswers);
-    console.log("Fetched and Loaded");
+    try {
+        var response = await fetch(`/assets/source/${subject}.json`);
+        var json = await response.json();
+        checkDuplicateId(json);
+        allQuestionsAndAnswers = json;
+        show(allQuestionsAndAnswers);
+        console.log("Fetched and Loaded");
+    } catch (error) {
+        show([]);
+    }
 }
 
 async function initSearch() {
