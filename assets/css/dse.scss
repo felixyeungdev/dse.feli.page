@@ -36,6 +36,9 @@
     .dse-text {
         display: grid;
         grid-template-columns: min-content 1fr;
+        .dse-style-quote {
+            font-weight: lighter;
+        }
         .dse-text-prefix {
             min-width: $prefix-min-width;
             // margin-top: 3.5px;
@@ -43,6 +46,17 @@
             font-weight: bold;
         }
         .dse-text-content {
+        }
+    }
+    .dse-table {
+        // margin-top: 8px;
+        // margin-bottom: 8px;
+        .dse-table-cell {
+            padding: 8px;
+            border: $border;
+            margin-left: -2px;
+            margin-top: -2px;
+            border-radius: 3px;
         }
     }
 }
