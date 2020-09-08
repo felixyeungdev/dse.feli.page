@@ -40,7 +40,12 @@ const dse = (function () {
         if (text.style && text.style == "quote") {
             content.classList.add("dse-style-quote");
         }
-        content.innerText = text.text;
+        if (text.bold) {
+            text.bold.forEach((phrase) => {
+                text.text = text.text.replace(phrase, `<b>${phrase}</b>`);
+            });
+        }
+        content.innerHTML = text.text;
         base.append(prefix, content);
         return base;
     }
