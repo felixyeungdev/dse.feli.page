@@ -57,7 +57,7 @@ Component elevation values
 }
 
 .dse-question_answer .dse-text .dse-style-quote {
-  font-weight: lighter;
+  font-family: "Noto Serif TC", serif;
 }
 
 .dse-question_answer .dse-text .dse-text-prefix {

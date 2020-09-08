@@ -41,8 +41,11 @@ const dse = (function () {
             content.classList.add("dse-style-quote");
         }
         if (text.bold) {
-            text.bold.forEach((phrase) => {
-                text.text = text.text.replace(phrase, `<b>${phrase}</b>`);
+            text.bold.forEach((element) => {
+                text.text = text.text.replace(
+                    element.phrase,
+                    `<b>${element.phrase}</b>`
+                );
             });
         }
         content.innerHTML = text.text;

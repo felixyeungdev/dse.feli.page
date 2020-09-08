@@ -39,7 +39,7 @@
         display: grid;
         grid-template-columns: min-content 1fr;
         .dse-style-quote {
-            font-weight: lighter;
+            font-family: "Noto Serif TC", serif;
         }
         .dse-text-prefix {
             min-width: $prefix-min-width;
