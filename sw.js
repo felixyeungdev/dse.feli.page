@@ -96,7 +96,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "38583f0ebb43de1246f2a9a8879da93e"
+    "revision": "31e9725c4f05f97bc0e9d69a08ae591f"
   },
   {
     "url": "manifest.json",
@@ -104,7 +104,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "bceae197fc0325d12775479ef0bee830"
+    "revision": "42e1310cb33949f155ddb174edace5ae"
   },
   {
     "url": "src-sw.js",
@@ -112,7 +112,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "ddbca40d799304c071ece0d812a59904"
+    "revision": "d7ffada18eb98b393a80c5069919997d"
   },
   {
     "url": "workbox-config.js",
