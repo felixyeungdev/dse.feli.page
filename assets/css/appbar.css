@@ -13,7 +13,11 @@ nav .main {
 }
 
 nav .main a {
+  font-size: 18px;
   margin-left: 32px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 nav .spacer {
