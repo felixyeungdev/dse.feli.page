@@ -108,8 +108,6 @@ async function initRandom() {
 
         searchBox.value = target.id;
         search(searchBox.value);
-
-        console.log(target);
     });
 }
 

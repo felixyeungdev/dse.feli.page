@@ -25,3 +25,8 @@ body {
         max-width: 800px;
     }
 }
+
+html {
+    min-height: 100vh;
+    overflow-y: scroll;
+}
