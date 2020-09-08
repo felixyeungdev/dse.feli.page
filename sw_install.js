@@ -1,4 +1,4 @@
-const version = "v1.0.8a";
+const version = "v1.0.8b";
 
 function installServiceWorker() {
     if (
@@ -58,4 +58,4 @@ function installServiceWorker() {
     }
 }
 
-// installServiceWorker();
+installServiceWorker();

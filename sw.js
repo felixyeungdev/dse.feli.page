@@ -112,7 +112,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "d75000944f35ed4ab55913cc639c6aa9"
+    "revision": "285f627dabe42800d8903b34251f7557"
   },
   {
     "url": "workbox-config.js",
