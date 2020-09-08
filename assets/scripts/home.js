@@ -10,7 +10,7 @@ async function getSubjects() {
 async function loadSubjectList() {
     let subjects = await getSubjects();
     subjects.forEach((subject) => {
-        subjectList.innerHTML += `<p><a href="/subjects/?subject=${subject.code}" class="${subject.code}">${subject.label}</a></p>`;
+        subjectList.innerHTML += `<p><a href="/questions/?subject=${subject.code}" class="${subject.code}">${subject.label}</a></p>`;
     });
 }
 
