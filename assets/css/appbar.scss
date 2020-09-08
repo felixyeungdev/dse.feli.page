@@ -12,9 +12,20 @@ nav {
         background-color: white;
         // justify-content: center;
         align-content: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .right {
+            margin-right: 32px;
+            #version {
+                transition: color 250ms ease-in-out;
+            }
+        }
+        .left {
+            margin-left: 32px;
+        }
         a {
             font-size: 18px;
-            margin-left: 32px;
             width: min-content;
         }
     }

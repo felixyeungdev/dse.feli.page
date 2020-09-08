@@ -10,11 +10,32 @@ nav .main {
   background-color: white;
   -ms-flex-line-pack: center;
       align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .main .right {
+  margin-right: 32px;
+}
+
+nav .main .right #version {
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+nav .main .left {
+  margin-left: 32px;
 }
 
 nav .main a {
   font-size: 18px;
-  margin-left: 32px;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;

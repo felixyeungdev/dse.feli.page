@@ -9,7 +9,9 @@
   line-height: 150%;
 }
 
-a {
+a,
+.clicky {
+  cursor: pointer;
   text-decoration: none;
   color: #0088ff;
 }
