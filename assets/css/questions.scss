@@ -18,6 +18,7 @@ main {
         border-radius: 16px;
         margin-bottom: 16px;
         label {
+            user-select: none;
             height: 100%;
             width: 100%;
             padding: 0 16px;
@@ -72,6 +73,8 @@ main {
         @include MaterialBoxShadow(1);
     }
     .search-chips {
+        user-select: none;
+
         .search-chip {
             transition: box-shadow 250ms ease-in-out,
                 background-color 250ms ease-in-out;

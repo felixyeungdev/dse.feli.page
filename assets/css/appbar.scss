@@ -3,6 +3,7 @@
 
 nav {
     z-index: 500;
+    user-select: none;
     .main {
         @include MaterialBoxShadow(4);
         position: fixed;

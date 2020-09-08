@@ -40,6 +40,10 @@ main .search {
 }
 
 main .search label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 100%;
   width: 100%;
   padding: 0 16px;
@@ -107,6 +111,10 @@ main .search:active {
 }
 
 main .search-chips {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   margin-bottom: 16px;
 }
 
