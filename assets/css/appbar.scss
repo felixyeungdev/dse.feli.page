@@ -2,6 +2,7 @@
 @import "material-box-shadow.scss";
 
 nav {
+    z-index: 500;
     .main {
         @include MaterialBoxShadow(4);
         position: fixed;

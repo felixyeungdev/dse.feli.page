@@ -28,11 +28,11 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
-    "revision": "f085389e4bbe82b7eab8b73b06f9512a"
+    "revision": "1f117fa08091f78969b2e2b973eba07f"
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "d15268f714d4f6c276376b7fcc12955b"
+    "revision": "c5b5ed24b11f74906302f3dc98e89922"
   },
   {
     "url": "assets/css/home.css",
@@ -92,7 +92,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "2604f415307ad5f27b17b8ce3a1bb400"
+    "revision": "73cea3f44796612cfa6716d0d5d016c1"
   },
   {
     "url": "manifest.json",
@@ -108,7 +108,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "f21b0abe156b9be0602a198d28c20c43"
+    "revision": "d2e7fe77287b0a3a6d71c5079fcbe1b6"
   },
   {
     "url": "workbox-config.js",
