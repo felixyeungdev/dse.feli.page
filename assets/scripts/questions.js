@@ -78,7 +78,7 @@ async function initContent() {
 async function initSearch() {
     let params = new URLSearchParams(getHashSearch());
     let _search = params.get("search") || "";
-    searchBox.value = _search;
+    searchBox.value = decodeURIComponent(_search);
     async function initSearchSuggestions() {
         let ignoreTags = (await getMetadata())["ignore_tags"] || [];
         let allTags = [];
