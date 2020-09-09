@@ -2,7 +2,18 @@
     "available_subjects": [
         {
             "code": "chi",
-            "label": "Chinese Language"
+            "label": "Chinese Language",
+            "ignore_tags": [
+                "作法",
+                "整合",
+                "內容",
+                "複述",
+                "引申",
+                "修辭",
+                "主旨",
+                "體裁",
+                "文學"
+            ]
         }
     ]
 }

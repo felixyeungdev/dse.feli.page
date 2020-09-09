@@ -8,6 +8,12 @@ if (!subject) window.location.href = "/";
 
 var allQuestionsAndAnswers = [];
 
+async function getMetadata() {
+    var response = await fetch(`/assets/source/data.json`);
+    var json = await response.json();
+    return json["available_subjects"].filter((sub) => sub.code == subject)[0];
+}
+
 function checkDuplicateId(json = []) {
     let ids = json.map((qA) => qA.id);
     let filtered = [];
@@ -63,15 +69,17 @@ async function initContent() {
 }
 
 async function initSearch() {
-    function initSearchSuggestions() {
+    async function initSearchSuggestions() {
+        let ignoreTags = (await getMetadata())["ignore_tags"] || [];
         let allTags = [];
         allQuestionsAndAnswers.forEach((qA) => {
             const { tags } = qA;
             if (tags) allTags = [...allTags, ...tags];
         });
         allTags = [...new Set(allTags)];
-
+        console.log(allTags.join(" "));
         allTags.forEach((tag) => {
+            if (ignoreTags.includes(tag)) return;
             const base = document.createElement("div");
             base.classList.add("search-chip");
 
@@ -95,7 +103,7 @@ async function initSearch() {
     searchBox.addEventListener("input", async (e) => {
         search(searchBox.value);
     });
-    initSearchSuggestions();
+    await initSearchSuggestions();
     console.log("Search ready");
 }
 
