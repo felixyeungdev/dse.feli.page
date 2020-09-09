@@ -349,7 +349,6 @@
             }
         ]
     },
-
     {
         "id": "122aa7dfe9bb42642b5dde1637a",
         "version": "1",
@@ -936,7 +935,6 @@
         "version": "1",
         "subject": "chi",
         "tags": ["唐詩三首", "登樓", "內容", "引申"],
-
         "question": [
             {
                 "type": "regular",
@@ -987,7 +985,6 @@
         "version": "1",
         "subject": "chi",
         "tags": ["唐詩三首", "登樓", "內容", "整合"],
-
         "question": [
             {
                 "type": "regular",
@@ -1037,7 +1034,6 @@
         "version": "1",
         "subject": "chi",
         "tags": ["唐詩三首", "登樓", "作法", "整合"],
-
         "question": [
             {
                 "type": "regular",
@@ -1698,6 +1694,7 @@
         "id": "a72342b526514c8583fd24fef1",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -1788,8 +1785,7 @@
         "id": "729821bc03e011b67ad2e44e627",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首"],
-
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -1813,8 +1809,7 @@
         "id": "1411e52fbbf1d1af238099f37ee",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首"],
-
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -1838,14 +1833,13 @@
         "id": "7688a3c7a43c623ded2648965b",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首"],
+        "tags": ["唐詩三首", "山居秋暝", "登樓"],
         "question": [
             {
                 "type": "regular",
                 "text": "王維的《山居秋暝》以及杜甫的《登樓》，表達了兩位詩人的不同志向。你較為欣賞哪一位詩人的志向？試談談你的看法。"
             }
         ],
-
         "answer": [
             {
                 "type": "regular",
@@ -1888,6 +1882,7 @@
         "id": "12e501016f6451210b6a98c72206",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -1921,6 +1916,7 @@
         "id": "7ae370f6cc77e1e3721829f0c17",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -1944,6 +1940,7 @@
         "id": "6752d56fe739e16b28047b1594d",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -1977,6 +1974,7 @@
         "id": "100521101773021d5d374dce61c9",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2005,6 +2003,7 @@
         "id": "12f7e3e1f3ab371e2959a3ad86f2",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2028,6 +2027,7 @@
         "id": "1c28756aecd60ed69ae41f4809b",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2066,6 +2066,7 @@
         "id": "112839207ad66912bfdf41e11a39",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2104,6 +2105,7 @@
         "id": "194679742f09c46a0d72af1fd80",
         "version": "1",
         "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
