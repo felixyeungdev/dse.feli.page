@@ -1,4 +1,6 @@
 function randomID() {
+    // var _copy = copy;
+    // setInterval((e) => _copy(randomID()), 100);
     return (
         Math.round(Math.random() * 1e16).toString(16) +
         Math.round(Math.random() * 1e16).toString(16)
