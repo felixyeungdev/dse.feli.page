@@ -79,6 +79,10 @@ main {
     .search:active {
         @include MaterialBoxShadow(1);
     }
+    #resultInfo {
+        margin: 8px 0;
+        font-weight: normal;
+    }
     .search-chips {
         user-select: none;
 

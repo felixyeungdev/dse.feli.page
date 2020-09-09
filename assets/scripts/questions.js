@@ -1,3 +1,4 @@
+const resultsBox = document.querySelector("#resultInfo");
 const searchBox = document.querySelector("#searchBox");
 const randomButton = document.querySelector("#random");
 const searchClear = document.querySelector("#clearInput");
@@ -35,6 +36,7 @@ function checkDuplicateId(json = []) {
 }
 
 async function show(questionsAndAnswers) {
+    resultsBox.textContent = `Showing ${questionsAndAnswers.length} of out ${allQuestionsAndAnswers.length} results`;
     holder.innerHTML = "";
     const questionsAndAnswersElement = await dse.renderQuestions(
         questionsAndAnswers
