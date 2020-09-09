@@ -124,6 +124,7 @@ async function initRandom() {
 
         searchBox.value = target.id;
         search(searchBox.value);
+        clearSelection();
     });
 }
 
