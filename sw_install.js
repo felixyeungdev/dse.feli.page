@@ -1,4 +1,4 @@
-const version = "v1.0.9b";
+const version = "v1.0.10a";
 
 function installServiceWorker() {
     if (
