@@ -48,7 +48,7 @@ async function show(questionsAndAnswers) {
 function search(keyword) {
     if (keyword) {
         let copy = [...allQuestionsAndAnswers].filter((qA) =>
-            JSON.stringify(qA).includes(keyword)
+            JSON.stringify(qA).toLowerCase().includes(keyword.toLowerCase())
         );
         show(copy);
     } else {
