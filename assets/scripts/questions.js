@@ -3,12 +3,6 @@ const randomButton = document.querySelector("#random");
 const searchClear = document.querySelector("#clearInput");
 const searchChips = document.querySelector("#searchChips");
 
-let getHashSearch = () => {
-    let hash = window.location.hash || "#";
-    let search = hash.slice(1);
-    return search;
-};
-
 const subject = new URLSearchParams(getHashSearch()).get("subject");
 const holder = document.querySelector(".wrapper");
 if (!subject) window.location.href = "/";
@@ -60,6 +54,10 @@ function search(keyword) {
     } else {
         show(allQuestionsAndAnswers);
     }
+
+    let params = new URLSearchParams(getHashSearch());
+    params.set("search", encodeURIComponent(keyword));
+    setHashSearch(params.toString());
 }
 
 async function initContent() {
@@ -76,6 +74,9 @@ async function initContent() {
 }
 
 async function initSearch() {
+    let params = new URLSearchParams(getHashSearch());
+    let _search = params.get("search") || "";
+    searchBox.value = _search;
     async function initSearchSuggestions() {
         let ignoreTags = (await getMetadata())["ignore_tags"] || [];
         let allTags = [];

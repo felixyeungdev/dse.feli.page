@@ -12,3 +12,14 @@ function isASCII(str) {
 }
 
 document.body.addEventListener("click", () => {});
+
+let getHashSearch = () => {
+    let hash = window.location.hash || "#";
+    let search = hash.slice(1);
+    return search;
+};
+
+let setHashSearch = (search = "") => {
+    if (!search.startsWith("?")) search = "?" + search;
+    window.location.hash = "#" + search;
+};
