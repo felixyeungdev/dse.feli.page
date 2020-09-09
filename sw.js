@@ -25,6 +25,21 @@ workbox.routing.registerRoute(
     })
 );
 
+workbox.routing.registerRoute(
+    /(^|^[^:]+:\/\/|[^\.]+\.)fontawesome\.com/,
+    new workbox.strategies.CacheFirst({
+        cacheName: "fontawesome-kit",
+        plugins: [
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200],
+            }),
+            new workbox.expiration.Plugin({
+                maxEntries: 30,
+            }),
+        ],
+    })
+);
+
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
@@ -112,7 +127,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "src-sw.js",
-    "revision": "36874a0c418b2d0084232e39169b5206"
+    "revision": "75161e8fc4ca93c18b915d1ceb38ed0e"
   },
   {
     "url": "sw_install.js",
