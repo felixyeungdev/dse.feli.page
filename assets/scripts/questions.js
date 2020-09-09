@@ -80,7 +80,7 @@ async function initSearch() {
     let _search = params.get("search") || "";
     searchBox.value = decodeURIComponent(_search);
     async function initSearchSuggestions() {
-        let ignoreTags = (await getMetadata())["ignore_tags"] || [];
+        let ignoreTags = ((await getMetadata()) || {})["ignore_tags"] || [];
         let allTags = [];
         allQuestionsAndAnswers.forEach((qA) => {
             const { tags } = qA;
