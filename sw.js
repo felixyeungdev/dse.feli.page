@@ -28,7 +28,7 @@ workbox.routing.registerRoute(
 workbox.precaching.precacheAndRoute([
   {
     "url": "assets/css/appbar.css",
-    "revision": "cbbc3ce59df4c7c042ef6dcd6b99f9af"
+    "revision": "a572359db1294f0c9709f8226888723d"
   },
   {
     "url": "assets/css/dse.css",
@@ -48,7 +48,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/questions.css",
-    "revision": "2438ff2d98fcac6a5afaebc6dbfc769b"
+    "revision": "e71bed0d4d048d6ced2af9c5b434a903"
   },
   {
     "url": "assets/css/shadow.css",
@@ -80,11 +80,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/utilities.js",
-    "revision": "35ab15ac8afbb8092e971e31ab74cc7e"
+    "revision": "c693351448cae8d9c5cd794b4854b43e"
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "9c3483279475b60ef51108085e2fe22c"
+    "revision": "811f56c641555bebd74f4eb3253d3f56"
   },
   {
     "url": "assets/source/data.json",
@@ -93,6 +93,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "assets/source/temp.json",
     "revision": "e33e9ceb44f77e779de28c8cb1e5ce5a"
+  },
+  {
+    "url": "assets/source/temp2.json",
+    "revision": "58e0494c51d30eb3494f7c9198986bb9"
   },
   {
     "url": "index.html",
@@ -112,7 +116,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "52df450bb7e47daa853608f190151662"
+    "revision": "0bfdb7c6b2180e867a44713b5748129f"
   },
   {
     "url": "workbox-config.js",
