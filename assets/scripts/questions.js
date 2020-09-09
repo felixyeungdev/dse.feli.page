@@ -2,7 +2,14 @@ const searchBox = document.querySelector("#searchBox");
 const randomButton = document.querySelector("#random");
 const searchClear = document.querySelector("#clearInput");
 const searchChips = document.querySelector("#searchChips");
-const subject = new URLSearchParams(window.location.search).get("subject");
+
+let getHashSearch = () => {
+    let hash = window.location.hash || "#";
+    let search = hash.slice(1);
+    return search;
+};
+
+const subject = new URLSearchParams(getHashSearch()).get("subject");
 const holder = document.querySelector(".wrapper");
 if (!subject) window.location.href = "/";
 
