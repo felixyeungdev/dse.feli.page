@@ -29,3 +29,27 @@
         @include MaterialBoxShadow(1);
     }
 }
+
+.theme-dark {
+    .fabs {
+        .fab {
+            background-color: lighten(#1d1d1d, 5%);
+            color: #e1e1e1;
+        }
+        .fab:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.theme-black {
+    .fabs {
+        .fab {
+            background-color: lighten(#000000, 5%);
+            color: #ffffff;
+        }
+        .fab:hover {
+            color: $primary-color;
+        }
+    }
+}

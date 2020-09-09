@@ -165,4 +165,78 @@ main .search-chips .search-chip:active {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
+
+.theme-dark main .search {
+  background-color: #1d1d1d;
+}
+
+.theme-dark main .search label {
+  background-color: #1d1d1d;
+  color: #e1e1e1;
+}
+
+.theme-dark main .search label:hover {
+  color: #f9a825;
+}
+
+.theme-dark main .search label::after {
+  background-color: #2a2a2a;
+  color: #e1e1e1;
+}
+
+.theme-dark main .search input {
+  background-color: #1d1d1d;
+  color: #e1e1e1;
+}
+
+.theme-dark main .search-chips .search-chip {
+  background-color: #1d1d1d;
+  color: #e1e1e1;
+  cursor: pointer;
+}
+
+.theme-dark main .search-chips .search-chip:hover {
+  background-color: rgba(35, 47, 52, 0.17);
+}
+
+.theme-dark main .search-chips .search-chip:active {
+  background-color: rgba(35, 47, 52, 0.22);
+}
+
+.theme-black main .search {
+  background-color: #0d0d0d;
+}
+
+.theme-black main .search label {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.theme-black main .search label:hover {
+  color: #f9a825;
+}
+
+.theme-black main .search label::after {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.theme-black main .search input {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.theme-black main .search-chips .search-chip {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.theme-black main .search-chips .search-chip:hover {
+  background-color: rgba(35, 47, 52, 0.17);
+}
+
+.theme-black main .search-chips .search-chip:active {
+  background-color: rgba(35, 47, 52, 0.22);
+}
 /*# sourceMappingURL=questions.css.map */

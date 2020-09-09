@@ -117,3 +117,77 @@ main {
         margin-bottom: 16px;
     }
 }
+
+.theme-dark {
+    main {
+        .search {
+            background-color: #1d1d1d;
+
+            label {
+                background-color: #1d1d1d;
+                color: #e1e1e1;
+            }
+            label:hover {
+                color: $primary-color;
+            }
+            label::after {
+                background-color: lighten(#1d1d1d, 5%);
+                color: #e1e1e1;
+            }
+            input {
+                background-color: #1d1d1d;
+                color: #e1e1e1;
+            }
+        }
+        .search-chips {
+            .search-chip {
+                background-color: #1d1d1d;
+                color: #e1e1e1;
+                cursor: pointer;
+            }
+            .search-chip:hover {
+                background-color: rgba($color: #232f34, $alpha: 0.17);
+            }
+            .search-chip:active {
+                background-color: rgba($color: #232f34, $alpha: 0.22);
+            }
+        }
+    }
+}
+
+.theme-black {
+    main {
+        .search {
+            background-color: lighten(#000000, 5%);
+
+            label {
+                background-color: lighten(#000000, 5%);
+                color: #ffffff;
+            }
+            label:hover {
+                color: $primary-color;
+            }
+            label::after {
+                background-color: lighten(#000000, 5%);
+                color: #ffffff;
+            }
+            input {
+                background-color: lighten(#000000, 5%);
+                color: #ffffff;
+            }
+        }
+        .search-chips {
+            .search-chip {
+                background-color: lighten(#000000, 5%);
+                color: #ffffff;
+                cursor: pointer;
+            }
+            .search-chip:hover {
+                background-color: rgba($color: #232f34, $alpha: 0.17);
+            }
+            .search-chip:active {
+                background-color: rgba($color: #232f34, $alpha: 0.22);
+            }
+        }
+    }
+}

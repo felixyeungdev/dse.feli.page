@@ -62,3 +62,41 @@
         }
     }
 }
+
+.theme-dark {
+    .dse-question_answer {
+        background-color: #1d1d1d;
+        .dse-list {
+            .dse-list-prefix {
+                color: #e1e1e1;
+            }
+        }
+        .dse-text {
+            .dse-text-prefix {
+                color: #e1e1e1;
+            }
+            .dse-text-content {
+                color: #e1e1e1;
+            }
+        }
+    }
+}
+
+.theme-black {
+    .dse-question_answer {
+        background-color: lighten(#000000, 5%);
+        .dse-list {
+            .dse-list-prefix {
+                color: #ffffff;
+            }
+        }
+        .dse-text {
+            .dse-text-prefix {
+                color: #ffffff;
+            }
+            .dse-text-content {
+                color: #ffffff;
+            }
+        }
+    }
+}

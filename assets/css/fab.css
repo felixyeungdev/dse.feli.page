@@ -48,4 +48,22 @@ Component elevation values
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
+
+.theme-dark .fabs .fab {
+  background-color: #2a2a2a;
+  color: #e1e1e1;
+}
+
+.theme-dark .fabs .fab:hover {
+  color: #f9a825;
+}
+
+.theme-black .fabs .fab {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.theme-black .fabs .fab:hover {
+  color: #f9a825;
+}
 /*# sourceMappingURL=fab.css.map */

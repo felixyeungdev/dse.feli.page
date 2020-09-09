@@ -73,4 +73,36 @@ Component elevation values
   margin-top: -2px;
   border-radius: 3px;
 }
+
+.theme-dark .dse-question_answer {
+  background-color: #1d1d1d;
+}
+
+.theme-dark .dse-question_answer .dse-list .dse-list-prefix {
+  color: #e1e1e1;
+}
+
+.theme-dark .dse-question_answer .dse-text .dse-text-prefix {
+  color: #e1e1e1;
+}
+
+.theme-dark .dse-question_answer .dse-text .dse-text-content {
+  color: #e1e1e1;
+}
+
+.theme-black .dse-question_answer {
+  background-color: #0d0d0d;
+}
+
+.theme-black .dse-question_answer .dse-list .dse-list-prefix {
+  color: #ffffff;
+}
+
+.theme-black .dse-question_answer .dse-text .dse-text-prefix {
+  color: #ffffff;
+}
+
+.theme-black .dse-question_answer .dse-text .dse-text-content {
+  color: #ffffff;
+}
 /*# sourceMappingURL=dse.css.map */

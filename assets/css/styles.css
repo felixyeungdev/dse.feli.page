@@ -55,6 +55,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: white;
 }
 
 body main {
@@ -64,5 +65,31 @@ body main {
 html {
   min-height: 100vh;
   overflow-y: scroll;
+}
+
+.theme-dark {
+  background-color: #121212;
+}
+
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
+  color: #e1e1e1;
+}
+
+.theme-black {
+  background-color: #000000;
+}
+
+.theme-black h1,
+.theme-black h2,
+.theme-black h3,
+.theme-black h4,
+.theme-black h5,
+.theme-black h6 {
+  color: #ffffff;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -58,7 +58,7 @@ nav .main .left .logo {
   height: 48px;
   width: 48px;
   border-radius: 8px;
-  background-image: url("/assets/icons/dse.png");
+  background-image: url("/assets/icons/dse-clean.png");
   background-size: contain;
   margin-right: 8px;
 }
@@ -81,5 +81,13 @@ nav .main a {
 
 nav .spacer {
   height: 54px;
+}
+
+.theme-dark nav .main {
+  background-color: #1d1d1d;
+}
+
+.theme-black nav .main {
+  background-color: #1a1a1a;
 }
 /*# sourceMappingURL=appbar.css.map */

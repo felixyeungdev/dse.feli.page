@@ -51,3 +51,19 @@ nav {
         height: 54px;
     }
 }
+
+.theme-dark {
+    nav {
+        .main {
+            background-color: #1d1d1d;
+        }
+    }
+}
+
+.theme-black {
+    nav {
+        .main {
+            background-color: lighten(#000000, 10%);
+        }
+    }
+}
