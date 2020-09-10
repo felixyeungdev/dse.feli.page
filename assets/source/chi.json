@@ -1,5 +1,903 @@
 [
     {
+        "id": "1e56b3ea204a8c11f32a089fd8a2",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "在《青玉案•元タ》中，辛棄疾如何運用反襯的手法凸顯描寫對象？試析述之。（4分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "辛棄疾在上闕描繪元宵節繁華熱鬧的景象，有璀案的燈火，眾多的遊人及悠揚的樂聲，反襯下開「那人」所在之處燈火疏落的冷清，（1分）凸顯「那人」自甘淡泊，不流於俗。（1分）"
+            },
+            {
+                "type": "regular",
+                "text": "此外，他在下闕以打扮艷麗，笑語盈盈的女子，反襯靜靜站在燈火稀落處的「那人」，（1分）凸顯出「那人」孤高脱俗的形象及拒絕隨波逐流的態度。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "b68ec149f1dad8f030b7f457a5",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "下表列出了《青玉案•元タ》的部分句子，試分辨粗體字詞句所運用的修辭手法（如該修辭手法有劃分細類，須清楚列明），並指出其本體。（5分）"
+            },
+            {
+                "type": "table",
+                "columns": 3,
+                "rows": 6,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "修辭手法"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "本體"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "東風夜放花千樹",
+                                "bold": [{ "phrase": "花" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "星如雨",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "星" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "星如雨",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "雨" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "玉壺光轉",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "玉" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "蛾兒雪柳黃金縷",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "蛾兒雪柳黃金縷" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 3,
+                "rows": 6,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "修辭手法"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "本體"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "東風夜放花千樹",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "花" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "借喻（0.5分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "綵燈/花燈/燈飾（0.5分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "星如雨",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "星" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "借喻（0.5分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "灑落的煙花/煙花（0.5分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "星如雨",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "雨" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "明喻（0.5分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "灑落的煙花/煙花（0.5分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "玉壺光轉",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "玉" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "借喻（0.5分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "圓月/月亮/華美的線燈（0.5分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "蛾兒雪柳黃金縷",
+                                "style": "quote",
+
+                                "bold": [{ "phrase": "蛾兒雪柳黃金縷" }]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "借代（0.5分）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "悉心打扮的婦女（0.5分）"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "46f184468af4f11958136906",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《聲聲慢•秋情》中多運用叠字，試從詞中摘錄相關句子。（2分）又，試以此為例，說明運用疊字的作用。（4分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "運用疊字的句子：「尋尋覓覓，冷冷清清，使悽慘慘戚戚」（1分）及「點點滴滴」（1分）。"
+            },
+            {
+                "type": "regular",
+                "text": "在前句中，作者連用三組疊字，不但能於音韻上營造迴環往復之感，（1分）同時亦使內容更為層次分明，即先述外在環境，繼而寫到內心感受，（1分）令讀者得以逐步細味作品中蘊含的感情，加強作品的感染力。"
+            },
+            {
+                "type": "regular",
+                "text": "在後句中，運用疊字能呈現出雨水落下的情景，（1分）亦能描繪出雨水打在葉上的聲音，（1分）加強在視覺及聽覺上的效果，蕭瑟冷清的景象躍然紙上。"
+            }
+        ]
+    },
+    {
+        "id": "bd34614792c97116f1d04eeffb8",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》中提及小喬，對刻劃周瑜的形象有何作用？作者如何藉以表達內心威受？試略加說明。（3分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "詞中提及小喬下嫁周瑜一事，是以烘托手法（1分）刻劃周瑜的形象。小喬是三國時代的美人，以美人配襯周瑜，表現出周瑜意氣風發，年少得志的英雄形象。（1分）作者利用周瑜年輕有為的形象反襯自身，表達出自己年華漸老，但功業未成的感慨。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "344f6fc4b6338c03689b3cd178",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《青玉案•元タ》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "辛棄疾約了「那人」相會，因此到處尋。「那人」。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "C"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "「眾裏尋他千百度」一句雖然描述作者辛棄疾到處尋見「那人」，但詞中並效有交代作者和「那人」是否有約在先，故無從判斷陳述是否正確。"
+            }
+        ]
+    },
+    {
+        "id": "a3f6a57da1561e5058ebbef43c",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《青玉案•元タ》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "作品所描寫的季節是春天。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "A"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "詞中「東風夜放花千樹」的「東風」是指春風。而本詞的詞題為「元タ」，助元宵節，而元宵節是春天的節日，可見陳述正確。"
+            }
+        ]
+    },
+    {
+        "id": "21620263ca579a72775dab623e6",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "根據《聲聲慢，秋情》，下列哪些是李清照威到「愁」的原因？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "時值深秋"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(2)",
+                        "text": "徹夜無眠"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(3)",
+                        "text": "思念故鄉"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(4)",
+                        "text": "孤獨寂寞"
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "(1) (2)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "(3) (4)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "(1) (3) (4)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "(1) (2) (3) (4)"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "C"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "✓ 作者在詞中描寫了深秋景物，包括落花，雨打梧桐，這些蕭瑟的秋景，都使她更添愁緒。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "✕ 詞中並沒有提及作者微夜無眠。在「作媛還寒時候，最難將息」中，「最難將息」指難以休息調養，雖然這或可引申為難以入睡，但卻不代表作者整夜無眠。再者，難以入睡是愁的結果，非導致愁的原因。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(3)",
+                "text": "✓ 作者描述自己抬頭看見飛雁，而大雁象徵傳遞音訊的使者，表達了作者思鄉之愁。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(4)",
+                "text": "✓ 詞中首先藉描寫環境的冷清營造孤寂之感，再以「守著窗兒，獨自怎生得黑」一句點出作者獨守窗旁，無人作伴的愁緒。"
+            }
+        ]
+    },
+    {
+        "id": "13966e06ce1606a3b4933cab6b",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《聲聲慢•秋情》中「獨自怎生得黑」的「黑」是：（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "名詞"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "動詞"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "形容詞"
+            },
+            {
+                "type": "regular",
+                "prefix": "D",
+                "text": "副詞"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "句中的「黑」指熬到天黑，故為動詞而非形容詞。"
+            }
+        ]
+    },
+    {
+        "id": "1744517b9d1dba20084754b78856",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "", ""],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《念奴嬌•赤壁懷古》屬哪一宋詞流派的作品？（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "豪放"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "豪邁"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "雄渾"
+            },
+            {
+                "type": "regular",
+                "prefix": "D",
+                "text": "婉約"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "A"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "宋詞的風格流派大致可分為豪放派及婉約派。《念奴嬌，赤壁懷古》藉詠史抒懷，感情豪邁奔放，氣勢雄渾，是豪放派的作品。而選項B「豪邁」及選項C「雄渾」並非宋詞流派的名稱。"
+            }
+        ]
+    },
+    {
+        "id": "ae722e4623c92bd42d4d774d59",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ", "語譯", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "驀然迴首，那人卻在，燈火蘭珊處。《青玉案•元タ》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "驀然：忽然/突然/猛然/不經心地/不經意地（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "迴首：回頭（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "闖珊：疏落/稀落/零落/暗淡（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：忽然回頭一看，那人卻在燈火稀落的地方。"
+            }
+        ]
+    },
+    {
+        "id": "14b44ea70b4ad2fe6cbc903e6c1",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "語譯", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "多情應笑我，早生華髮。《念奴嬌•赤壁懷古》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "多情應笑我：應取笑我多愁善感/應笑我感情太豐富（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "早生：早早長出/早早生出（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "華髮：花白的頭髮（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：應取笑我多愁善感，早早便長出花白的頭髮。"
+            }
+        ]
+    },
+    {
+        "id": "cce22e652bf952648290c332f4",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "青玉案•元タ", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "眾裏尋他千百度。《青玉案•元タ》",
+                "bold": [{ "phrase": "度" }]
+            },
+            {
+                "type": "regular",
+                "text": "度：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "度：次/遍（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1ee3592feebad20506cc7d8adda",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "這次第，怎一箇愁字了得！《聲聲慢•秋情》",
+                "bold": [{ "phrase": "次第" }]
+            },
+            {
+                "type": "regular",
+                "text": "次第：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "次第：情況/光景（分）"
+            }
+        ]
+    },
+    {
+        "id": "c7c442616afe3d21754068ef64",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "聲聲慢•秋情", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "獨自怎生得黑！《聲聲慢•秋情》",
+                "bold": [{ "phrase": "怎生" }]
+            },
+            {
+                "type": "regular",
+                "text": "怎生：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "怎生：如何/怎樣/怎麼（1分）"
+            }
+        ]
+    },
+    {
+        "id": "ce6877f7b06d0151f10a9f058a4",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "檣櫓灰飛煙滅。《念奴嬌，赤壁懷古》",
+                "bold": [{ "phrase": "檣櫓" }]
+            },
+            {
+                "type": "regular",
+                "text": "檣櫓：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "檣櫓：戰船 / 船（1分）"
+            }
+        ]
+    },
+    {
+        "id": "c1fd24abab3e4143ff028a2ecd9",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "故壘西邊，人道是。《念奴嬌•赤壁懷古》",
+                "bold": [{ "phrase": "壘" }]
+            },
+            {
+                "type": "regular",
+                "text": "壘：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "壘：營壘/軍營壁壘/堡壘/保衛軍營的牆或建築（1分）"
+            }
+        ]
+    },
+    {
         "id": "128d0577ba52b81fc3336710",
         "version": "1",
         "subject": "chi",
@@ -18,12 +916,12 @@
             },
             {
                 "type": "regular",
-                "prefix": "[1]",
+                "prefix": "[2]",
                 "text": "人物方面：下片寫悉心打扮的女子成羣結隊出遊，笑語盈盈，襯托詞人的意中人獨自一人在「燈火園珊處」的孤高自賞。由一般女子的競逐繁華熱鬧，反襯「那人」的自甘淡泊，不慕繁華。"
             },
             {
                 "type": "regular",
-                "prefix": "[1]",
+                "prefix": "[3]",
                 "text": "本詞以景物的對比與人物的襯托表達主旨，即詞人藉「那人」以自況，凸顯自身孤高不軍的懷抱。"
             }
         ]
@@ -318,17 +1216,17 @@
         "answer": [
             {
                 "type": "regular",
-                "prefix": "(1)",
+                "prefix": "[1]",
                 "text": "「眾裏尋他千百度：基然回首，那人卻在，燈火関珊處。」"
             },
             {
                 "type": "regular",
-                "prefix": "(2)",
+                "prefix": "[2]",
                 "text": "意指詞人在人翠中尋尋見見，最後在燈火暗淡處找到心目中的「那人」。作者筆下她是一位甘於淡泊，不基繁華的女子。在此詞句前，作者極力描寫繁華熱鬧的景象，目的即在襯托這人不慕繁華的孤高特立。"
             },
             {
                 "type": "regular",
-                "prefix": "(2)",
+                "prefix": "[3]",
                 "text": "而這位意中人體現的也是詞人人格的化身。詞人藉此表現自己到高不幸，不願隨波逐流的志向。"
             }
         ]
@@ -347,17 +1245,17 @@
         "answer": [
             {
                 "type": "regular",
-                "prefix": "(1)",
+                "prefix": "[1]",
                 "text": "花燈：以「東風夜放花千樹，更吹落，星如雨」寫出綵燈和煙花的美麗景象。滿街花燈高掛，像干萬裸樹上的花朵一齊綻放：天空的煙花像滿天星斗被風吹動，如雨點般散落下來。"
             },
             {
                 "type": "regular",
-                "prefix": "(2)",
+                "prefix": "[2]",
                 "text": "節慶活動：「鳳箭聲動，玉壺光轉，一夜魚龍舞」，描寫節慶活動的熱開盛况，即整晚藏聲響亮，魚燈，寵燈舞動不停。"
             },
             {
                 "type": "regular",
-                "prefix": "(2)",
+                "prefix": "[3]",
                 "text": "賞燈遊人：「寶馬雕車香滿路」寫富家人乘坐裝飾華麗的車馬出遊：「绶兒雪柳黃金據，笑語盈盈暗香去」寫年輕女子盛裝打扮出遊的情景。以實任遊人的絡擇不絕，精心打扮，笑語歡樂，呈現繁華熱開的氣氛。"
             }
         ]
@@ -3789,7 +4687,7 @@
                     {
                         "type": "regular",
                         "prefix": "[3]",
-                        "text": "雲漢：銀河 / 天河"
+                        "text": "雲漢：銀河 / 天河（1分）"
                     }
                 ]
             },
@@ -3896,7 +4794,7 @@
         "answer": [
             {
                 "type": "regular",
-                "text": "徒：只是 / 徒然（分）"
+                "text": "徒：只是 / 徒然（1分）"
             }
         ]
     },
@@ -3983,7 +4881,7 @@
         "answer": [
             {
                 "type": "regular",
-                "text": "臨：俯瞰 / 瞰視 / 鳥瞰 / 由高處往下看（分）"
+                "text": "臨：俯瞰 / 瞰視 / 鳥瞰 / 由高處往下看（1分）"
             }
         ]
     }
