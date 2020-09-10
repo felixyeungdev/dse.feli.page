@@ -41,6 +41,15 @@ body {
     display: grid;
     justify-content: center;
     background-color: white;
+    transition: background-color 250ms ease-in-out;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        transition: color 250ms ease-in-out;
+    }
     main {
         // width: 100%;
         max-width: 800px;
