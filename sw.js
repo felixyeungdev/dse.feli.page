@@ -139,7 +139,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "6b1d822acef23a3912d552475bfa1073"
+    "revision": "ea9d75ec80ad0cd77fcb85e93c31c3d1"
   },
   {
     "url": "src-sw.js",
@@ -147,7 +147,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "5ad92efe6692da9ad1f2910b7f6d0cfa"
+    "revision": "5ac0452745f36aa0c5534133416f29d0"
   },
   {
     "url": "workbox-config.js",
