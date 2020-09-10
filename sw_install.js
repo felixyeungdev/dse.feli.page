@@ -1,10 +1,7 @@
 const version = "v1.0.11c";
 
 function installServiceWorker() {
-    if (
-        window.location.host.startsWith("localhost") ||
-        window.location.host.startsWith("192.168.")
-    ) {
+    if (isDevelopmentMode) {
         console.log("Development environment, skipping service worker install");
         return;
     }
