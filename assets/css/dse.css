@@ -37,10 +37,14 @@ Component elevation values
   background-color: white;
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
-  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  -webkit-transition: color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out, color 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out, color 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.dse-question_answer .dse-question_share:hover {
+  color: #f9a825;
 }
 
 .dse-question_answer .dse-question_share:hover {
@@ -133,6 +137,30 @@ Component elevation values
   background-color: #1d1d1d;
 }
 
+.theme-dark .dse-question_answer .dse-question_share {
+  background-color: #2a2a2a;
+  color: #e1e1e1;
+}
+
+.theme-dark .dse-question_answer .dse-question_share:hover {
+  color: #f9a825;
+}
+
+.theme-dark .dse-question_answer .dse-question::before,
+.theme-dark .dse-question_answer .dse-answer::before,
+.theme-dark .dse-question_answer .dse-explanation::before {
+  content: " ";
+  background-color: #4d4d4d;
+}
+
+.theme-dark .dse-question_answer .dse-question:hover::before,
+.theme-dark .dse-question_answer .dse-answer:hover::before,
+.theme-dark .dse-question_answer .dse-explanation:hover::before {
+  background-color: #fbc66f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .theme-dark .dse-question_answer .dse-list .dse-list-prefix {
   color: #e1e1e1;
 }
@@ -147,6 +175,30 @@ Component elevation values
 
 .theme-black .dse-question_answer {
   background-color: #0d0d0d;
+}
+
+.theme-black .dse-question_answer .dse-question_share {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.theme-black .dse-question_answer .dse-question_share:hover {
+  color: #f9a825;
+}
+
+.theme-black .dse-question_answer .dse-question::before,
+.theme-black .dse-question_answer .dse-answer::before,
+.theme-black .dse-question_answer .dse-explanation::before {
+  content: " ";
+  background-color: #333333;
+}
+
+.theme-black .dse-question_answer .dse-question:hover::before,
+.theme-black .dse-question_answer .dse-answer:hover::before,
+.theme-black .dse-question_answer .dse-explanation:hover::before {
+  background-color: #fbc66f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .theme-black .dse-question_answer .dse-list .dse-list-prefix {

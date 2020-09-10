@@ -28,7 +28,11 @@
         border: none;
         background-color: white;
         transform: scale(1);
-        transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+        transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out,
+            color 250ms ease-in-out;
+    }
+    .dse-question_share:hover {
+        color: $primary-color;
     }
     .dse-question_share:hover {
         transform: scale(1.05);
@@ -110,6 +114,25 @@
 .theme-dark {
     .dse-question_answer {
         background-color: #1d1d1d;
+        .dse-question_share {
+            background-color: lighten(#1d1d1d, 5%);
+            color: #e1e1e1;
+        }
+        .dse-question_share:hover {
+            color: $primary-color;
+        }
+        .dse-question::before,
+        .dse-answer::before,
+        .dse-explanation::before {
+            content: " ";
+            background-color: lighten(#000000, 30%);
+        }
+        .dse-question:hover::before,
+        .dse-answer:hover::before,
+        .dse-explanation:hover::before {
+            background-color: lighten($primary-color, 15%);
+            @include MaterialBoxShadow(0);
+        }
         .dse-list {
             .dse-list-prefix {
                 color: #e1e1e1;
@@ -129,6 +152,25 @@
 .theme-black {
     .dse-question_answer {
         background-color: lighten(#000000, 5%);
+        .dse-question_share {
+            background-color: lighten(#000000, 10%);
+            color: white;
+        }
+        .dse-question_share:hover {
+            color: $primary-color;
+        }
+        .dse-question::before,
+        .dse-answer::before,
+        .dse-explanation::before {
+            content: " ";
+            background-color: lighten(#000000, 20%);
+        }
+        .dse-question:hover::before,
+        .dse-answer:hover::before,
+        .dse-explanation:hover::before {
+            background-color: lighten($primary-color, 15%);
+            @include MaterialBoxShadow(0);
+        }
         .dse-list {
             .dse-list-prefix {
                 color: #ffffff;
