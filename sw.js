@@ -47,7 +47,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "c4de906b36115d0136f36d663f90ac22"
+    "revision": "8a65fa9698323ff5c5fab2aea1906054"
   },
   {
     "url": "assets/css/fab.css",
@@ -151,7 +151,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "c8bbab8c135121152a3a73916ec4cae6"
+    "revision": "53115e8fa8917ee57175e5e8252a88c6"
   },
   {
     "url": "workbox-config.js",
