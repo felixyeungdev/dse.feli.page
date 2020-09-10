@@ -84,9 +84,9 @@ Component elevation values
 .dse-question_answer .dse-question:hover::before,
 .dse-question_answer .dse-answer:hover::before,
 .dse-question_answer .dse-explanation:hover::before {
-  background-color: #f9a825;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fbc66f;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .dse-question_answer .dse-list {
