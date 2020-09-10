@@ -25,19 +25,19 @@ workbox.routing.registerRoute(
     })
 );
 
-workbox.routing.registerRoute(
-    /(^|^[^:]+:\/\/|[^\.]+\.)fontawesome\.com/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "fontawesome-kit",
-        plugins: [
-            new workbox.cacheableResponse.Plugin({
-                statuses: [0, 200],
-            }),
-            new workbox.expiration.Plugin({
-                maxEntries: 30,
-            }),
-        ],
-    })
-);
+// workbox.routing.registerRoute(
+//     /(^|^[^:]+:\/\/|[^\.]+\.)fontawesome\.com/,
+//     new workbox.strategies.CacheFirst({
+//         cacheName: "fontawesome-kit",
+//         plugins: [
+//             new workbox.cacheableResponse.Plugin({
+//                 statuses: [0, 200],
+//             }),
+//             new workbox.expiration.Plugin({
+//                 maxEntries: 30,
+//             }),
+//         ],
+//     })
+// );
 
 workbox.precaching.precacheAndRoute([]);
