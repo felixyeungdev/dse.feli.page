@@ -87,7 +87,15 @@ nav .spacer {
   background-color: #1d1d1d;
 }
 
+.theme-dark nav .main #version {
+  color: #d1d1d1;
+}
+
 .theme-black nav .main {
   background-color: #1a1a1a;
+}
+
+.theme-black nav .main #version {
+  color: #ffffff;
 }
 /*# sourceMappingURL=appbar.css.map */

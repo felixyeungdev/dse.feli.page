@@ -55,6 +55,9 @@ nav {
 .theme-dark {
     nav {
         .main {
+            #version {
+                color: #d1d1d1;
+            }
             background-color: #1d1d1d;
         }
     }
@@ -63,6 +66,9 @@ nav {
 .theme-black {
     nav {
         .main {
+            #version {
+                color: #ffffff;
+            }
             background-color: lighten(#000000, 10%);
         }
     }
