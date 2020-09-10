@@ -1,11 +1,11 @@
 @import "variables.scss";
 @import "material-box-shadow.scss";
 
-.fabs {
+.feli-fabs {
     position: fixed;
     bottom: 16px;
     right: 16px;
-    .fab {
+    .feli-fab {
         background-color: white;
         cursor: pointer;
         height: 56px;
@@ -16,7 +16,7 @@
         transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out;
         @include MaterialBoxShadow(2);
         color: black;
-
+        font-size: 18px;
         i {
             font-size: 18px;
         }
@@ -31,8 +31,8 @@
 }
 
 .theme-dark {
-    .fabs {
-        .fab {
+    .feli-fabs {
+        .feli-fab {
             background-color: lighten(#1d1d1d, 5%);
             color: #e1e1e1;
         }
@@ -43,8 +43,8 @@
 }
 
 .theme-black {
-    .fabs {
-        .fab {
+    .feli-fabs {
+        .feli-fab {
             background-color: lighten(#000000, 5%);
             color: #ffffff;
         }

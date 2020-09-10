@@ -10,13 +10,13 @@ Component elevation values
 6. Dialog: 24dp
 
 */
-.fabs {
+.feli-fabs {
   position: fixed;
   bottom: 16px;
   right: 16px;
 }
 
-.fabs .fab {
+.feli-fabs .feli-fab {
   background-color: white;
   cursor: pointer;
   height: 56px;
@@ -32,38 +32,39 @@ Component elevation values
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   color: black;
-}
-
-.fabs .fab i {
   font-size: 18px;
 }
 
-.fabs .fab:hover {
+.feli-fabs .feli-fab i {
+  font-size: 18px;
+}
+
+.feli-fabs .fab:hover {
   color: #f9a825;
   -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.fabs .fab:active {
+.feli-fabs .fab:active {
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-.theme-dark .fabs .fab {
+.theme-dark .feli-fabs .feli-fab {
   background-color: #2a2a2a;
   color: #e1e1e1;
 }
 
-.theme-dark .fabs .fab:hover {
+.theme-dark .feli-fabs .fab:hover {
   color: #f9a825;
 }
 
-.theme-black .fabs .fab {
+.theme-black .feli-fabs .feli-fab {
   background-color: #0d0d0d;
   color: #ffffff;
 }
 
-.theme-black .fabs .fab:hover {
+.theme-black .feli-fabs .fab:hover {
   color: #f9a825;
 }
 /*# sourceMappingURL=fab.css.map */
