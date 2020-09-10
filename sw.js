@@ -51,7 +51,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/fab.css",
-    "revision": "87fa799927c8adbab888e70b6b28d250"
+    "revision": "e0efb61bd147a766de3e8029592adde4"
   },
   {
     "url": "assets/css/home.css",
@@ -143,7 +143,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "8bec178ac3534ea649d6cd3b981d8e5e"
+    "revision": "2eec3f6742960febf96a556c3cf44eb3"
   },
   {
     "url": "src-sw.js",
@@ -151,7 +151,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "53115e8fa8917ee57175e5e8252a88c6"
+    "revision": "1c882cf88bd7da059cbf889205e5180b"
   },
   {
     "url": "workbox-config.js",
