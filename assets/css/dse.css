@@ -20,6 +20,41 @@ Component elevation values
   border-radius: 16px;
   padding: 16px;
   padding-bottom: 24px;
+  position: relative;
+}
+
+.dse-question_answer .dse-question_share {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 100px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  height: 32px;
+  width: 32px;
+  border: none;
+  background-color: white;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+  transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out, -webkit-box-shadow 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.dse-question_answer .dse-question_share:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dse-question_answer .dse-question_share:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dse-question_answer .dse-question,

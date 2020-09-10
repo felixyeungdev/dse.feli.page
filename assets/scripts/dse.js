@@ -86,6 +86,28 @@ const dse = (function () {
         let base = document.createElement("div");
         base.classList.add("dse-question_answer");
 
+        let shareButton = document.createElement("button");
+        shareButton.classList.add("dse-question_share");
+        shareButton.innerHTML =
+            '<i class="fas fa-share" aria-hidden="true"></i>';
+        shareButton.addEventListener("click", async (e) => {
+            let params = new URLSearchParams(getHashSearch());
+            params.set("search", encodeURIComponent(question.id));
+            let link =
+                window.location.href.replace(window.location.hash, "") +
+                "#?" +
+                params.toString();
+            let ok = await copyTextToClipboard(link);
+            if (ok) new Snackbar().show(`Copied link to clipboard`);
+            else new Snackbar().show(`Failed to copied link to clipboard`);
+        });
+        base.append(shareButton);
+
+        // let tags = document.createElement("h3");
+        // tags.innerText = question.tags ? question.tags.join(" ") : "";
+        // tags.classList.add("dse-question_tags");
+        // base.append(tags);
+
         if (question.version == "1") {
             let questionsDiv = createListElement({
                 prefix: "Q",

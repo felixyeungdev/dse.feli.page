@@ -13,6 +13,34 @@
     border-radius: 16px;
     padding: 16px;
     padding-bottom: 24px;
+
+    position: relative;
+
+    .dse-question_share {
+        @include MaterialBoxShadow(2);
+        cursor: pointer;
+        border-radius: 100px;
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        height: 32px;
+        width: 32px;
+        border: none;
+        background-color: white;
+        transform: scale(1);
+        transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+    }
+    .dse-question_share:hover {
+        transform: scale(1.05);
+
+        @include MaterialBoxShadow(3);
+    }
+    .dse-question_share:active {
+        transform: scale(0.95);
+
+        @include MaterialBoxShadow(1);
+    }
+
     .dse-question,
     .dse-answer,
     .dse-explanation {
