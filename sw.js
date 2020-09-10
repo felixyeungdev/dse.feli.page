@@ -95,7 +95,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/questions.js",
-    "revision": "e514f14689e90f90ad6bdaf97b257e50"
+    "revision": "83e6831408bde83a6454babe94c490dd"
   },
   {
     "url": "assets/scripts/theme.js",
@@ -107,7 +107,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "b33eecd0619a58a3f243989b9fc51cfc"
+    "revision": "e5bb2b72393c84997e74942db99cd334"
   },
   {
     "url": "assets/source/data.json",
@@ -139,7 +139,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "f49e4d8fee3e36e42de92adc6ce9ac30"
+    "revision": "118a71332d16f325004bb48282e65b79"
   },
   {
     "url": "workbox-config.js",
