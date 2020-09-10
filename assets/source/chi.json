@@ -2907,5 +2907,1084 @@
                 "text": "作者藉這些詩句帶出懷才不遇又孤獨的景況，抒發借酒消愁以排遣苦悶的心情。"
             }
         ]
+    },
+    {
+        "id": "22da4c48ed5802ef16210bffea1",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "杜甫在《登樓）的尾聯引用了三國時代的典故，當中有何用意？試析述之。（6分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "尾聯前句中，作者感嘆祠廟供奉的蜀漢後主劉禪落得亡國的下場。（1分）他借古喻今，借蜀漢後主暗調當世君主昏庸無能，寵信官官，使朝政敗壞。（1分）他藉此表達對政事的擔心與無奈，因蜀漢時雖有昏君，卻仍有賢臣諸葛亮;如今唐室君主昏庸，卻沒有賢人在朝。（1分）"
+            },
+            {
+                "type": "regular",
+                "text": "後句中，作者指自己在黃昏時姑且低聲吟詠〈梁甫吟）。而《梁甫吟）是請葛亮尚未獲劉備邀請輔佐蜀漢，仍隱居於南陽時經常吟頌的詩。（1分）作者吟詠此詩，表達懷念諸葛亮之情。（1分）也抒發懷才不遇，未能為國效力的感慨。他亦借此表明心跡，表示自己就如諸葛亮，願意為國家效力，死而後已。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "57cfd3ac4da8a5114000854e5",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《月下獨酌（其一）》語調抑揚，且幻想與現實交錯，試根據全詩內容，完成下表。（8分）"
+            },
+            {
+                "type": "table",
+                "columns": 4,
+                "rows": 8,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "內容虚實（幻想/現實）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "（抑/揚）語調"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "語調「抑」或「揚」的原因"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第一至二句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "現實"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "抑"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "孤身獨飲，無人作伴，故感到寂寞"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第三至四句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第五至六句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第七至八句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第九至十一句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第十一至十二句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第十三至十四句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 4,
+                "rows": 8,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": ""
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "內容虚實（幻想/現實）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "（抑/揚）語調"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "語調「抑」或「揚」的原因"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第一至二句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "現實"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "抑"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "孤身獨飲，無人作伴，故感到寂寞"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第三至四句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "幻想"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "揚"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "幻想月，影與自己共飲，暫不感寂真/心靈得到慰藉（1分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第五至六句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "現實"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "抑"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "明白月影是死物，不能了解自己的感受，不能真正與之相交，故再次感到失落（1分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第七至八句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "現實"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "揚"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "期望暫時與月影相伴，及時行樂（1分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第九至十一句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "幻想"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "揚"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "與月同歌，與影共舞，沉醉於歡樂之中（1分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第十一至十二句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "現實"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "抑"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "明白與月影總有分散之時，不能長久相伴（1分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第十三至十四句"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "幻想"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "揚"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "期望與月影結為忘情之交（1分）"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8e4411c8ab4a82e2709e48828e",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《山居秋瞑》的頸聯（第五，六句）及尾聯（第七，八句）對表達主題有何作用？試說明之（4分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "《山居秋暝》的頸聯描寫了洗衣姑娘歸家，竹林一片喧鬧，以及漁舟划向下游，蓮葉見動的景象。（1分）這展現了山中人物簡單純樸的生活活，凸顯山中生活的單純，美好，表達出作者對山林生活的喜愛。（1分）"
+            },
+            {
+                "type": "regular",
+                "text": "尾聯則描述任由春天的花草凋謝，作者仍願意留在山中。（1分）此聯直接表達出作者歸隱的意向，而他拒絕回到紛擾的世俗，也表現出其淡泊名利的高潔情操。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "fe504d0e559601cac0a2642133e",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋暝"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《山居秋暝》中，運用了以動襯靜的方法寫景，試摘錄相關語句，並略加說明。（3分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "運用以動襯靜手法寫景的詩句：明月松間照，清泉石上流（1分）"
+            },
+            {
+                "type": "regular",
+                "text": "前句描寫了月光映照松樹之間，屬靜態描寫;後句描寫了清激山泉在石上流動，屬動態描寫。（1分）以流動的泉水映襯靜景，更覺山中的寧靜。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1372359dfa1e651d0a006d1b2cd2",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "登樓"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《登樓》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "詩中的「玉壘」及「北極」均為唐代的地方名稱。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "詩中「玉壘」指玉壘山，是山名，位於四川。然而，「北極」指北極星，用於比喻唐室。"
+            }
+        ]
+    },
+    {
+        "id": "1003d30d9eee4e1df3d69dbdbaa5",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "登樓"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《登樓》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "本詩運用了觸景生情手法表達作者仕途不順，未能一展所長的感慨。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "《登樓》的首聯「花近高樓傷客心，萬方多難此登臨」，描述作者在登樓時因看見繁花似錦的春天美景，而觸發其對國家多難的憂心與感傷，屬觸景生情手法。然而，作者並非以觸景生情手法表達未能一展所長的感慨，他在尾聯中オ引用三國時代的典故表達這種感慨。"
+            }
+        ]
+    },
+    {
+        "id": "a8201489550e81984f508c869b1",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋瞑"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《山居秋瞑》末句的「王孫」是指誰？（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "沒落貴族的後代"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "山林中的居民"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "作者自己"
+            },
+            {
+                "type": "regular",
+                "prefix": "D",
+                "text": "山中猴子"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "C"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "詩中「王孫自可留」一句反用《楚辭，招隱士》的典故：「王孫遊今不歸，春草生今美美」「王孫今歸來，山中兮不可以久留」。這兩句中，王孫指隱居的王族子弟，而《招隱士》的作者欲招王孫出山入仕，為國效力。在本詩中，作者則反用上述典故，認為王孫應留在山裏，並以王孫自喻，表達對隱居生活的響往。"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋瞑", "月下獨酌", "登樓"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《山居秋瞑》、《月下獨酌（其ー）》及《登樓》分別屬於：（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "prefix": "A",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "text": "《山》：五言古詩"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《月》：五言古詩"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《登》：七言律詩"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "prefix": "B",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "text": "《山》：五言律詩"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《月》：五言古詩"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《登》：七言律詩"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "prefix": "C",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "text": "《山》：五言律詩"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《月》：五言排律"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《登》：七言古詩"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "prefix": "D",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "text": "《山》：五言絕句"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《月》：五言排律"
+                            },
+                            {
+                                "type": "regular",
+                                "text": "《登》：七言絕句"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "text": "古詩沒有嚴格的格律規限，也沒有限定句數，押韻的形式。"
+            },
+            {
+                "type": "regular",
+                "text": "絕句全詩四句，偶句末字必須押韻，對使則無嚴格規定。"
+            },
+            {
+                "type": "regular",
+                "text": "律詩全詩八句，偶句末字必須押韻，領聯（第三，四句）及頸聯（第五，六句）必須對仗。"
+            },
+            {
+                "type": "regular",
+                "text": "排律為超過八句的律詩，句數沒有限制，偶句末字必須押韻，除首尾兩聯，全詩各聯必須對仗。"
+            },
+            {
+                "type": "regular",
+                "text": "《山居秋瞑》每句五字，共八句，偶句押韻，領聯及頸聯對仗，屬五言律詩。"
+            },
+            {
+                "type": "regular",
+                "text": "《月下獨酌（其一）》每句五字，共有十四句，雖偶句押韻，但全詩僅有兩組對偶句，屬五言古詩。"
+            },
+            {
+                "type": "regular",
+                "text": "《登樓》每句七字，共八句，偶句押韻，領聯及頸聯對仗，屬七言律詩。"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌", "語譯", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "相期邀雲漢。《月下獨酌（其一）》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "相期：相約（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "趣：邈遠 / 遙遠（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "雲漢：銀河 / 天河"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：相約在遙遠的銀河上。"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋瞑", "語譯", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "空山新雨後，天氣晚來秋。《山居秋瞑》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "空山：空曠的山中 / 空曠的山林（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "新雨後：剛下了一場雨 / 剛剛下了雨 / 不久前下了雨（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "天氣晚來秋：傍晚的天氣帶有秋意（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：空曠的山中，剛下了一場雨，傍晚的天氣帶有秋意。"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "山居秋瞑", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "蓮動下漁舟。《山居秋瞑》",
+                "bold": [{ "phrase": "下" }]
+            },
+            {
+                "type": "regular",
+                "text": "下：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "下：划向下游 / 順流而下（1分）"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "影徒隨我身。《月下獨酌（其一）》",
+                "bold": [{ "phrase": "徒" }]
+            },
+            {
+                "type": "regular",
+                "text": "徒：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "徒：只是 / 徒然（分）"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "月下獨酌", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "永結無情遊。《月下獨酌（其一）》",
+                "bold": [{ "phrase": "無情" }]
+            },
+            {
+                "type": "regular",
+                "text": "無情：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "無情：忘情/縱情（1分）"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "登樓", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "萬方多難此登臨。《登樓》",
+                "bold": [{ "phrase": "萬方" }]
+            },
+            {
+                "type": "regular",
+                "text": "萬方：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "萬方：各地（1分）"
+            }
+        ]
+    },
+    {
+        "id": "a54e21edf44fb123045a10ceb19",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["唐詩三首", "登樓", "詞解", "解釋"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "萬方多難此登臨。《登樓》",
+                "bold": [{ "phrase": "臨" }]
+            },
+            {
+                "type": "regular",
+                "text": "臨：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "臨：俯瞰 / 瞰視 / 鳥瞰 / 由高處往下看（分）"
+            }
+        ]
     }
 ]
