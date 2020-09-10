@@ -25,20 +25,20 @@ workbox.routing.registerRoute(
     })
 );
 
-workbox.routing.registerRoute(
-    /(^|^[^:]+:\/\/|[^\.]+\.)fontawesome\.com/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "fontawesome-kit",
-        plugins: [
-            new workbox.cacheableResponse.Plugin({
-                statuses: [0, 200],
-            }),
-            new workbox.expiration.Plugin({
-                maxEntries: 30,
-            }),
-        ],
-    })
-);
+// workbox.routing.registerRoute(
+//     /(^|^[^:]+:\/\/|[^\.]+\.)fontawesome\.com/,
+//     new workbox.strategies.CacheFirst({
+//         cacheName: "fontawesome-kit",
+//         plugins: [
+//             new workbox.cacheableResponse.Plugin({
+//                 statuses: [0, 200],
+//             }),
+//             new workbox.expiration.Plugin({
+//                 maxEntries: 30,
+//             }),
+//         ],
+//     })
+// );
 
 workbox.precaching.precacheAndRoute([
   {
@@ -94,6 +94,10 @@ workbox.precaching.precacheAndRoute([
     "revision": "97182181c016972436d580f3b5f21db3"
   },
   {
+    "url": "assets/scripts/font-awesome.min.js",
+    "revision": "6db763bc4e4a292c7520eb0a5bad0f5c"
+  },
+  {
     "url": "assets/scripts/home.js",
     "revision": "a8a868a7ca888be8ca28c159b97638be"
   },
@@ -131,7 +135,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "index.html",
-    "revision": "b0649631739ff531925fcdae03edac62"
+    "revision": "26eb35a88ad6935c27759c530dfd0ad9"
   },
   {
     "url": "manifest.json",
@@ -139,15 +143,15 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "ea9d75ec80ad0cd77fcb85e93c31c3d1"
+    "revision": "8bec178ac3534ea649d6cd3b981d8e5e"
   },
   {
     "url": "src-sw.js",
-    "revision": "75161e8fc4ca93c18b915d1ceb38ed0e"
+    "revision": "eb5eef426d9067518f2ff3a5ff115518"
   },
   {
     "url": "sw_install.js",
-    "revision": "5ac0452745f36aa0c5534133416f29d0"
+    "revision": "c8bbab8c135121152a3a73916ec4cae6"
   },
   {
     "url": "workbox-config.js",
