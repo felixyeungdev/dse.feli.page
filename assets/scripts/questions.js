@@ -89,7 +89,7 @@ async function initSearch() {
         allTags = [...new Set(allTags)];
         if (window.isDevelopmentMode) console.log(allTags.join(" "));
         allTags.forEach((tag) => {
-            if (ignoreTags.includes(tag)) return;
+            if (ignoreTags.includes(tag) || tag == "") return;
             const base = document.createElement("div");
             base.classList.add("search-chip");
 
