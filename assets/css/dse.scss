@@ -13,15 +13,31 @@
     border-radius: 16px;
     padding: 16px;
     padding-bottom: 24px;
-    .dse-question {
-        margin-top: 16px;
-    }
-
-    .dse-answer {
-        margin-top: 16px;
-    }
+    .dse-question,
+    .dse-answer,
     .dse-explanation {
+        position: relative;
         margin-top: 16px;
+    }
+    .dse-question::before,
+    .dse-answer::before,
+    .dse-explanation::before {
+        content: " ";
+        margin-top: 32px;
+        margin-left: 3px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.12);
+        width: 3px;
+        border-radius: 100px;
+        height: calc(100% - 32px);
+        transition: box-shadow 250ms ease-in-out,
+            background-color 250ms ease-in-out;
+    }
+    .dse-question:hover::before,
+    .dse-answer:hover::before,
+    .dse-explanation:hover::before {
+        background-color: $primary-color;
+        @include MaterialBoxShadow(1);
     }
     .dse-list {
         display: grid;
