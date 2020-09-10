@@ -1,8 +1,8 @@
-const isDevelopmentMode =
+window.isDevelopmentMode =
     window.location.host.startsWith("localhost") ||
     window.location.host.startsWith("192.168.");
 
-const devLogger = isDevelopmentMode ? console.log : () => {};
+const devLogger = window.isDevelopmentMode ? console.log : () => {};
 
 function randomID() {
     // var _copy = copy;

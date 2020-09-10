@@ -87,7 +87,7 @@ async function initSearch() {
             if (tags) allTags = [...allTags, ...tags];
         });
         allTags = [...new Set(allTags)];
-        console.log(allTags.join(" "));
+        if (window.isDevelopmentMode) console.log(allTags.join(" "));
         allTags.forEach((tag) => {
             if (ignoreTags.includes(tag)) return;
             const base = document.createElement("div");

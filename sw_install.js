@@ -1,7 +1,7 @@
 const version = "v1.0.11c";
 
 function installServiceWorker() {
-    if (isDevelopmentMode) {
+    if (window.isDevelopmentMode) {
         console.log("Development environment, skipping service worker install");
         return;
     }
