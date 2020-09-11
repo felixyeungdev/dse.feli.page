@@ -1,5 +1,1044 @@
 [
     {
+        "id": "108174751e3f7a61346d4308b72",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《師說》照應緊密，結構嚴謹，試說明第6段跟上文各段的內容怎樣互相呼應。(12分)"
+            },
+            {
+                "type": "table",
+                "columns": 3,
+                "rows": 4,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第6段"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "呼應上文"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "說明"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "聖人無常師。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "第2段（原文）：________"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "指出擇師的標準應是該位老師是否領會「____」，聖人只要遇到有「____」的人，就以他為師，所以並沒有________的老師。"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "孔子師郯子、萇弘、師襄、老聃。郯子之徒，其賢不及孔子。孔子曰：「三人行，則必有我師。」"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "list",
+                                "list": [
+                                    {
+                                        "type": "regular",
+                                        "prefix": "(3)",
+                                        "text": "第1段（原文）：________"
+                                    },
+                                    {
+                                        "type": "regular",
+                                        "prefix": "(4)",
+                                        "text": "第3段（原文）：________"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(5)",
+                                "text": "以孔子為________，說明古代的聖人、學者也跟從老師學習。"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "聞道有先後。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(6)",
+                                "text": "第2段（原文）：____________"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(7)",
+                                "text": "重申領會「____」有____有____，只要那人比自己________________，就可以跟從他學習。"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 3,
+                "rows": 4,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "第6段"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "呼應上文"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "說明"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "聖人無常師。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "第2段（原文）：道之所存，師之所存也。(1分)"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "指出擇師的標準應是該位老師是否領會「道(1分)」，聖人只要遇到有「道(1分)」的人，就以他為師，所以並沒有固定(1分)的老師。"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "孔子師郯子、萇弘、師襄、老聃。郯子之徒，其賢不及孔子。孔子曰：「三人行，則必有我師。」"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "list",
+                                "list": [
+                                    {
+                                        "type": "regular",
+                                        "prefix": "(3)",
+                                        "text": "第1段（原文）：古之學者必有師。(1分)"
+                                    },
+                                    {
+                                        "type": "regular",
+                                        "prefix": "(4)",
+                                        "text": "第3段（原文）：古之聖人，其出人也遠矣，猶且從師而問焉。(1分)"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(5)",
+                                "text": "以孔子為例子(1分)，說明古代的聖人、學者也跟從老師學習。"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "聞道有先後。"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(6)",
+                                "text": "第2段（原文）：生乎吾前，其聞道也，固先乎吾，吾從而師之；生乎吾後，其聞道也，亦先乎吾，吾從而師之。(1分)"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(7)",
+                                "text": "重申領會「道(1分)」有先(1分)有後(1分)，只要那人比自己先領會「道」(1分)，就可以跟從他學習。"
+                            }
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d260e73dd7ed420ad329dbf56f6",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試從《師說》中摘錄一個句子，概括擇師的原則，並寫出它與文章主旨的關係。（2分，6分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "與主旨的關係："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：是故無貴、無賤、無長、無少，道之所存，師之所存也。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "與主旨的關係：本文的主旨是藉寫文章贈給弟子李蟠，批評中唐時期士大夫恥於從師求學的歪風，宣揚從師的必要。（2分）文中指出當時的士大夫不願從師求學的原因，包括認為對方不能比自己年輕，地位比自己低的感到羞恥，地位比自己高的則有阿諛奉承之嫌。（2分）這句反駁了這些錯誤的觀點，指出擇師的惟一原則是對方是否領會「道」，突出從師的必要。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "21c5b67ecd644e21b8cb25698324",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "在《師說》中，韓愈如何運用引用論證指出擇師的原則？試從文中摘錄有關句子，並略加說明。（2分，2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子："
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明："
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：孔子曰：「三人行，則必有我師。」（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明：引用孔子的話，論證老師不一定比學生更有才能或德行，只要對方先領會道理或有技藝專長，便應虛心向對方學習，（1分）聖人孔子尚且向德行不及自己的人學習，一般人更應從師學習。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "80bd86283b744182b2f6840347d",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據以下《師說》的引文回答問題。"
+            },
+            {
+                "type": "regular",
+                "prefix": "甲",
+                "style": "quote",
+                "text": "生乎吾前，其聞道也，固先乎吾，吾從而師之；生乎吾後，其聞道也，亦先乎吾，吾從而師之。（第2段）"
+            },
+            {
+                "type": "regular",
+                "prefix": "乙",
+                "text": "吾師道也，夫庸知其年之先後生於吾乎！（第2段）"
+            },
+            {
+                "type": "regular",
+                "text": "甲、乙兩句都與擇師不須理會老師的年紀有關，有人認為這種寫法語意重複，你有何意見？試就個人對文章的體會，略加說明。（3分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "我認為並不重複。（1分）作者在整篇文章都是針對當時的社會風氣提出見解，當時的人重視老師的年紀，作者認為這是嚴重錯誤的觀念，必須糾正，故此不厭其煩，再三強調擇師應以老師是否領會「道」為準則，而不須在乎老師的年紀。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "21bf64c7b7f0067e330957a3fcf",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "韓愈在《師說》中稱讚李蟠「能行古道」，試回答以下問題。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "李蟠能行甚麼「古道」？（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": " ",
+                "text": "「古道」：__________（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "這反映李蟠的哪些特點？（2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "list",
+                        "style": "regular",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "虛心好學。"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "尊敬師長。"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": "不隨波逐流。"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "(4)",
+                                "text": "恪守儒家治學之道。"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "style": "regular",
+                        "list": [
+                            {
+                                "type": "regular",
+                                "prefix": "A",
+                                "text": "(1) (2)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "B",
+                                "text": "(1) (3)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "C",
+                                "text": "(2) (3) (4)"
+                            },
+                            {
+                                "type": "regular",
+                                "prefix": "D",
+                                "text": "(1) (2) (3) (4)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "「古道」：從師而學。（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "B"
+            }
+        ]
+    },
+    {
+        "id": "112275ab4f13291fe942e1c0dd6f",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "在《師說》中，韓愈舉出孔子向郯子、萇弘、師襄、老聃學習為例子，以下哪一項不是這個例子的作用？(2分)"
+            },
+            {
+                "type": "list",
+                "style": "regular",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "論證每個人都有值得學習的地方。 劉禪。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "論證聖人沒有固定的老師。 劉禪。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "論證先聞道和有技藝專長的人便可為人師。 劉禪為鑒戒。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "論證從師學習的必要。"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "A"
+            }
+        ],
+        "explanation": [
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "「聖人無常師。」（第6段）"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "「是故弟子不必不如師，師不必賢於弟子，聞道有先後，術業有專攻，如是而已。」（第6段）"
+            },
+            {
+                "type": "regular",
+                "prefix": "D",
+                "text": "這是全文的中心論點"
+            }
+        ]
+    },
+    {
+        "id": "c226c106181ebd588d830fde09",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "韓愈在《師說》中評論當時社會的歪風時流露強烈的感情。試說明以下三個句子中韓愈認為「難」、「惑」、「怪」的原因，並總結他流露的感情。（8分）"
+            },
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 4,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "當時社會的歪風"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "說明"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "嗟乎！師道之不傳也久矣！欲人之無惑也難矣！（第3段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "愛其子，擇師而教之；於其身也，則恥師焉，惑矣！（第4段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": ""
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "巫醫、樂師、百工之人，君子不齒。今其智乃反不能及，其可怪也歟！（第5段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": ""
+                            }
+                        }
+                    ]
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "總結全文，韓愈流露出________的感情。"
+            }
+        ],
+        "answer": [
+            {
+                "type": "table",
+                "columns": 2,
+                "rows": 4,
+                "data": [
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "當時社會的歪風"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "text": "說明"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "嗟乎！師道之不傳也久矣！欲人之無惑也難矣！（第3段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(1)",
+                                "text": "「難」的原因：人人都會有疑惑，但當時的人不從師學習，便難以解決疑惑。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "愛其子，擇師而教之；於其身也，則恥師焉，惑矣！（第4段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(2)",
+                                "text": "「惑」的原因：當時的人會為兒子擇師，自己卻恥於向老師學習，這種矛盾的做法既可笑又有乖情理，令人費解。（2分）"
+                            }
+                        }
+                    ],
+                    [
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "style": "quote",
+                                "text": "巫醫、樂師、百工之人，君子不齒。今其智乃反不能及，其可怪也歟！（第5段）"
+                            }
+                        },
+                        {
+                            "type": "table-cell",
+                            "cell": {
+                                "type": "regular",
+                                "prefix": "(3)",
+                                "text": "「怪」的原因：君子看不起醫師、樂師和各類工匠，但當時的君子卻比不上他們，不懂從師學習，令人感到奇怪。（2分）"
+                            }
+                        }
+                    ]
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "總結全文，韓愈流露出憤慨 / 不滿（2分）的感情。",
+                "bold": [
+                    {
+                        "phrase": "憤慨"
+                    },
+                    {
+                        "phrase": "不滿"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "161508a1ae32b41e5a3afb2b2529",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《師說》中韓愈描述當時「士大夫之族」的表現，以下為有關片段。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "士大夫之族，曰師、曰弟子云者，則羣聚而笑之。問之，則曰：「彼與彼年相若也，道相似也。位卑則足羞，官盛則近諛。」嗚呼！師道之不復可知矣！（第5段）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "試根據以上引文，說明士大夫的身份及他們的表現怎樣造成「師道之不復」的後果。（4分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "韓愈運用了甚麼修辭手法來描寫士大夫的行為？試指出這種手法的效果。（1分，2分）"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "i.",
+                        "text": "修辭手法："
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "ii.",
+                        "text": "效果："
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "士大夫是社會上地位較高的人，他們的行為對社會風氣有很大影響，（1分）連讀書做官的人也不從師學習，從師的風氣當然不再存在。（1分）此外，他們聽到別人談論老師、弟子的事，就聚在一起譏笑，（1分）令有意從師的人因為害怕被人譏笑而不敢從師學習，使從師的風氣不能恢復。（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "prefix": "(2)",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "i.",
+                        "text": "修辭手法：示現法。（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "ii.",
+                        "text": "效果：運用示現法可使描寫的對象具體生動，有如見其人的效果，增加文章的感染力。（2分）"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1cc6d11806b09c22130e5a42090a",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "韓愈在《師說》中對士大夫的哪些行為表示大惑不解？試從文中摘錄有關句子，並加以說明。（2分，3分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：____________________"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明：________________________________________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "句子：愛其子，擇師而教之；於其身也，則恥師焉，惑矣！（2分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "說明：士大夫挑選老師來教導兒子句讀，自己卻把求師視為可恥的事。（1分）他們認為不懂句讀這些小問題要請教老師，卻認為有疑難不能解決這些大問題不用請教老師。（1分）士大夫採取這種不聰明的做法，使韓愈感到大惑不解。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1b199cc2cdd2c020d680bf8ad3be",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《師說》中韓愈提出「古之聖人」和「今之眾人」的不同表現，運用了甚麼論證方法？他以此論證甚麼觀點？試加以說明。（1分，3分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "論證方法：__________"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "論證的觀點：____________________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "論證方法：對比論證。（1分）"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "論證的觀點：他以具有過人智慧的古聖人尚且願意從師學習，對比當時社會上智慧低於古聖人的一般人卻恥於從師學習，（1分）結果聖人更加有智慧，一般人更加愚昧，（1分）藉此論證從師學習的重要。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "d7e4a317ac017112d13a232da26",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "《師說》屬「說」一類，這類文體的寫作目的是甚麼？（2分）"
+            },
+            {
+                "type": "regular",
+                "text": "「說」的寫作目的：______________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "「說」的寫作目的：用以說明道理。（2分）"
+            }
+        ]
+    },
+    {
+        "id": "10ededb05813b2437cf82005da0",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "聞道有先後，術業有專攻，如是而已。"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "只是彼此在領會道理的時間上有先後，（1分）在學術、技藝方面各有專長，（1分）就是這樣罷了。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "fb86500c6fe793a139ac5fab58",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "句讀之不知，惑之不解，或師焉，或不焉。"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "不懂句讀，以及有疑難不能解決，（1分）有的向老師學習，（1分）有的則不請教老師。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "2324134c3eb36816402d542ad3f9",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字。（2分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "聞道有先後，術業有專攻，如是而已。",
+                "bold": [{ "phrase": "攻" }]
+            },
+            {
+                "type": "regular",
+                "text": "攻：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "攻：鑽研 / 從事（2分）"
+            }
+        ]
+    },
+    {
+        "id": "2a57e29374e43f8c0fecd301",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字。（2分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "小學而大遺，吾未見其明也。",
+                "bold": [{ "phrase": "遺" }]
+            },
+            {
+                "type": "regular",
+                "text": "遺：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "遺：遺棄（2分）"
+            }
+        ]
+    },
+    {
+        "id": "3601b2c3cc07d137f5835fa10b8",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字。（2分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "是故聖益聖，愚益愚。",
+                "bold": [{ "phrase": "益" }]
+            },
+            {
+                "type": "regular",
+                "text": "益：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "益：更加（2分）"
+            }
+        ]
+    },
+    {
+        "id": "b3fc18d66c40d1d3e415cad6ff4",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字。（2分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "古之聖人，其出人也遠矣。",
+                "bold": [{ "phrase": "出" }]
+            },
+            {
+                "type": "regular",
+                "text": "出：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "出：超越（2分）"
+            }
+        ]
+    },
+    {
+        "id": "10f0585a39f76819124f291497e8",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字。（2分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "人非生而知之者，孰能無惑？",
+                "bold": [{ "phrase": "孰" }]
+            },
+            {
+                "type": "regular",
+                "text": "孰：________"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "孰：誰（2分）"
+            }
+        ]
+    },
+    {
         "id": "1e56b3ea204a8c11f32a089fd8a2",
         "version": "1",
         "subject": "chi",
@@ -626,7 +1665,7 @@
         "id": "1744517b9d1dba20084754b78856",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "", ""],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -670,7 +1709,7 @@
         "id": "ae722e4623c92bd42d4d774d59",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "語譯", "解釋"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -713,7 +1752,7 @@
         "id": "14b44ea70b4ad2fe6cbc903e6c1",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "語譯", "解釋"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -756,7 +1795,7 @@
         "id": "cce22e652bf952648290c332f4",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "詞解", "解釋"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -785,7 +1824,7 @@
         "id": "1ee3592feebad20506cc7d8adda",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "詞解", "解釋"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -814,7 +1853,7 @@
         "id": "c7c442616afe3d21754068ef64",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "詞解", "解釋"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -843,7 +1882,7 @@
         "id": "ce6877f7b06d0151f10a9f058a4",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "詞解", "解釋"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -872,7 +1911,7 @@
         "id": "c1fd24abab3e4143ff028a2ecd9",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "詞解", "解釋"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -1659,7 +2698,7 @@
         "id": "23c5cbdcbe1f71588736c4885e",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "作法", "整合"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1693,7 +2732,7 @@
         "id": "11c79868b2f8df155b696c4ce935",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "作法", "整合"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1727,7 +2766,7 @@
         "id": "1ded9ccadf1fb2dbcbaca667135",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "內容", "整合"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1770,7 +2809,7 @@
         "id": "18dcfc284ad88c1b2d9584d9ac37",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "內容", "複述", "引申"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1804,7 +2843,7 @@
         "id": "234b67c1f0619e129c80a0fff4d7",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "內容", "整合"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1838,7 +2877,7 @@
         "id": "123e3f9c4dd67c21ed8b055d064",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "青玉案•元夕", "內容", "修辭", "整合"],
+        "tags": ["宋詞三首", "青玉案•元夕"],
         "question": [
             {
                 "type": "regular",
@@ -1882,7 +2921,7 @@
         "id": "63bf07dcfeaa220d8ed2fadf0c0",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "整合"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -1916,7 +2955,7 @@
         "id": "47cbb35ca95731c89f680e66c4a",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "作法", "整合"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -1966,7 +3005,7 @@
         "id": "c8f72f514c99abdeeb3ca04597",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "作法", "整合"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -2009,7 +3048,7 @@
         "id": "122aa7dfe9bb42642b5dde1637a",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "內容", "整合", "引申"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -2205,7 +3244,7 @@
         "id": "1aa422f7e49ec697febacf49388",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "聲聲慢•秋情", "作法", "整合"],
+        "tags": ["宋詞三首", "聲聲慢•秋情"],
         "question": [
             {
                 "type": "regular",
@@ -2248,7 +3287,7 @@
         "id": "1ae053242e4a7aeb9eb967f14f",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "登樓", "修辭", "整合"],
+        "tags": ["宋詞三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2323,7 +3362,7 @@
         "id": "188188f0539371dbe5a3bc6a1ab",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "作法", "主旨", "整合", "引申"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -2362,7 +3401,7 @@
         "id": "1e7704c8ed0897edc47c29082bb",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "內容", "複述", "整合"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -2401,7 +3440,7 @@
         "id": "66fe578adf1c31ff7dabb634135",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "內容", "複述", "整合"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -2533,7 +3572,7 @@
         "id": "118ddde212c5d718eeabcb1c2db8",
         "version": "1",
         "subject": "chi",
-        "tags": ["宋詞三首", "念奴嬌•赤壁懷古", "作法", "整合"],
+        "tags": ["宋詞三首", "念奴嬌•赤壁懷古"],
         "question": [
             {
                 "type": "regular",
@@ -2572,7 +3611,7 @@
         "id": "3d05e00ef82db4884f49981a6",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "主旨", "引申"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2590,7 +3629,7 @@
         "id": "1310ac3a6142743762c3d13ff64",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "內容", "引申"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2640,7 +3679,7 @@
         "id": "12b25baad472e44513e30c6bc81",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "內容", "整合"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2689,7 +3728,7 @@
         "id": "c8bf04831c5d9659cffd246eac",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "作法", "整合"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2739,7 +3778,7 @@
         "id": "102fa146868d99210c4db55121ae",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "整合", "內容", "作法", "整合"],
+        "tags": ["唐詩三首"],
         "question": [
             {
                 "type": "regular",
@@ -2769,7 +3808,7 @@
         "id": "45d2bfb9abc821035e48c58e3be",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "體裁", "文學", "整合"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -2856,7 +3895,7 @@
         "id": "412b58ba5a972792db2bb42ec2",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "主旨", "整合", "引申"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2874,7 +3913,7 @@
         "id": "9ebc455316ce92ec01cef4eba8",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "作法", "複述", "整合"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2909,7 +3948,7 @@
         "id": "21b0c39e60af9e18868b71148f9c",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "內容", "引申"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2927,7 +3966,7 @@
         "id": "1454ef4cc2b58f10001c4aa3c93a",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "內容", "整合"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -2988,7 +4027,7 @@
         "id": "128c0746a04eceb6ce462eac02b",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "內容", "作法", "複述", "整合"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -3102,7 +4141,7 @@
         "id": "3106bb979205b21253e03b11488",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋暝", "作法", "複述", "引申"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -3136,7 +4175,7 @@
         "id": "ec51f9f376d3214dd76f236c5bf",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋暝", "主旨", "引申"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -3170,7 +4209,7 @@
         "id": "21c5a36f2edfdec300246072ce",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋暝", "作法", "整合"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -3214,7 +4253,7 @@
         "id": "1d61a05e4c92af1b7640729f48b8",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋暝", "內容", "整合"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -3232,7 +4271,7 @@
         "id": "13d5a20e6336ee157efe9d59cf19",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋暝", "文學", "整合"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -3576,7 +4615,7 @@
         "question": [
             {
                 "type": "regular",
-                "text": "《山居秋瞑》一詩中，王維如何運用對自然景物的描寫，呈現山中寧靜的氛圍？試從詩中舉出一聯為例，並略加說明。"
+                "text": "《山居秋暝》一詩中，王維如何運用對自然景物的描寫，呈現山中寧靜的氛圍？試從詩中舉出一聯為例，並略加說明。"
             }
         ],
         "answer": [
@@ -3600,7 +4639,7 @@
         "question": [
             {
                 "type": "regular",
-                "text": "《山居秋瞑》一詩中描寫了哪些人物活動，達到甚麼作用？試摘錄有關詩句，並簡略說明。"
+                "text": "《山居秋暝》一詩中描寫了哪些人物活動，達到甚麼作用？試摘錄有關詩句，並簡略說明。"
             }
         ],
         "answer": [
@@ -4344,7 +5383,7 @@
         "question": [
             {
                 "type": "regular",
-                "text": "《山居秋瞑》的頸聯（第五，六句）及尾聯（第七，八句）對表達主題有何作用？試說明之（4分）"
+                "text": "《山居秋暝》的頸聯（第五，六句）及尾聯（第七，八句）對表達主題有何作用？試說明之（4分）"
             }
         ],
         "answer": [
@@ -4474,11 +5513,11 @@
         "id": "a8201489550e81984f508c869b1",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋瞑"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
-                "text": "《山居秋瞑》末句的「王孫」是指誰？（2分）"
+                "text": "《山居秋暝》末句的「王孫」是指誰？（2分）"
             },
             {
                 "type": "regular",
@@ -4518,11 +5557,11 @@
         "id": "a54e21edf44fb123045a10ceb19",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋瞑", "月下獨酌", "登樓"],
+        "tags": ["唐詩三首", "山居秋暝", "月下獨酌", "登樓"],
         "question": [
             {
                 "type": "regular",
-                "text": "《山居秋瞑》、《月下獨酌（其ー）》及《登樓》分別屬於：（2分）"
+                "text": "《山居秋暝》、《月下獨酌（其ー）》及《登樓》分別屬於：（2分）"
             },
             {
                 "type": "list",
@@ -4642,7 +5681,7 @@
             },
             {
                 "type": "regular",
-                "text": "《山居秋瞑》每句五字，共八句，偶句押韻，領聯及頸聯對仗，屬五言律詩。"
+                "text": "《山居秋暝》每句五字，共八句，偶句押韻，領聯及頸聯對仗，屬五言律詩。"
             },
             {
                 "type": "regular",
@@ -4658,7 +5697,7 @@
         "id": "1989224731367c4f333c7ade9e4",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "語譯", "解釋"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -4701,7 +5740,7 @@
         "id": "bc78f6aba119597f0a86c1a731",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋瞑", "語譯", "解釋"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -4710,7 +5749,7 @@
             {
                 "type": "regular",
                 "style": "quote",
-                "text": "空山新雨後，天氣晚來秋。《山居秋瞑》"
+                "text": "空山新雨後，天氣晚來秋。《山居秋暝》"
             }
         ],
         "answer": [
@@ -4744,7 +5783,7 @@
         "id": "184fa58c5ca455d2c4f34f5e701",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "山居秋瞑", "詞解", "解釋"],
+        "tags": ["唐詩三首", "山居秋暝"],
         "question": [
             {
                 "type": "regular",
@@ -4754,7 +5793,7 @@
             {
                 "type": "regular",
                 "style": "quote",
-                "text": "蓮動下漁舟。《山居秋瞑》",
+                "text": "蓮動下漁舟。《山居秋暝》",
                 "bold": [{ "phrase": "下" }]
             },
             {
@@ -4773,7 +5812,7 @@
         "id": "1512c911a529066221cc16f027b",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "詞解", "解釋"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -4802,7 +5841,7 @@
         "id": "26321b7fc2fd1b2f6c6fce7c6",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "月下獨酌", "詞解", "解釋"],
+        "tags": ["唐詩三首", "月下獨酌"],
         "question": [
             {
                 "type": "regular",
@@ -4831,7 +5870,7 @@
         "id": "75e98dc2a57461f04197a5659c4",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "詞解", "解釋"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
@@ -4860,7 +5899,7 @@
         "id": "f214c5e4036b922dbf1bfabf920",
         "version": "1",
         "subject": "chi",
-        "tags": ["唐詩三首", "登樓", "詞解", "解釋"],
+        "tags": ["唐詩三首", "登樓"],
         "question": [
             {
                 "type": "regular",
