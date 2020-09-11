@@ -47,7 +47,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "978480fd61d1e30e437221405bf1fd8a"
+    "revision": "9c36d981b34b072d9b8ad204f59059fb"
   },
   {
     "url": "assets/css/fab.css",
@@ -91,7 +91,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/dse.js",
-    "revision": "1d8e841a86e1c1df6a7fb5a0faefd154"
+    "revision": "10c1d0dee13f3da92760aac2b760365b"
   },
   {
     "url": "assets/scripts/font-awesome.min.js",
@@ -104,6 +104,10 @@ workbox.precaching.precacheAndRoute([
   {
     "url": "assets/scripts/questions.js",
     "revision": "43e51ec2c809d6df3e99b88dc1243331"
+  },
+  {
+    "url": "assets/scripts/showdown.min.js",
+    "revision": "41596d3910b883d17d61d6d7efda9184"
   },
   {
     "url": "assets/scripts/snackbar.js",
@@ -119,7 +123,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "fcfdb825487dc5f3333c67a3bfa56f87"
+    "revision": "2cb0dad5ee3b78c238b6e2af69c8e553"
   },
   {
     "url": "assets/source/data.json",
@@ -127,11 +131,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/source/temp.json",
-    "revision": "58e0494c51d30eb3494f7c9198986bb9"
+    "revision": "740aef51a1ac82d088cec582ee0adb77"
   },
   {
     "url": "assets/source/temp2.json",
-    "revision": "58e0494c51d30eb3494f7c9198986bb9"
+    "revision": "fcfdb825487dc5f3333c67a3bfa56f87"
   },
   {
     "url": "index.html",
@@ -143,7 +147,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "questions/index.html",
-    "revision": "2eec3f6742960febf96a556c3cf44eb3"
+    "revision": "973335131ce2820aefceb3aac52d2924"
   },
   {
     "url": "src-sw.js",
@@ -151,7 +155,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "8700c08482df29efcfc93cd662e6f067"
+    "revision": "373443b97e027bbbce2b41cc9caa3f7d"
   },
   {
     "url": "workbox-config.js",
