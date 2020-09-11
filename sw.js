@@ -47,7 +47,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/css/dse.css",
-    "revision": "5f22df2db2547f09aa8c9e2c092473d9"
+    "revision": "978480fd61d1e30e437221405bf1fd8a"
   },
   {
     "url": "assets/css/fab.css",
@@ -91,7 +91,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/dse.js",
-    "revision": "dde87ea095e72d628a1bf66705d36a4e"
+    "revision": "1d8e841a86e1c1df6a7fb5a0faefd154"
   },
   {
     "url": "assets/scripts/font-awesome.min.js",
@@ -103,7 +103,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/questions.js",
-    "revision": "7a26d373ca5fa2cfd6a639ad36aeb43f"
+    "revision": "43e51ec2c809d6df3e99b88dc1243331"
   },
   {
     "url": "assets/scripts/snackbar.js",
@@ -151,7 +151,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "d073c9742e2dec4b429b854d5f21a74d"
+    "revision": "8700c08482df29efcfc93cd662e6f067"
   },
   {
     "url": "workbox-config.js",
