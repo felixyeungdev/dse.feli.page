@@ -45,6 +45,12 @@
         @include MaterialBoxShadow(1);
     }
 
+    blockquote {
+        p {
+            font-family: "Noto Serif TC", serif;
+        }
+    }
+
     .dse-question,
     .dse-answer,
     .dse-explanation {

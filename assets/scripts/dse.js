@@ -1,5 +1,7 @@
 const dse = (function () {
     const indent = 16;
+    showdown.setOption("simpleLineBreaks", true);
+    var mdConverter = new showdown.Converter();
 
     function createTableCellElement(tableCell = {}) {
         let base = document.createElement("div");
@@ -82,6 +84,23 @@ const dse = (function () {
         }
     }
 
+    function createMarkdown(e = {}) {
+        let base = document.createElement("div");
+        base.classList.add("dse-list");
+        // base.style.marginLeft = `${indent * depth}px`;
+
+        let prefix = document.createElement("span");
+        if (e.prefix) {
+            prefix.classList.add("dse-list-prefix");
+            prefix.innerText = e.prefix;
+        }
+        let content = document.createElement("div");
+        content.classList.add("dse-list-content");
+        content.innerHTML = mdConverter.makeHtml(e.markdown.join("\n"));
+        base.append(prefix, content);
+        return base;
+    }
+
     function renderQuestion(question) {
         let base = document.createElement("div");
         base.classList.add("dse-question_answer");
@@ -103,12 +122,12 @@ const dse = (function () {
         });
         base.append(shareButton);
 
-        let tags = document.createElement("h3");
-        tags.innerText = question.tags ? question.tags.join(" ") : "";
-        tags.classList.add("dse-question_tags");
-        base.append(tags);
-
         if (question.version == "1") {
+            let tags = document.createElement("h3");
+            tags.innerText = question.tags ? question.tags.join(" ") : "";
+            tags.classList.add("dse-question_tags");
+            base.append(tags);
+
             let questionsDiv = createListElement({
                 prefix: "Q",
                 list: question.question,
@@ -133,6 +152,26 @@ const dse = (function () {
                 base.append(explanationDiv);
             }
             // return base;
+        } else if (question.version == 2) {
+            let tags = document.createElement("h3");
+            tags.innerText = question.tags ? question.tags.join(" ") : "";
+            tags.classList.add("dse-question_tags");
+            base.append(tags);
+
+            let questionsDiv = createMarkdown({
+                prefix: "Q",
+                markdown: question.question,
+            });
+            questionsDiv.classList.add("dse-question");
+
+            base.append(questionsDiv);
+
+            let answersDiv = createMarkdown({
+                prefix: "A",
+                markdown: question.answer,
+            });
+            answersDiv.classList.add("dse-answer");
+            base.append(answersDiv);
         }
         return base;
     }
