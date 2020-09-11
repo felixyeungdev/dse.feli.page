@@ -1,5 +1,522 @@
 [
     {
+        "id": "14f93bd9ebf6f21c3d10f1272b52",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "其聞道也，固先乎吾。《師說》",
+                "bold": [{ "phrase": "固" }]
+            },
+            {
+                "type": "regular",
+                "text": "固：____"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "固：本來/原來/原本（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1fdc2cd4cc65491316f2cf6d5b81",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "於其身也則取師焉，感矣！《師說》",
+                "bold": [{ "phrase": "感" }]
+            },
+            {
+                "type": "regular",
+                "text": "感：____"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "感：令人費解/使人不解/令人難以理解/糊塗（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1e724275a981a31ff36a997be3a6",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "如是而已。《師說》",
+                "bold": [{ "phrase": "是" }]
+            },
+            {
+                "type": "regular",
+                "text": "是：____"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "是：這樣（1分）"
+            }
+        ]
+    },
+    {
+        "id": "1d5f9286bac9e81b3442d22fd731",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "六藝經傳，皆通習之。《師說》",
+                "bold": [{ "phrase": "習" }]
+            },
+            {
+                "type": "regular",
+                "text": "習：____"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "習：通曉/熟習/熟恶（1分）"
+            }
+        ]
+    },
+    {
+        "id": "38d1f169a72588425f354dea4c",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試解釋以下文句中的粗體字，並把答案寫在橫線上（1分）",
+                "bold": [{ "phrase": "粗體" }]
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "不拘於時，學於余。《師說》",
+                "bold": [{ "phrase": "於" }]
+            },
+            {
+                "type": "regular",
+                "text": "於：____"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "於：向（1分）"
+            }
+        ]
+    },
+    {
+        "id": "6cbaeed787f8d1aa414bb7085bf",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "是故聖益聖，愚益愚。《師說》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "是故：因此/所以（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "聖益聖：聖人變得更聖明/聖人更有智慧（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "愚益愚：愚人變得更愚味/愚笨的人更加愚味（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：所以聖人變得更聖明，愚人變得更愚味。"
+            }
+        ]
+    },
+    {
+        "id": "216a6c1aecce149d4069421a98b",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試把以下文句語譯為白話文。（3分）"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "text": "余嘉其能行古道，作《師說》以貽之。《師說》"
+            }
+        ],
+        "answer": [
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "[1]",
+                        "text": "余嘉其：我嘉許他/我讚許他/我讚賞他（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[2]",
+                        "text": "行：踐行/實踐/遵行/實行；\n古道：古代治學之道/古時從師學習的做法/古人求師問道的風尚（1分）"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "[3]",
+                        "text": "以：來；胎之：送給他/贈送他（1分）"
+                    }
+                ]
+            },
+            {
+                "type": "regular",
+                "text": "参考譯文：我讚賞他能踐行古代從師學習的做法，寫了這篇《師說》贈送他。"
+            }
+        ]
+    },
+    {
+        "id": "72b5c5f43cdea1709df41e1165b",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "根據本文，韓愈舉出孔子從師的事例，目的在於：（2分）"
+            },
+            {
+                "type": "list",
+                "style": "regular",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "正面論證師道的重要。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(2)",
+                        "text": "指出求師問學的恰當做法。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(3)",
+                        "text": "說明在群體中必定能找到學習的對象。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(4)",
+                        "text": "說明學習應有的態度。"
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "style": "regular",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "(2) (3)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "(1) (2) (4)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "(1) (3) (4)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "(1) (2) (3) (4)"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ]
+    },
+    {
+        "id": "100b0d6d95cf226a2084da19ff0",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "下列哪項符合韓愈在文中表達的觀點？（2分）"
+            },
+            {
+                "type": "list",
+                "style": "regular",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "(1)",
+                        "text": "學生也可以解決老師的疑惑。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(2)",
+                        "text": "解惑比學習句讀重要。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(3)",
+                        "text": "文中為孩子選老師的人行為並不明智。"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "(4)",
+                        "text": "士大夫之族不重視解惑。"
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "style": "regular",
+                "list": [
+                    {
+                        "type": "regular",
+                        "prefix": "A",
+                        "text": "(3)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "B",
+                        "text": "(2) (3)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "C",
+                        "text": "(1) (2) (4)"
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": "D",
+                        "text": "(2) (3) (4)"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ]
+    },
+    {
+        "id": "1c62214759f24617e1f841ef05c7",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《師說》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "郯子的徒弟不如孔子般賢能。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "C"
+            }
+        ]
+    },
+    {
+        "id": "748823d08e34628002914e41e",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "試根據《師說》的內容，判斷以下陳述。"
+            },
+            {
+                "type": "regular",
+                "style": "quote",
+                "prefix": " ",
+                "text": "韓愈認為教導學生句讀不是老師的責任。"
+            },
+            {
+                "type": "regular",
+                "prefix": "A",
+                "text": "正確"
+            },
+            {
+                "type": "regular",
+                "prefix": "B",
+                "text": "錯誤"
+            },
+            {
+                "type": "regular",
+                "prefix": "C",
+                "text": "無從判斷"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "B"
+            }
+        ]
+    },
+    {
+        "id": "2fa99785164774868409d9c776",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "regular",
+                "text": "韓愈為甚麼認為從師學習重要？試析述之。（3分）"
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "text": "韓愈認為人不是生來就通曉知識，必定會遇到困惑，（1分）而老師的其中一個職責便是解答疑惑。（1分）如果有疑惑卻不從師學習，便會終身被疑惑所困。（1分）"
+            }
+        ]
+    },
+    {
+        "id": "93d49dbfaff252370a7e627bfd4",
+        "version": "1",
+        "subject": "chi",
+        "tags": ["師說"],
+        "question": [
+            {
+                "type": "list",
+                "prefix": "(1)",
+                "list": [
+                    {
+                        "type": "regular",
+                        "text": "細閱以下引文，然後回答問題："
+                    },
+                    {
+                        "type": "regular",
+                        "prefix": " ",
+                        "style": "quote",
+                        "text": "師道之不傳也久矣。"
+                    },
+                    {
+                        "type": "regular",
+                        "text": "除了孔子從師之例，文中還有甚麼內容可印證引文所述的觀點？試加以析述。（3分）"
+                    }
+                ]
+            },
+            {
+                "type": "list",
+                "prefix": "(2)",
+                "list": [
+                    {
+                        "type": "regular",
+                        "text": "承上題，這些內容運用了甚麼論證手法？試略加説明。（2分）"
+                    }
+                ]
+            }
+        ],
+        "answer": [
+            {
+                "type": "regular",
+                "prefix": "(1)",
+                "text": "除了孔子從師之例，文中還以「古之聖人」及「今之眾人」的學習情況作對比，從中亦可見從師學習的風氣早已不流行。（1分）作者指出古代的聖人雖然學問出眾，但仍從師問學，（1分）現代的平凡人遠遠及不上聖人，卻視跟隨老師學習為羞恥的事。（1分）從中可見往昔求師學習的風氣在作者身處的年代已不流行。"
+            },
+            {
+                "type": "regular",
+                "prefix": "(2)",
+                "text": "上題所述的內容運用了對比論證。（1分）作者以古代的聖人與現代的常人作對比，指出賢愚與否取決於是否願意從師，論證從師學習的重要。（1分）"
+            }
+        ]
+    },
+    {
         "id": "108174751e3f7a61346d4308b72",
         "version": "1",
         "subject": "chi",
@@ -51,7 +568,7 @@
                             "cell": {
                                 "type": "regular",
                                 "prefix": "(1)",
-                                "text": "第2段（原文）：________"
+                                "text": "第2段（原文）：____"
                             }
                         },
                         {
@@ -59,7 +576,7 @@
                             "cell": {
                                 "type": "regular",
                                 "prefix": "(2)",
-                                "text": "指出擇師的標準應是該位老師是否領會「____」，聖人只要遇到有「____」的人，就以他為師，所以並沒有________的老師。"
+                                "text": "指出擇師的標準應是該位老師是否領會「____」，聖人只要遇到有「____」的人，就以他為師，所以並沒有____的老師。"
                             }
                         }
                     ],
@@ -80,12 +597,12 @@
                                     {
                                         "type": "regular",
                                         "prefix": "(3)",
-                                        "text": "第1段（原文）：________"
+                                        "text": "第1段（原文）：____"
                                     },
                                     {
                                         "type": "regular",
                                         "prefix": "(4)",
-                                        "text": "第3段（原文）：________"
+                                        "text": "第3段（原文）：____"
                                     }
                                 ]
                             }
@@ -95,7 +612,7 @@
                             "cell": {
                                 "type": "regular",
                                 "prefix": "(5)",
-                                "text": "以孔子為________，說明古代的聖人、學者也跟從老師學習。"
+                                "text": "以孔子為____，說明古代的聖人、學者也跟從老師學習。"
                             }
                         }
                     ],
@@ -113,7 +630,7 @@
                             "cell": {
                                 "type": "regular",
                                 "prefix": "(6)",
-                                "text": "第2段（原文）：____________"
+                                "text": "第2段（原文）：____"
                             }
                         },
                         {
@@ -121,7 +638,7 @@
                             "cell": {
                                 "type": "regular",
                                 "prefix": "(7)",
-                                "text": "重申領會「____」有____有____，只要那人比自己________________，就可以跟從他學習。"
+                                "text": "重申領會「____」有____有____，只要那人比自己____，就可以跟從他學習。"
                             }
                         }
                     ]
@@ -368,7 +885,7 @@
             {
                 "type": "regular",
                 "prefix": " ",
-                "text": "「古道」：__________（2分）"
+                "text": "「古道」：____（2分）"
             },
             {
                 "type": "regular",
@@ -596,7 +1113,7 @@
             },
             {
                 "type": "regular",
-                "text": "總結全文，韓愈流露出________的感情。"
+                "text": "總結全文，韓愈流露出____的感情。"
             }
         ],
         "answer": [
@@ -775,12 +1292,12 @@
             {
                 "type": "regular",
                 "prefix": "(1)",
-                "text": "句子：____________________"
+                "text": "句子：____"
             },
             {
                 "type": "regular",
                 "prefix": "(2)",
-                "text": "說明：________________________________________"
+                "text": "說明：____"
             }
         ],
         "answer": [
@@ -809,12 +1326,12 @@
             {
                 "type": "regular",
                 "prefix": "(1)",
-                "text": "論證方法：__________"
+                "text": "論證方法：____"
             },
             {
                 "type": "regular",
                 "prefix": "(2)",
-                "text": "論證的觀點：____________________"
+                "text": "論證的觀點：____"
             }
         ],
         "answer": [
@@ -842,7 +1359,7 @@
             },
             {
                 "type": "regular",
-                "text": "「說」的寫作目的：______________"
+                "text": "「說」的寫作目的：____"
             }
         ],
         "answer": [
@@ -916,7 +1433,7 @@
             },
             {
                 "type": "regular",
-                "text": "攻：________"
+                "text": "攻：____"
             }
         ],
         "answer": [
@@ -944,7 +1461,7 @@
             },
             {
                 "type": "regular",
-                "text": "遺：________"
+                "text": "遺：____"
             }
         ],
         "answer": [
@@ -972,7 +1489,7 @@
             },
             {
                 "type": "regular",
-                "text": "益：________"
+                "text": "益：____"
             }
         ],
         "answer": [
@@ -1000,7 +1517,7 @@
             },
             {
                 "type": "regular",
-                "text": "出：________"
+                "text": "出：____"
             }
         ],
         "answer": [
@@ -1028,7 +1545,7 @@
             },
             {
                 "type": "regular",
-                "text": "孰：________"
+                "text": "孰：____"
             }
         ],
         "answer": [
@@ -1810,7 +2327,7 @@
             },
             {
                 "type": "regular",
-                "text": "度：________"
+                "text": "度：____"
             }
         ],
         "answer": [
@@ -1839,7 +2356,7 @@
             },
             {
                 "type": "regular",
-                "text": "次第：________"
+                "text": "次第：____"
             }
         ],
         "answer": [
@@ -1868,7 +2385,7 @@
             },
             {
                 "type": "regular",
-                "text": "怎生：________"
+                "text": "怎生：____"
             }
         ],
         "answer": [
@@ -1897,7 +2414,7 @@
             },
             {
                 "type": "regular",
-                "text": "檣櫓：________"
+                "text": "檣櫓：____"
             }
         ],
         "answer": [
@@ -1926,7 +2443,7 @@
             },
             {
                 "type": "regular",
-                "text": "壘：________"
+                "text": "壘：____"
             }
         ],
         "answer": [
@@ -2980,7 +3497,7 @@
             {
                 "type": "regular",
                 "prefix": "(1)",
-                "text": "情景關係：甲句運用________的手法，乙句運用________的手法。"
+                "text": "情景關係：甲句運用____的手法，乙句運用____的手法。"
             },
             {
                 "type": "regular",
@@ -5798,7 +6315,7 @@
             },
             {
                 "type": "regular",
-                "text": "下：________"
+                "text": "下：____"
             }
         ],
         "answer": [
@@ -5827,7 +6344,7 @@
             },
             {
                 "type": "regular",
-                "text": "徒：________"
+                "text": "徒：____"
             }
         ],
         "answer": [
@@ -5856,7 +6373,7 @@
             },
             {
                 "type": "regular",
-                "text": "無情：________"
+                "text": "無情：____"
             }
         ],
         "answer": [
@@ -5885,7 +6402,7 @@
             },
             {
                 "type": "regular",
-                "text": "萬方：________"
+                "text": "萬方：____"
             }
         ],
         "answer": [
@@ -5914,7 +6431,7 @@
             },
             {
                 "type": "regular",
-                "text": "臨：________"
+                "text": "臨：____"
             }
         ],
         "answer": [
