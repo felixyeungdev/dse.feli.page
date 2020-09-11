@@ -152,12 +152,6 @@ Component elevation values
   }
 }
 
-@media screen and (max-width: 500px) {
-  .dse-question_answer {
-    font-size: 12px;
-  }
-}
-
 .theme-dark .dse-question_answer {
   background-color: #1d1d1d;
 }
