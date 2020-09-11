@@ -125,6 +125,12 @@ Component elevation values
   font-weight: bold;
 }
 
+.dse-question_answer .dse-text .dse-text-content {
+  display: inline-block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 .dse-question_answer .dse-table .dse-table-cell {
   padding: 8px;
   border: 2px solid lightgray;

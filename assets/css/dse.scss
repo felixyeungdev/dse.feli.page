@@ -96,6 +96,9 @@
             font-weight: bold;
         }
         .dse-text-content {
+            display: inline-block;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
     }
     .dse-table {
