@@ -36,7 +36,6 @@ function checkDuplicateId(json = []) {
 }
 
 async function show(questionsAndAnswers) {
-    resultsBox.textContent = `Showing ${questionsAndAnswers.length} of out ${allQuestionsAndAnswers.length} results`;
     holder.innerHTML = "";
     const questionsAndAnswersElement = await dse.renderQuestions(
         questionsAndAnswers
@@ -45,6 +44,7 @@ async function show(questionsAndAnswers) {
     if (questionsAndAnswersElement.childElementCount == 0) {
         holder.append("No results found");
     }
+    resultsBox.textContent = `Showing ${questionsAndAnswersElement.childElementCount} of out ${allQuestionsAndAnswers.length} results`;
 }
 
 function search(keyword) {
