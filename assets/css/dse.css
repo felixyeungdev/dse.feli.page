@@ -125,6 +125,13 @@ Component elevation values
   font-weight: bold;
 }
 
+@media screen and (max-width: 500px) {
+  .dse-question_answer .dse-text .dse-text-prefix {
+    min-width: 14px;
+    margin-right: 0;
+  }
+}
+
 .dse-question_answer .dse-text .dse-text-content {
   display: inline-block;
   overflow-wrap: break-word;
@@ -137,6 +144,18 @@ Component elevation values
   margin-left: -2px;
   margin-top: -2px;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .dse-question_answer .dse-table .dse-table-cell {
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dse-question_answer {
+    font-size: 12px;
+  }
 }
 
 .theme-dark .dse-question_answer {

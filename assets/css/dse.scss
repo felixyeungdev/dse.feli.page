@@ -94,6 +94,10 @@
             // margin-top: 3.5px;
             margin-right: 8px;
             font-weight: bold;
+            @media screen and (max-width: 500px) {
+                min-width: 14px;
+                margin-right: 0;
+            }
         }
         .dse-text-content {
             display: inline-block;
@@ -110,7 +114,13 @@
             margin-left: -2px;
             margin-top: -2px;
             border-radius: 3px;
+            @media screen and (max-width: 500px) {
+                padding: 2px;
+            }
         }
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
     }
 }
 
