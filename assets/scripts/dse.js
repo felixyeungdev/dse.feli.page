@@ -144,7 +144,8 @@ const dse = (function () {
         for (const key in questions) {
             if (questions.hasOwnProperty(key)) {
                 const question = questions[key];
-                base.append(renderQuestion(question));
+                if (!JSON.stringify(question).includes('"table"'))
+                    base.append(renderQuestion(question));
             }
         }
         return base;
