@@ -103,10 +103,10 @@ const dse = (function () {
         });
         base.append(shareButton);
 
-        // let tags = document.createElement("h3");
-        // tags.innerText = question.tags ? question.tags.join(" ") : "";
-        // tags.classList.add("dse-question_tags");
-        // base.append(tags);
+        let tags = document.createElement("h3");
+        tags.innerText = question.tags ? question.tags.join(" ") : "";
+        tags.classList.add("dse-question_tags");
+        base.append(tags);
 
         if (question.version == "1") {
             let questionsDiv = createListElement({
