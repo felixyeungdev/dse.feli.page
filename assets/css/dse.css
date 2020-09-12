@@ -80,8 +80,8 @@ Component elevation values
 .dse-question_answer .dse-answer::before,
 .dse-question_answer .dse-explanation::before {
   content: " ";
-  margin-top: 32px;
-  margin-left: 3px;
+  margin-top: 30px;
+  margin-left: 3.25px;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.12);
   width: 3px;
