@@ -58,7 +58,11 @@ function search(keyword) {
     }
 
     let params = new URLSearchParams(getHashSearch());
-    params.set("search", encodeURIComponent(keyword));
+    if (keyword) {
+        params.set("search", encodeURIComponent(keyword));
+    } else {
+        params.delete("search");
+    }
     setHashSearch(params.toString());
 }
 
