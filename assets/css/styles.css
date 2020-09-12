@@ -105,4 +105,9 @@ html {
 .theme-black h6 {
   color: #ffffff;
 }
+
+ol,
+ul {
+  margin-left: 1em;
+}
 /*# sourceMappingURL=styles.css.map */
