@@ -21,11 +21,11 @@
             font-size: 18px;
         }
     }
-    .fab:hover {
+    .feli-fab:hover {
         color: $primary-color;
         @include MaterialBoxShadow(3);
     }
-    .fab:active {
+    .feli-fab:active {
         @include MaterialBoxShadow(1);
     }
 }
