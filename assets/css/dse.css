@@ -161,6 +161,7 @@ Component elevation values
 }
 
 .theme-dark .dse-question_answer {
+  color: #e1e1e1;
   background-color: #1d1d1d;
 }
 
@@ -201,6 +202,7 @@ Component elevation values
 }
 
 .theme-black .dse-question_answer {
+  color: white;
   background-color: #0d0d0d;
 }
 

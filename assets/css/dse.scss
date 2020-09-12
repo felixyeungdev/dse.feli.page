@@ -133,6 +133,7 @@
 
 .theme-dark {
     .dse-question_answer {
+        color: #e1e1e1;
         background-color: #1d1d1d;
         .dse-question_share {
             background-color: lighten(#1d1d1d, 5%);
@@ -171,6 +172,7 @@
 
 .theme-black {
     .dse-question_answer {
+        color: white;
         background-color: lighten(#000000, 5%);
         .dse-question_share {
             background-color: lighten(#000000, 10%);
