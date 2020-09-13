@@ -153,6 +153,12 @@ const dse = (function () {
             }
             // return base;
         } else if (question.version == 2) {
+            let qTitle = document.createElement("h5");
+            if (question.title && question.title != "") {
+                qTitle.textContent = question.title;
+            }
+            base.append(qTitle);
+
             let tags = document.createElement("h3");
             tags.innerText = question.tags ? question.tags.join(" ") : "";
             tags.classList.add("dse-question_tags");
