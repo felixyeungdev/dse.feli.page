@@ -91,7 +91,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/scripts/dse.js",
-    "revision": "1f61525b23a3a482851c2a60cbf6f142"
+    "revision": "5601e028d6591ce4fcfd714af68a9fb0"
   },
   {
     "url": "assets/scripts/font-awesome.min.js",
@@ -127,7 +127,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/source/chi.json",
-    "revision": "ef3bdb15819f585a1aa8c43c0ce83067"
+    "revision": "604f227e92a052053af8cd72c38cae16"
   },
   {
     "url": "assets/source/data.json",
@@ -159,7 +159,7 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "sw_install.js",
-    "revision": "52ba2015537ad02e253883ff44e20d78"
+    "revision": "e6e1a61fd09ccabd49a9b2a039346822"
   },
   {
     "url": "workbox-config.js",

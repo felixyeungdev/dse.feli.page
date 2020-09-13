@@ -1,4 +1,4 @@
-const version = "v1.0.17d";
+const version = "v1.0.17e";
 
 function installServiceWorker() {
     if (window.isDevelopmentMode) {
