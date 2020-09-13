@@ -1,5 +1,50 @@
 [
     {
+        "id": "8e5e717098326dbcbd9f2226af",
+        "version": "2",
+        "subject": "chi",
+        "tags": ["出師表"],
+        "question": [
+            "試解釋以下文句中的**粗體**字",
+            "> **陟**罰臧否，不宜異同。《出師表》"
+        ],
+        "answer": ["升遷"]
+    },
+    {
+        "id": "571ee10aeb7471870e36c115656",
+        "version": "2",
+        "subject": "chi",
+        "tags": ["出師表"],
+        "question": [
+            "試解釋以下文句中的**粗體**字",
+            "> 陟**罰**臧否，不宜異同。《出師表》"
+        ],
+        "answer": ["降職／貶職"]
+    },
+    {
+        "id": "fa8e8af5f9aea1d86d629fafb00",
+        "version": "2",
+        "subject": "chi",
+        "tags": ["出師表"],
+        "question": [
+            "試解釋以下文句中的**粗體**字",
+            "> 陟罰**臧**否，不宜異同。《出師表》"
+        ],
+        "answer": ["獎賞"]
+    },
+    {
+        "id": "39c0f18f240662069cd17f8322e",
+        "version": "2",
+        "subject": "chi",
+        "title": "2018-DSE-CH LANG 1 Q1(iii)",
+        "tags": ["出師表"],
+        "question": [
+            "試解釋以下文句中的**粗體**字",
+            "> 陟罰臧**否**，不宜異同。《出師表》"
+        ],
+        "answer": ["懲罰"]
+    },
+    {
         "id": "14694c8eb0497e1c3f83949c6e4e",
         "version": "2",
         "subject": "chi",
