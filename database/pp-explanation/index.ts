@@ -16,8 +16,11 @@ export async function simpleSearch(
             },
         },
     ]);
-    const array = result.map((doc) => doc._id);
-    return array.sort().reverse();
+    const array = result
+        .map((doc) => doc._id)
+        .sort()
+        .reverse();
+    return array;
 }
 
 export async function findDocuments(search: {
