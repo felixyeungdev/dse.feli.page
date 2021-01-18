@@ -5,20 +5,22 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import FeliAppBar from "../../../../components/Feli/FeliAppBar";
-import FeliContent from "../../../../components/Feli/FeliContent";
-import FeliHead from "../../../../components/Feli/FeliHead";
-import { simpleSearch } from "../../../../database/pp-explanation";
-import { translate } from "../../../../locales";
+import FeliAppBar from "../../../../../components/Feli/FeliAppBar";
+import FeliContent from "../../../../../components/Feli/FeliContent";
+import FeliHead from "../../../../../components/Feli/FeliHead";
+import { simpleSearch } from "../../../../../database/pp-explanation";
+import { translate } from "../../../../../locales";
 
 export default function Home({
     exam,
     subject,
-    years,
+    year,
+    questions,
 }: {
     exam: string;
     subject: string;
-    years: string[];
+    year: string;
+    questions: string[];
 }) {
     const router = useRouter();
     return (
@@ -35,10 +37,10 @@ export default function Home({
             <FeliContent center>
                 <Paper>
                     <ButtonGroup orientation="vertical" color="primary">
-                        {years &&
-                            years.map((year) => (
+                        {questions &&
+                            questions.map((question) => (
                                 <Link
-                                    href={`/explanation/${exam}/${subject}/${year}`}
+                                    href={`/explanation/${subject}/${exam}/${year}/${question}`}
                                     locale={router.locale}
                                     key={year}
                                 >
@@ -49,7 +51,7 @@ export default function Home({
                                         )} ${translate(
                                             router.locale,
                                             subject
-                                        )} ${year}`}
+                                        )} ${year}/${question}`}
                                     </Button>
                                 </Link>
                             ))}
@@ -68,11 +70,26 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-    const { exam, subject } = context.params;
-    const years = await simpleSearch({ exam, subject }, "year");
-    if (years.length <= 0)
+    const { exam, subject, year } = context.params;
+    const papers = await simpleSearch({ exam, subject, year }, "paper");
+    const questions = [];
+    for (var paper of papers) {
+        const paperQuestions = await simpleSearch(
+            {
+                exam,
+                subject,
+                year,
+                paper,
+            },
+            "question"
+        );
+        for (var paperQuestion of paperQuestions) {
+            questions.push(`${paper}/Q${paperQuestion}`);
+        }
+    }
+    if (questions.length <= 0)
         return {
             notFound: true,
         };
-    return { props: { exam, subject, years }, revalidate: 60 };
+    return { props: { exam, subject, year, questions }, revalidate: 60 };
 }

@@ -5,18 +5,20 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import FeliAppBar from "../../../components/Feli/FeliAppBar";
-import FeliContent from "../../../components/Feli/FeliContent";
-import FeliHead from "../../../components/Feli/FeliHead";
-import { simpleSearch } from "../../../database/pp-explanation";
-import { translate } from "../../../locales";
+import FeliAppBar from "../../../../components/Feli/FeliAppBar";
+import FeliContent from "../../../../components/Feli/FeliContent";
+import FeliHead from "../../../../components/Feli/FeliHead";
+import { simpleSearch } from "../../../../database/pp-explanation";
+import { translate } from "../../../../locales";
 
 export default function Home({
     exam,
-    subjects,
+    subject,
+    years,
 }: {
     exam: string;
-    subjects: string[];
+    subject: string;
+    years: string[];
 }) {
     const router = useRouter();
     return (
@@ -33,13 +35,12 @@ export default function Home({
             <FeliContent center>
                 <Paper>
                     <ButtonGroup orientation="vertical" color="primary">
-                        {subjects &&
-                            subjects.map((subject) => (
+                        {years &&
+                            years.map((year) => (
                                 <Link
-                                    href={`/explanation/${exam}/${subject}`}
+                                    href={`/explanation/${subject}/${exam}/${year}`}
                                     locale={router.locale}
-                                    key={subject}
-                                    passHref
+                                    key={year}
                                 >
                                     <Button size="large">
                                         {`${translate(
@@ -48,7 +49,7 @@ export default function Home({
                                         )} ${translate(
                                             router.locale,
                                             subject
-                                        )}`}
+                                        )} ${year}`}
                                     </Button>
                                 </Link>
                             ))}
@@ -67,11 +68,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-    const { exam } = context.params;
-    const subjects = await simpleSearch({ exam }, "subject");
-    if (subjects.length <= 0)
+    const { exam, subject } = context.params;
+    const years = await simpleSearch({ exam, subject }, "year");
+    if (years.length <= 0)
         return {
             notFound: true,
         };
-    return { props: { exam, subjects }, revalidate: 60 };
+    return { props: { exam, subject, years }, revalidate: 60 };
 }

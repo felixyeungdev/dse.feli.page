@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 import { translate } from "../../locales";
 import Paper from "@material-ui/core/Paper";
 
-export default function Home({ exams }: { exams: string[] }) {
+export default function Home({ subjects }: { subjects: string[] }) {
     const router = useRouter();
     return (
         <>
@@ -28,18 +28,19 @@ export default function Home({ exams }: { exams: string[] }) {
             <FeliContent center>
                 <Paper>
                     <ButtonGroup orientation="vertical" color="primary">
-                        {exams.map((exam) => (
-                            <Link
-                                href={`/explanation/${exam}`}
-                                locale={router.locale}
-                                key={exam}
-                                passHref
-                            >
-                                <Button size="large">
-                                    {translate(router.locale, exam)}
-                                </Button>
-                            </Link>
-                        ))}
+                        {subjects &&
+                            subjects.map((subject) => (
+                                <Link
+                                    href={`/explanation/${subject}`}
+                                    locale={router.locale}
+                                    key={subject}
+                                    passHref
+                                >
+                                    <Button size="large">
+                                        {translate(router.locale, subject)}
+                                    </Button>
+                                </Link>
+                            ))}
                     </ButtonGroup>
                 </Paper>
             </FeliContent>
@@ -48,10 +49,10 @@ export default function Home({ exams }: { exams: string[] }) {
 }
 
 export async function getStaticProps(context) {
-    const exams = await simpleSearch({}, "exam");
-    if (exams.length <= 0)
+    const subjects = await simpleSearch({}, "subject");
+    if (subjects.length <= 0)
         return {
             notFound: true,
         };
-    return { props: { exams }, revalidate: 60 };
+    return { props: { subjects }, revalidate: 60 };
 }
