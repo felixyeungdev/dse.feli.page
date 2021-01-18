@@ -25,7 +25,7 @@ export default async (req, res) => {
     const {
         exam,
         subject,
-        exam_year,
+        year,
         paper,
         question,
         vid_id,
@@ -43,7 +43,7 @@ export default async (req, res) => {
     const result = await addNewExplanation({
         exam,
         subject,
-        exam_year,
+        year,
         paper,
         question,
         vid_id,

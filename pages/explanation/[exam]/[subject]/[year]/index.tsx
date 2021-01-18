@@ -71,17 +71,14 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
     const { exam, subject, year } = context.params;
-    const papers = await simpleSearch(
-        { exam, subject, exam_year: year },
-        "paper"
-    );
+    const papers = await simpleSearch({ exam, subject, year }, "paper");
     const questions = [];
     for (var paper of papers) {
         const paperQuestions = await simpleSearch(
             {
                 exam,
                 subject,
-                exam_year: year,
+                year,
                 paper,
             },
             "question"

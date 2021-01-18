@@ -69,7 +69,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
     const { exam, subject } = context.params;
-    const years = await simpleSearch({ exam, subject }, "exam_year");
+    const years = await simpleSearch({ exam, subject }, "year");
     if (years.length <= 0)
         return {
             notFound: true,

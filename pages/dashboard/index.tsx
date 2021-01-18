@@ -32,7 +32,7 @@ export default function Home({ exams }: { exams: string[] }) {
         const data = {
             exam: inputExam,
             subject: inputSubject,
-            exam_year: inputExamYear,
+            year: inputExamYear,
             paper: inputPaper,
             question: inputQuestion,
             vid_id: inputVidID,

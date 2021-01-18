@@ -1,7 +1,7 @@
 interface pastPaperExplanationDocument {
     exam: string;
     subject: string;
-    exam_year: string;
+    year: string;
     paper: string;
     vid_id: string;
     vid_author: string;
@@ -16,7 +16,7 @@ export type { pastPaperExplanationDocument };
 // {
 //     "exam": "HKDSE",
 //     "subject": "PHY",
-//     "exam_year": "2020",
+//     "year": "2020",
 //     "paper": "1A",
 //     "vid_id": "35Adpcm4yuE",
 //     "vid_author": "Herman Yeung",

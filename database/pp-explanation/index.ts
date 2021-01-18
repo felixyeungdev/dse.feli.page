@@ -29,7 +29,7 @@ export async function findDocuments(search: {
         const {
             exam,
             subject,
-            exam_year: year,
+            year,
             paper,
             vid_id,
             vid_author,
@@ -55,7 +55,7 @@ export async function findDocuments(search: {
 export async function addNewExplanation({
     exam,
     subject,
-    exam_year,
+    year,
     paper,
     question,
     vid_id,
@@ -65,7 +65,7 @@ export async function addNewExplanation({
     const result = await collection.insert({
         exam,
         subject,
-        exam_year,
+        year,
         paper,
         question,
         vid_id,

@@ -116,7 +116,7 @@ export async function getStaticProps(context) {
     const documents = await findDocuments({
         exam,
         subject,
-        exam_year: year,
+        year,
         paper,
         question,
     });

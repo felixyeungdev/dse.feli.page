@@ -1,7 +1,7 @@
 export const sampleDocument = {
     exam: "HKALE",
     subject: "BIO",
-    exam_year: "2003",
+    year: "2003",
     paper: "II",
     vid_id: "m2NLiOjQ-Dg",
     vid_author: "Herman Yeung",
