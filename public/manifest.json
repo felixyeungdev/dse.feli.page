@@ -1,0 +1,15 @@
+{
+    "short_name": "DSE",
+    "name": "DSE from Feli Page",
+    "icons": [
+        {
+            "src": "assets/images/dse.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#f9a825",
+    "background_color": "#ffffff"
+}
