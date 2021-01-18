@@ -6,7 +6,7 @@
         "dev": "next dev -p 8060",
         "build": "next build",
         "start": "next start -p 8060",
-        "deploy": "npm run build && npm run start"
+        "deploy": "git pull && npm run build && npm run start"
     },
     "dependencies": {
         "@material-ui/core": "^4.11.2",
