@@ -17,7 +17,7 @@ export async function simpleSearch(
         },
     ]);
     const array = result.map((doc) => doc._id);
-    return array;
+    return array.sort().reverse();
 }
 
 export async function findDocuments(search: {
