@@ -10,6 +10,7 @@ import languages from "../config/languages";
 import Link from "next/link";
 import { translate } from "../locales";
 import Paper from "@material-ui/core/Paper";
+import { startBackgroundJobs } from "../background";
 
 export default function Home() {
     const router = useRouter();
@@ -34,7 +35,8 @@ export default function Home() {
                     <ButtonGroup orientation="vertical" color="primary">
                         <Link locale={router.locale} href="/explanation">
                             <Button size="large">
-                                {translate(router.locale, "explanation")}
+                                {translate(router.locale, "explanation")}{" "}
+                                {translate(router.locale, "under_maintenance")}
                             </Button>
                         </Link>
                     </ButtonGroup>

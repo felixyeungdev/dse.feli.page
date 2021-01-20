@@ -13,8 +13,8 @@ const errors = {
 
 export function translate(locale: string, key: string): string {
     const localeObj = locales[locale];
-    if (!localeObj) return errors.localeNotFound;
+    if (!localeObj) return key;
     const translated = localeObj[key];
-    if (!translated) return errors.translationNotFound;
+    if (!translated) return key;
     return translated;
 }
