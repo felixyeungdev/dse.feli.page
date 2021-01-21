@@ -326,5 +326,5 @@ function VideoListItem({ id }) {
 export async function getStaticProps(context) {
     const explanations = await getExplanations({});
     // console.log(explanations);
-    return { props: { explanations }, revalidate: 60 };
+    return { props: { explanations }, revalidate: 1 };
 }
