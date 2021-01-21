@@ -248,6 +248,16 @@ function VideoDialog({
                 </ListItem>
                 <ListItem>
                     <ListItemText
+                        primary={
+                            data
+                                ? `${data.exam} ${data.subject} ${data.year}/${data.paper}/Q${data.question}`
+                                : ""
+                        }
+                        secondary={"Full"}
+                    ></ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText
                         primary={data && data.subject}
                         secondary={"Subject"}
                     ></ListItemText>
