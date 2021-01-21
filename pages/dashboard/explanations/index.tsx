@@ -35,7 +35,8 @@ import Divider from "@material-ui/core/Divider";
 // question;
 // videos;
 
-export default function Home({ explanations }) {
+export default function Home() {
+    const [explanations, setExplanations] = useState(null);
     const [videoActionFields, setVideoActionFields] = useState({});
     const [dialogOpened, setDialogOpened] = useState(false);
     const [dialogId, setDialogId] = useState(null);
@@ -110,6 +111,17 @@ export default function Home({ explanations }) {
         },
     ];
 
+    useEffect(() => {
+        getExplanationDetails();
+    }, [open]);
+
+    const getExplanationDetails = async () => {
+        if (!open) return;
+        const response = await fetch(`/api/explanations`);
+        const json = await response.json();
+        setExplanations(json);
+    };
+
     const edit = (id: string) => {
         setDialogId(id);
         setDialogOpened(true);
@@ -132,6 +144,7 @@ export default function Home({ explanations }) {
 
     const dialogOnClose = () => {
         setDialogOpened(false);
+        getExplanationDetails();
     };
 
     return (
@@ -156,7 +169,7 @@ export default function Home({ explanations }) {
                         <DataGrid
                             disableSelectionOnClick
                             showToolbar
-                            rows={explanations}
+                            rows={explanations || []}
                             columns={columns}
                             autoPageSize
                             checkboxSelection
@@ -343,8 +356,8 @@ function VideoListItem({ id, deleteClick }) {
     );
 }
 
-export async function getStaticProps(context) {
-    const explanations = await getExplanations({});
-    // console.log(explanations);
-    return { props: { explanations }, revalidate: 1 };
-}
+// export async function getStaticProps(context) {
+//     const explanations = await getExplanations({});
+//     // console.log(explanations);
+//     return { props: { explanations }, revalidate: 1 };
+// }
