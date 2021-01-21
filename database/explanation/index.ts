@@ -97,4 +97,18 @@ export async function addVideoToExplanation(id: string, videoId: string) {
     return result;
 }
 
+export async function removeVideoFromExplanation(id: string, videoId: string) {
+    const result = await explanationsCollection.update(
+        {
+            _id: id,
+        },
+        {
+            $pull: {
+                videos: videoId,
+            },
+        }
+    );
+    return result;
+}
+
 export { getExplanations };

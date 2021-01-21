@@ -216,6 +216,16 @@ function VideoDialog({
         setInputVideoID("");
         await getExplanationDetails(id);
     };
+    const removeVideo = async (videoId) => {
+        await fetch(`/api/explanations/removeVideo?id=${id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ videoId: videoId }),
+        });
+        await getExplanationDetails(id);
+    };
 
     return (
         <Dialog open={open} onClose={handleClose}>
@@ -264,7 +274,13 @@ function VideoDialog({
             <List dense disablePadding>
                 {data &&
                     data.videos.map((vid) => {
-                        return <VideoListItem id={vid} key={id} />;
+                        return (
+                            <VideoListItem
+                                id={vid}
+                                key={id}
+                                deleteClick={() => removeVideo(vid)}
+                            />
+                        );
                     })}
             </List>
             <Divider />
@@ -290,7 +306,7 @@ function VideoDialog({
     );
 }
 
-function VideoListItem({ id }) {
+function VideoListItem({ id, deleteClick }) {
     console.log(`Vid ${id}`);
     const [data, setData] = useState(null);
     useEffect(() => {
@@ -315,7 +331,11 @@ function VideoListItem({ id }) {
                 secondary={data ? data.uploader : ""}
             />
             <ListItemSecondaryAction>
-                <IconButton edge="end" aria-label="delete">
+                <IconButton
+                    edge="end"
+                    aria-label="delete"
+                    onClick={deleteClick}
+                >
                     <DeleteIcon />
                 </IconButton>
             </ListItemSecondaryAction>
