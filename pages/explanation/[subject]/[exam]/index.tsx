@@ -1,5 +1,8 @@
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 import Paper from "@material-ui/core/Paper";
 import Head from "next/head";
 import Link from "next/link";
@@ -8,17 +11,18 @@ import React from "react";
 import FeliAppBar from "../../../../components/Feli/FeliAppBar";
 import FeliContent from "../../../../components/Feli/FeliContent";
 import FeliHead from "../../../../components/Feli/FeliHead";
+import { ExplanationSearch } from "../../../../database/explanation";
 import { simpleSearch } from "../../../../database/pp-explanation";
 import { translate } from "../../../../locales";
 
 export default function Home({
     exam,
     subject,
-    years,
+    data,
 }: {
     exam: string;
     subject: string;
-    years: string[];
+    data: any[];
 }) {
     const router = useRouter();
     return (
@@ -34,26 +38,38 @@ export default function Home({
             />
             <FeliContent center>
                 <Paper>
-                    <ButtonGroup orientation="vertical" color="primary">
-                        {years &&
-                            years.map((year) => (
-                                <Link
-                                    href={`/explanation/${subject}/${exam}/${year}`}
-                                    locale={router.locale}
-                                    key={year}
-                                >
-                                    <Button size="large">
-                                        {`${translate(
-                                            router.locale,
-                                            exam
-                                        )} ${translate(
-                                            router.locale,
-                                            subject
-                                        )} ${year}`}
-                                    </Button>
-                                </Link>
-                            ))}
-                    </ButtonGroup>
+                    <List dense>
+                        {data &&
+                            data.map((doc) => {
+                                return (
+                                    <Link
+                                        href={`/explanation/${subject}/${exam}/${doc.id}`}
+                                        locale={router.locale}
+                                        key={doc.id}
+                                        passHref
+                                    >
+                                        <ListItem key={doc.id} button>
+                                            <ListItemText
+                                                primary={`${translate(
+                                                    router.locale,
+                                                    exam
+                                                )} ${translate(
+                                                    router.locale,
+                                                    subject
+                                                )} ${translate(
+                                                    router.locale,
+                                                    doc.id
+                                                )}`}
+                                                secondary={`${translate(
+                                                    router.locale,
+                                                    "count"
+                                                )}: ${doc.count}`}
+                                            />
+                                        </ListItem>
+                                    </Link>
+                                );
+                            })}
+                    </List>
                 </Paper>
             </FeliContent>
         </>
@@ -69,10 +85,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
     const { exam, subject } = context.params;
-    const years = await simpleSearch({ exam, subject }, "year");
-    if (years.length <= 0)
-        return {
-            notFound: true,
-        };
-    return { props: { exam, subject, years }, revalidate: 60 };
+    const data = await ExplanationSearch.getYears(subject, exam);
+    // if (years.length <= 0)
+    //     return {
+    //         notFound: true,
+    //     };
+    return { props: { exam, subject, data }, revalidate: 60 };
 }

@@ -11,8 +11,12 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
 import Paper from "@material-ui/core/Paper";
+import { ExplanationSearch } from "../../database/explanation";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 
-export default function Home({ subjects }: { subjects: string[] }) {
+export default function Explanation({ data }: { data: any[] }) {
     const router = useRouter();
     return (
         <>
@@ -27,21 +31,32 @@ export default function Home({ subjects }: { subjects: string[] }) {
             />
             <FeliContent center>
                 <Paper>
-                    <ButtonGroup orientation="vertical" color="primary">
-                        {subjects &&
-                            subjects.map((subject) => (
-                                <Link
-                                    href={`/explanation/${subject}`}
-                                    locale={router.locale}
-                                    key={subject}
-                                    passHref
-                                >
-                                    <Button size="large">
-                                        {translate(router.locale, subject)}
-                                    </Button>
-                                </Link>
-                            ))}
-                    </ButtonGroup>
+                    <List dense>
+                        {data &&
+                            data.map((doc) => {
+                                return (
+                                    <Link
+                                        href={`/explanation/${doc.id}`}
+                                        locale={router.locale}
+                                        key={doc.id}
+                                        passHref
+                                    >
+                                        <ListItem key={doc.id} button>
+                                            <ListItemText
+                                                primary={translate(
+                                                    router.locale,
+                                                    doc.id
+                                                )}
+                                                secondary={`${translate(
+                                                    router.locale,
+                                                    "count"
+                                                )}: ${doc.count}`}
+                                            />
+                                        </ListItem>
+                                    </Link>
+                                );
+                            })}
+                    </List>
                 </Paper>
             </FeliContent>
         </>
@@ -49,10 +64,10 @@ export default function Home({ subjects }: { subjects: string[] }) {
 }
 
 export async function getStaticProps(context) {
-    const subjects = await simpleSearch({}, "subject");
-    if (subjects.length <= 0)
+    const data = await ExplanationSearch.getSubjects();
+    if (data.length <= 0)
         return {
             notFound: true,
         };
-    return { props: { subjects }, revalidate: 60 };
+    return { props: { data }, revalidate: 60 };
 }

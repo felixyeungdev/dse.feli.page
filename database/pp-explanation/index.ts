@@ -78,23 +78,19 @@ export async function addNewExplanation({
     return result;
 }
 
-collection.createIndex(
-    {
-        exam: 1,
-        subject: 1,
-        year: 1,
-        tags: 1,
-        question: 1,
-        paper: 1,
-    },
-    {
-        name: "text",
-    }
-);
-
-(async () => {
-    console.log(await collection.indexes());
-})();
+// collection.createIndex(
+//     {
+//         exam: 1,
+//         subject: 1,
+//         year: 1,
+//         tags: 1,
+//         question: 1,
+//         paper: 1,
+//     },
+//     {
+//         name: "text",
+//     }
+// );
 
 export async function search(term: string): Promise<{ [key: string]: any }> {
     const result = await collection.find(
