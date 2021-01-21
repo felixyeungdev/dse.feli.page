@@ -112,11 +112,10 @@ export default function Home() {
     ];
 
     useEffect(() => {
-        getExplanationDetails();
-    }, [open]);
+        getExplanations();
+    }, []);
 
-    const getExplanationDetails = async () => {
-        if (!open) return;
+    const getExplanations = async () => {
         const response = await fetch(`/api/explanations`);
         const json = await response.json();
         setExplanations(json);
@@ -144,7 +143,7 @@ export default function Home() {
 
     const dialogOnClose = () => {
         setDialogOpened(false);
-        getExplanationDetails();
+        getExplanations();
     };
 
     return (
