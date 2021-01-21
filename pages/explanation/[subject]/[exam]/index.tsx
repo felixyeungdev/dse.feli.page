@@ -15,7 +15,7 @@ import { ExplanationSearch } from "../../../../database/explanation";
 import { simpleSearch } from "../../../../database/pp-explanation";
 import { translate } from "../../../../locales";
 
-export default function Home({
+export default function ChooseYear({
     exam,
     subject,
     data,

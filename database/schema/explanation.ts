@@ -6,7 +6,7 @@ export interface Explanation {
     year: string;
     paper: string;
     question: number;
-    videos: string;
+    videos: string[];
 }
 
 const explanationSchema = Joi.object({

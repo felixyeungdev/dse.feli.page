@@ -17,10 +17,12 @@ import YouTube from "react-youtube";
 import FeliAppBar from "../../../../../../../components/Feli/FeliAppBar";
 import FeliContent from "../../../../../../../components/Feli/FeliContent";
 import FeliHead from "../../../../../../../components/Feli/FeliHead";
+import { getExplanations } from "../../../../../../../database/explanation";
 import {
     findDocuments,
     simpleSearch,
 } from "../../../../../../../database/pp-explanation";
+import { getVideoFromDatabase } from "../../../../../../../database/video";
 import { translate } from "../../../../../../../locales";
 
 export default function Home({
@@ -29,14 +31,14 @@ export default function Home({
     year,
     paper,
     question,
-    documents,
+    data,
 }: {
     exam: string;
     subject: string;
     year: string;
     paper: string;
     question: string;
-    documents: any[];
+    data: { [key: string]: any };
 }) {
     const router = useRouter();
     return (
@@ -52,11 +54,11 @@ export default function Home({
             />
             <FeliContent paddingTop>
                 <Container>
-                    {documents &&
-                        documents.map((doc) => {
+                    {data &&
+                        data.videos.map((video) => {
                             return (
                                 <Card
-                                    key={doc.id}
+                                    key={video}
                                     style={{
                                         width: "100%",
                                         marginBottom: 32,
@@ -70,12 +72,12 @@ export default function Home({
                                             router.locale,
                                             subject
                                         )} ${year}/${paper}/Q${question}`}
-                                        subheader={doc.vid_author}
+                                        subheader={video.uploader}
                                     />
                                     <CardActionArea>
                                         {/* <CardContent> */}
                                         <YouTube
-                                            videoId={doc.vid_id}
+                                            videoId={video.id}
                                             opts={{
                                                 height: "390",
                                                 width: "100%",
@@ -83,18 +85,9 @@ export default function Home({
                                         />
                                         {/* </CardContent> */}
                                     </CardActionArea>
-                                    {/* <CardActions>
-                                        <Button size="small" color="primary">
-                                            Share
-                                        </Button>
-                                        <Button size="small" color="primary">
-                                            Learn More
-                                        </Button>
-                                    </CardActions> */}
                                 </Card>
                             );
                         })}
-                    <></>
                 </Container>
             </FeliContent>
         </>
@@ -110,10 +103,10 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
     const { exam, subject, year, paper, question: q } = context.params;
-    var question = q;
-    if (q.startsWith("Q")) question = q.slice(1);
 
-    const documents = await findDocuments({
+    const question = parseInt(q) || 0;
+
+    const matches = await getExplanations({
         exam,
         subject,
         year,
@@ -121,8 +114,25 @@ export async function getStaticProps(context) {
         question,
     });
 
+    const oneMatch = matches && matches.length > 0 ? matches[0] : null;
+
+    if (!oneMatch) {
+        return {
+            notFound: true,
+        };
+    }
+
+    const data: any = { ...oneMatch };
+    delete data.videos;
+    data.videos = [];
+
+    for (var video of oneMatch.videos) {
+        const videoData = await getVideoFromDatabase(video);
+        data.videos.push(videoData);
+    }
+
     return {
-        props: { exam, subject, year, paper, question, documents },
+        props: { exam, subject, year, paper, question, data },
         revalidate: 60,
     };
 }

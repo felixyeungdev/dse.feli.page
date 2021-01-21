@@ -65,7 +65,6 @@ class PendingExplanation {
                     id: entry.id,
                     type: "video",
                 }));
-                console.log(entries);
                 await pendingExplanationsCollection.insert(entries);
                 await pendingExplanationsCollection.remove({
                     id: playlist,

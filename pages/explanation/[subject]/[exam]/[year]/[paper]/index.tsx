@@ -8,18 +8,24 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import FeliAppBar from "../../../components/Feli/FeliAppBar";
-import FeliContent from "../../../components/Feli/FeliContent";
-import FeliHead from "../../../components/Feli/FeliHead";
-import { ExplanationSearch } from "../../../database/explanation";
-import { simpleSearch } from "../../../database/pp-explanation";
-import { translate } from "../../../locales";
+import FeliAppBar from "../../../../../../components/Feli/FeliAppBar";
+import FeliContent from "../../../../../../components/Feli/FeliContent";
+import FeliHead from "../../../../../../components/Feli/FeliHead";
+import { ExplanationSearch } from "../../../../../../database/explanation";
+import { simpleSearch } from "../../../../../../database/pp-explanation";
+import { translate } from "../../../../../../locales";
 
-export default function ChooseExam({
+export default function Home({
+    exam,
     subject,
+    year,
+    paper,
     data,
 }: {
+    exam: string;
     subject: string;
+    year: string;
+    paper: string;
     data: any[];
 }) {
     const router = useRouter();
@@ -41,7 +47,7 @@ export default function ChooseExam({
                             data.map((doc) => {
                                 return (
                                     <Link
-                                        href={`/explanation/${subject}/${doc.id}`}
+                                        href={`/explanation/${subject}/${exam}/${year}/${paper}/${doc.id}`}
                                         locale={router.locale}
                                         key={doc.id}
                                         passHref
@@ -50,10 +56,13 @@ export default function ChooseExam({
                                             <ListItemText
                                                 primary={`${translate(
                                                     router.locale,
-                                                    doc.id
+                                                    exam
                                                 )} ${translate(
                                                     router.locale,
                                                     subject
+                                                )} ${year}/${paper}/${translate(
+                                                    router.locale,
+                                                    doc.id
                                                 )}`}
                                                 secondary={`${translate(
                                                     router.locale,
@@ -79,11 +88,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-    const { subject } = context.params;
-    const data = await ExplanationSearch.getExams(subject);
-    // if (exams.length <= 0)
-    //     return {
-    //         notFound: true,
-    //     };
-    return { props: { subject, data }, revalidate: 60 };
+    const { exam, subject, year, paper } = context.params;
+    const data = await ExplanationSearch.getQuestions(
+        subject,
+        exam,
+        year,
+        paper
+    );
+    return { props: { exam, subject, year, paper, data }, revalidate: 60 };
 }
