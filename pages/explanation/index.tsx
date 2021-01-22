@@ -73,5 +73,5 @@ export async function getStaticProps(context) {
         return {
             notFound: true,
         };
-    return { props: { data }, revalidate: 60 };
+    return { props: { data }, revalidate: 1 };
 }

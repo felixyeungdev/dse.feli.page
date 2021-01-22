@@ -142,6 +142,6 @@ export async function getStaticProps(context) {
 
     return {
         props: { exam, subject, year, paper, question, data },
-        revalidate: 60,
+        revalidate: 1,
     };
 }

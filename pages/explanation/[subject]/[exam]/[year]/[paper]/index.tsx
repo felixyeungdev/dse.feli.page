@@ -105,5 +105,5 @@ export async function getStaticProps(context) {
         year,
         paper
     );
-    return { props: { exam, subject, year, paper, data }, revalidate: 60 };
+    return { props: { exam, subject, year, paper, data }, revalidate: 1 };
 }

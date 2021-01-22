@@ -101,5 +101,5 @@ export async function getStaticProps(context) {
     //     return {
     //         notFound: true,
     //     };
-    return { props: { exam, subject, year, data }, revalidate: 60 };
+    return { props: { exam, subject, year, data }, revalidate: 1 };
 }
