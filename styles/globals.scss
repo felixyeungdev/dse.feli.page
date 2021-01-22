@@ -23,32 +23,36 @@ main {
     min-height: calc(100vh - 100px - 64px);
 }
 
-body,
-header,
-footer,
-div {
-    transition: background $transition-duration $transition-timing-function 0s,
-        border $transition-duration $transition-timing-function 0s !important;
+.theme-transition {
+    body,
+    header,
+    footer,
+    div {
+        transition: background $transition-duration $transition-timing-function
+                0s,
+            border $transition-duration $transition-timing-function 0s !important;
+    }
+
+    img {
+        transition: filter $transition-duration $transition-timing-function 0s !important;
+    }
 }
 
-img {
-    transition: filter $transition-duration $transition-timing-function 0s;
-}
 .dark-mode {
     img {
         filter: invert(1) hue-rotate(180deg);
     }
 }
 
-.MuiTabs-indicator {
-    transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
-}
+// .MuiTabs-indicator {
+//     transition: all 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+// }
 
 .MuiTabs-flexContainer {
     // justify-content: center;
 }
 
-.MuiTooltip-tooltip {
-    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-        transform 133ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
-}
+// .MuiTooltip-tooltip {
+//     transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+//         transform 133ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+// }

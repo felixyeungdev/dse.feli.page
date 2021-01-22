@@ -323,12 +323,19 @@ function VideoDialog({
                         }
                     }}
                 />
+                <VideoListItem id={inputVideoID} key={id} />
             </form>
         </Dialog>
     );
 }
 
-function VideoListItem({ id, deleteClick }) {
+function VideoListItem({
+    id,
+    deleteClick,
+}: {
+    id: string;
+    deleteClick?: () => {};
+}) {
     console.log(`Vid ${id}`);
     const [data, setData] = useState(null);
     useEffect(() => {
@@ -336,7 +343,7 @@ function VideoListItem({ id, deleteClick }) {
             const video = await getVideoDetails(id);
             setData(video);
         })();
-    }, []);
+    }, [id]);
 
     const getVideoDetails = async (id) => {
         const response = await fetch(`/api/videos?id=${id}`);
@@ -346,21 +353,26 @@ function VideoListItem({ id, deleteClick }) {
         }
         return null;
     };
+
+    if (!id || id === "") return <></>;
+
     return (
         <ListItem>
             <ListItemText
                 primary={data ? data.title : id}
                 secondary={data ? data.uploader : ""}
             />
-            <ListItemSecondaryAction>
-                <IconButton
-                    edge="end"
-                    aria-label="delete"
-                    onClick={deleteClick}
-                >
-                    <DeleteIcon />
-                </IconButton>
-            </ListItemSecondaryAction>
+            {deleteClick && (
+                <ListItemSecondaryAction>
+                    <IconButton
+                        edge="end"
+                        aria-label="delete"
+                        onClick={deleteClick}
+                    >
+                        <DeleteIcon />
+                    </IconButton>
+                </ListItemSecondaryAction>
+            )}
         </ListItem>
     );
 }

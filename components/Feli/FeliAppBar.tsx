@@ -1,3 +1,4 @@
+import LanguageIcon from "@material-ui/icons/Language";
 import FeliIcon from "./FeliIcon";
 import FeliLinkNav from "./FeliLinkNav";
 import { useFeliTheme } from "../../providers/FeliThemeProvider";
@@ -13,8 +14,9 @@ import Brightness4Icon from "@material-ui/icons/Brightness4";
 import MenuIcon from "@material-ui/icons/Menu";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import Link from "next/link";
-import router from "next/router";
+import router, { useRouter } from "next/router";
 import React from "react";
+import { locales } from "../../locales";
 
 interface Crumb {
     href: string;
@@ -23,6 +25,7 @@ interface Crumb {
 
 export default function FeliAppBar({ crumbs = [] }: { crumbs: Crumb[] }) {
     const { toggle, isDark } = useFeliTheme();
+    const router = useRouter();
 
     const breadcrumbs = crumbs.map((crumb, index, crumbs) => {
         const isLast = index === crumbs.length - 1;
@@ -49,6 +52,23 @@ export default function FeliAppBar({ crumbs = [] }: { crumbs: Crumb[] }) {
             </Link>
         );
     });
+
+    const changeLocale = () => {
+        const locales_ = [...locales, ...locales];
+        const current = locales_.indexOf(router.locale);
+        const next = locales_[current + 1];
+        router.push(
+            {
+                pathname: router.pathname,
+                query: router.query,
+            },
+            null,
+            {
+                shallow: true,
+                locale: next,
+            }
+        );
+    };
 
     return (
         <AppBar
@@ -80,6 +100,13 @@ export default function FeliAppBar({ crumbs = [] }: { crumbs: Crumb[] }) {
                 >
                     {breadcrumbs}
                 </Breadcrumbs>
+                <IconButton
+                    onClick={changeLocale}
+                    aria-label="change language"
+                    color="primary"
+                >
+                    <LanguageIcon />
+                </IconButton>
                 <IconButton
                     onClick={toggle}
                     aria-label="toggle theme"

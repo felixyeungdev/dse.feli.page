@@ -14,6 +14,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import YouTube from "react-youtube";
+import ExplanationBreadcrumbs from "../../../../../../../components/Feli/ExplanationBreadcrumbs";
 import FeliAppBar from "../../../../../../../components/Feli/FeliAppBar";
 import FeliContent from "../../../../../../../components/Feli/FeliContent";
 import FeliHead from "../../../../../../../components/Feli/FeliHead";
@@ -52,8 +53,16 @@ export default function Home({
                     },
                 ]}
             />
-            <FeliContent paddingTop>
+            <FeliContent>
                 <Container>
+                    <ExplanationBreadcrumbs
+                        subject={subject}
+                        exam={exam}
+                        year={year}
+                        paper={paper}
+                        question={question}
+                    />
+
                     {data &&
                         data.videos.map((video) => {
                             return (

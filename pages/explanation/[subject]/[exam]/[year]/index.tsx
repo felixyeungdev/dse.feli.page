@@ -1,5 +1,6 @@
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
+import Container from "@material-ui/core/Container";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -8,6 +9,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
+import ExplanationBreadcrumbs from "../../../../../components/Feli/ExplanationBreadcrumbs";
 import FeliAppBar from "../../../../../components/Feli/FeliAppBar";
 import FeliContent from "../../../../../components/Feli/FeliContent";
 import FeliHead from "../../../../../components/Feli/FeliHead";
@@ -38,41 +40,48 @@ export default function ChoosePaper({
                     },
                 ]}
             />
-            <FeliContent center>
-                <Paper>
-                    <List dense>
-                        {data &&
-                            data.map((doc) => {
-                                return (
-                                    <Link
-                                        href={`/explanation/${subject}/${exam}/${year}/${doc.id}`}
-                                        locale={router.locale}
-                                        key={doc.id}
-                                        passHref
-                                    >
-                                        <ListItem key={doc.id} button>
-                                            <ListItemText
-                                                primary={`${translate(
-                                                    router.locale,
-                                                    exam
-                                                )} ${translate(
-                                                    router.locale,
-                                                    subject
-                                                )} ${year}/${translate(
-                                                    router.locale,
-                                                    doc.id
-                                                )}`}
-                                                secondary={`${translate(
-                                                    router.locale,
-                                                    "count"
-                                                )}: ${doc.count}`}
-                                            />
-                                        </ListItem>
-                                    </Link>
-                                );
-                            })}
-                    </List>
-                </Paper>
+            <FeliContent>
+                <Container>
+                    <ExplanationBreadcrumbs
+                        subject={subject}
+                        exam={exam}
+                        year={year}
+                    />
+                    <Paper>
+                        <List dense>
+                            {data &&
+                                data.map((doc) => {
+                                    return (
+                                        <Link
+                                            href={`/explanation/${subject}/${exam}/${year}/${doc.id}`}
+                                            locale={router.locale}
+                                            key={doc.id}
+                                            passHref
+                                        >
+                                            <ListItem key={doc.id} button>
+                                                <ListItemText
+                                                    primary={`${translate(
+                                                        router.locale,
+                                                        exam
+                                                    )} ${translate(
+                                                        router.locale,
+                                                        subject
+                                                    )} ${year}/${translate(
+                                                        router.locale,
+                                                        doc.id
+                                                    )}`}
+                                                    secondary={`${translate(
+                                                        router.locale,
+                                                        "count"
+                                                    )}: ${doc.count}`}
+                                                />
+                                            </ListItem>
+                                        </Link>
+                                    );
+                                })}
+                        </List>
+                    </Paper>
+                </Container>
             </FeliContent>
         </>
     );
