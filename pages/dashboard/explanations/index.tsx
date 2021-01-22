@@ -252,7 +252,7 @@ function VideoDialog({
     };
 
     return (
-        <Dialog open={open} onClose={handleClose}>
+        <Dialog open={open} onClose={handleClose} fullWidth>
             <DialogTitle>Edit Explanation</DialogTitle>
             <List dense disablePadding>
                 <ListItem>

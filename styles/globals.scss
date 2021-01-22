@@ -33,15 +33,15 @@ main {
             border $transition-duration $transition-timing-function 0s !important;
     }
 
-    img {
-        transition: filter $transition-duration $transition-timing-function 0s !important;
-    }
+    // img {
+    //     transition: filter $transition-duration $transition-timing-function 0s !important;
+    // }
 }
 
 .dark-mode {
-    img {
-        filter: invert(1) hue-rotate(180deg);
-    }
+    // img {
+    //     filter: invert(1) hue-rotate(180deg);
+    // }
 }
 
 // .MuiTabs-indicator {
