@@ -88,7 +88,19 @@ export default function Home() {
                 return `${exam} ${subject} ${year}/${paper}/Q${question}`;
             },
         },
-        { field: "videos", headerName: "videos", width: 250 },
+        {
+            field: "videos",
+            headerName: "videos",
+            width: 250,
+            sortComparator: (v1, v2, p1, p2) => {
+                const _1length = p1.row.videos.length;
+                const _2length = p2.row.videos.length;
+                console.log(_1length, _2length);
+                if (_1length > _2length) return -1;
+                if (_1length < _2length) return 1;
+                return 0;
+            },
+        },
         {
             field: "edit",
             headerName: translate(router.locale, "edit"),
@@ -323,7 +335,12 @@ function VideoDialog({
                         }
                     }}
                 />
-                <VideoListItem id={inputVideoID} key={id} />
+                <VideoListItem
+                    id={inputVideoID}
+                    key={id}
+                    button
+                    onClick={(e) => submitVideo(e)}
+                />
             </form>
         </Dialog>
     );
@@ -332,9 +349,13 @@ function VideoDialog({
 function VideoListItem({
     id,
     deleteClick,
+    button = false,
+    onClick = (e) => {},
 }: {
     id: string;
     deleteClick?: () => {};
+    button?: boolean;
+    onClick?: (e) => void;
 }) {
     console.log(`Vid ${id}`);
     const [data, setData] = useState(null);
@@ -356,8 +377,11 @@ function VideoListItem({
 
     if (!id || id === "") return <></>;
 
+    const listItemProps: any = {};
+    button && (listItemProps.button = true);
+
     return (
-        <ListItem>
+        <ListItem {...listItemProps} onClick={onClick}>
             <ListItemText
                 primary={data ? data.title : id}
                 secondary={data ? data.uploader : ""}

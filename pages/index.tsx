@@ -35,8 +35,7 @@ export default function Home() {
                     <ButtonGroup orientation="vertical" color="primary">
                         <Link locale={router.locale} href="/explanation">
                             <Button size="large">
-                                {translate(router.locale, "explanation")}{" "}
-                                {translate(router.locale, "under_maintenance")}
+                                {translate(router.locale, "explanation")}
                             </Button>
                         </Link>
                     </ButtonGroup>
