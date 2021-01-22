@@ -28,7 +28,6 @@ export default function ExplanationBreadcrumbs({
     year && depth.push(year);
     paper && depth.push(paper);
     question && depth.push(question);
-    console.log(depth);
 
     const generateHref = (i: number) => {
         const href = `/${[...depth].splice(0, i + 1).join("/")}`;
