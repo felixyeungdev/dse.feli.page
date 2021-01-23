@@ -73,10 +73,16 @@ async function searchVideoFromDatabase(query: string, limit: number) {
             { score: { $meta: "textScore" } }
         )
         .sort({ score: { $meta: "textScore" } })
+        .project({
+            score: {
+                $meta: "textScore",
+            },
+        })
         .limit(limit)
         .toArray();
     const videos = data.map((video) => {
         const duration = JSON.parse(JSON.stringify(video.duration));
+        console.log(video);
         return {
             id: video.id,
             uploader: video.uploader,
@@ -84,6 +90,7 @@ async function searchVideoFromDatabase(query: string, limit: number) {
             channel_id: video.channel_id,
             title: video.title,
             duration: duration,
+            score: video.score,
         };
     });
     return videos;
