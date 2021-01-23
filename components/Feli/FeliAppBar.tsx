@@ -16,7 +16,8 @@ import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import Link from "next/link";
 import router, { useRouter } from "next/router";
 import React from "react";
-import { locales } from "../../locales";
+import { locales, translate } from "../../locales";
+import Tooltip from "@material-ui/core/Tooltip";
 
 interface Crumb {
     href: string;
@@ -100,20 +101,24 @@ export default function FeliAppBar({ crumbs = [] }: { crumbs: Crumb[] }) {
                 >
                     {breadcrumbs}
                 </Breadcrumbs>
-                <IconButton
-                    onClick={changeLocale}
-                    aria-label="change language"
-                    color="primary"
-                >
-                    <LanguageIcon />
-                </IconButton>
-                <IconButton
-                    onClick={toggle}
-                    aria-label="toggle theme"
-                    color="primary"
-                >
-                    <Brightness4Icon />
-                </IconButton>
+                <Tooltip title={translate(router.locale, "change_language")}>
+                    <IconButton
+                        onClick={changeLocale}
+                        aria-label="change language"
+                        color="primary"
+                    >
+                        <LanguageIcon />
+                    </IconButton>
+                </Tooltip>
+                <Tooltip title={translate(router.locale, "toggle_theme")}>
+                    <IconButton
+                        onClick={toggle}
+                        aria-label="toggle theme"
+                        color="primary"
+                    >
+                        <Brightness4Icon />
+                    </IconButton>
+                </Tooltip>
             </Toolbar>
             <FeliLinkNav />
         </AppBar>

@@ -7,8 +7,11 @@
     "CHEM": "化學",
     "BIO": "生物",
     "explanation": "試題答案解釋",
-    "HKDSE": "HKDSE",
-    "HKCEE": "HKCEE",
-    "HKALE": "HKALE",
-    "under_maintenance": "正在維修"
+    "HKDSE": "文憑試",
+    "HKCEE": "會考",
+    "HKALE": "高考",
+    "under_maintenance": "正在維修",
+    "change_language": "改變語言",
+    "toggle_theme": "切換主題",
+    "count": "數目"
 }

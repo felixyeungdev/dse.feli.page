@@ -1,11 +1,26 @@
 import { explanationsCollection } from "../mongodb";
 import { Explanation } from "../schema/explanation";
 
+const subjectSortingWeight = {
+    CHI: 1,
+    ENG: 2,
+    MAT: 3,
+    LS: 4,
+    PHY: 5,
+    CHEM: 6,
+    BIO: 7,
+    ECON: 8,
+    ICT: 9,
+    M1: 10,
+    M2: 11,
+    default: 999,
+};
+
 export class ExplanationSearch {
     private static async simpleSearch(
         search: {},
         query: string
-    ): Promise<string[]> {
+    ): Promise<any[]> {
         const result = await explanationsCollection.aggregate([
             { $match: { ...search } },
             {
@@ -29,7 +44,14 @@ export class ExplanationSearch {
     }
 
     static async getSubjects() {
-        return await this.simpleSearch({}, "subject");
+        const subjects = await this.simpleSearch({}, "subject");
+        const sorted = subjects.sort(function (a, b) {
+            return (
+                (subjectSortingWeight[a.id] || subjectSortingWeight.default) -
+                (subjectSortingWeight[b.id] || subjectSortingWeight.default)
+            );
+        });
+        return subjects;
     }
     static async getExams(subject: string) {
         return await this.simpleSearch({ subject }, "exam");

@@ -10,5 +10,8 @@
     "HKDSE": "HKDSE",
     "HKCEE": "HKCEE",
     "HKALE": "HKALE",
-    "under_maintenance": "Under Maintenance"
+    "under_maintenance": "Under Maintenance",
+    "change_language": "Change Language",
+    "toggle_theme": "Toggle Theme",
+    "count": "Count"
 }
