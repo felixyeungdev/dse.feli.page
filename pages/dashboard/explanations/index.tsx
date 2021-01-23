@@ -227,7 +227,8 @@ function VideoDialog({
     };
 
     const submitVideo = async (vidId: string) => {
-        if (inputVideoID.length !== 11) return;
+        console.log(`Adding ${vidId} to ${id}`);
+        if (vidId.length !== 11) return;
         await fetch(`/api/explanations/addVideo?id=${id}`, {
             method: "POST",
             headers: {
