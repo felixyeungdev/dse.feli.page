@@ -5,6 +5,12 @@ import sleep from "../utils/sleep";
 import { getYouTubeInfo } from "../youtube";
 import fetch from "node-fetch";
 
+const globalAny: any = global;
+let cached: {
+    started?: boolean;
+} = globalAny.mongo;
+if (!cached) cached = globalAny.pendingExplanations = {};
+
 function parseDuration(duration: string): number {
     var total = 0;
     const [seconds, minutes, hours] = duration.split(":").reverse();
@@ -15,24 +21,14 @@ function parseDuration(duration: string): number {
 }
 
 class PendingExplanation {
-    state: {
-        started: boolean;
-        id?: number;
-    };
     constructor() {
-        this.state = {
-            started: false,
-        };
+        cached.started = false;
     }
 
     public async start() {
-        if (this.state.started) return;
-        this.state.id = Math.random();
+        if (cached.started) return;
         console.log("starting pending explanation background task");
-        this.state = {
-            ...this.state,
-            started: true,
-        };
+        cached.started = true;
         this.startProcess();
     }
 

@@ -95,7 +95,6 @@ export default function Home() {
             sortComparator: (v1, v2, p1, p2) => {
                 const _1length = p1.row.videos.length;
                 const _2length = p2.row.videos.length;
-                console.log(_1length, _2length);
                 if (_1length > _2length) return -1;
                 if (_1length < _2length) return 1;
                 return 0;
@@ -227,15 +226,14 @@ function VideoDialog({
         }
     };
 
-    const submitVideo = async (e) => {
-        e.preventDefault();
+    const submitVideo = async (vidId: string) => {
         if (inputVideoID.length !== 11) return;
         await fetch(`/api/explanations/addVideo?id=${id}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ videoId: inputVideoID }),
+            body: JSON.stringify({ videoId: vidId }),
         });
         setInputVideoID("");
         await getExplanationDetails(id);
@@ -318,7 +316,10 @@ function VideoDialog({
                     })}
             </List>
             <Divider />
-            <form onSubmit={submitVideo} style={{ width: "100%" }}>
+            <form
+                onSubmit={(e) => e.preventDefault()}
+                style={{ width: "100%" }}
+            >
                 <TextField
                     variant="filled"
                     label="Video ID"
@@ -335,14 +336,49 @@ function VideoDialog({
                         }
                     }}
                 />
-                <VideoListItem
+                <VideoSearchResults
                     id={inputVideoID}
-                    key={id}
-                    button
-                    onClick={(e) => submitVideo(e)}
+                    query={inputVideoID}
+                    onSelect={submitVideo}
                 />
             </form>
         </Dialog>
+    );
+}
+
+function VideoSearchResults({ id, query, onSelect }) {
+    const [results, setResults] = useState([]);
+
+    const searchVideos = async () => {
+        const response = await fetch(`/api/videos?id=${id}&query=${query}`);
+        const json = await response.json();
+        if (json && Array.isArray(json)) {
+            setResults(json);
+        } else {
+            setResults([]);
+        }
+        return null;
+    };
+
+    useEffect(() => {
+        searchVideos();
+    }, [id, query]);
+
+    if (results.length < 1) return <></>;
+
+    return (
+        <List dense>
+            {results &&
+                results.map((data) => {
+                    return (
+                        <VideoListItem
+                            id={data.id}
+                            button
+                            onClick={(id) => onSelect(id)}
+                        ></VideoListItem>
+                    );
+                })}
+        </List>
     );
 }
 
@@ -350,14 +386,13 @@ function VideoListItem({
     id,
     deleteClick,
     button = false,
-    onClick = (e) => {},
+    onClick = (id) => {},
 }: {
     id: string;
     deleteClick?: () => {};
     button?: boolean;
-    onClick?: (e) => void;
+    onClick?: (id) => void;
 }) {
-    console.log(`Vid ${id}`);
     const [data, setData] = useState(null);
     useEffect(() => {
         (async () => {
@@ -369,8 +404,8 @@ function VideoListItem({
     const getVideoDetails = async (id) => {
         const response = await fetch(`/api/videos?id=${id}`);
         const json = await response.json();
-        if (json) {
-            return json.video;
+        if (json && json.length > 0) {
+            return json[0];
         }
         return null;
     };
@@ -381,7 +416,7 @@ function VideoListItem({
     button && (listItemProps.button = true);
 
     return (
-        <ListItem {...listItemProps} onClick={onClick}>
+        <ListItem {...listItemProps} onClick={() => onClick(id)}>
             <ListItemText
                 primary={data ? data.title : id}
                 secondary={data ? data.uploader : ""}

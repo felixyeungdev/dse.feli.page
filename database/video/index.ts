@@ -1,4 +1,5 @@
-import { videosCollection } from "../mongodb";
+import { DBCollections } from "./../mongodb";
+import { connectToDatabase, videosCollection } from "../mongodb";
 import { Video } from "../schema/video";
 
 async function addVideoToDatabase(video: Video) {
@@ -54,8 +55,43 @@ async function getPendingVideoFromDatabase() {
     };
 }
 
+async function searchVideoFromDatabase(query: string, limit: number) {
+    const { db } = await connectToDatabase();
+    await db.collection(DBCollections.videos).createIndex({
+        uploader: "text",
+        title: "text",
+    });
+    const data = await db
+        .collection(DBCollections.videos)
+        .find(
+            {
+                $text: {
+                    $search: query,
+                },
+            },
+            // @ts-ignore
+            { score: { $meta: "textScore" } }
+        )
+        .sort({ score: { $meta: "textScore" } })
+        .limit(limit)
+        .toArray();
+    const videos = data.map((video) => {
+        const duration = JSON.parse(JSON.stringify(video.duration));
+        return {
+            id: video.id,
+            uploader: video.uploader,
+            uploader_id: video.uploader_id,
+            channel_id: video.channel_id,
+            title: video.title,
+            duration: duration,
+        };
+    });
+    return videos;
+}
+
 export {
     addVideoToDatabase,
     getVideoFromDatabase,
     getPendingVideoFromDatabase,
+    searchVideoFromDatabase,
 };
