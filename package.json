@@ -4,6 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev -p 8060",
+        "dev-3000": "next dev",
         "build": "next build",
         "start": "next start -p 8060",
         "deploy": "git pull && npm i && npm run build && npm run start"
@@ -12,6 +13,7 @@
         "@material-ui/core": "^4.11.2",
         "@material-ui/data-grid": "^4.0.0-alpha.17",
         "@material-ui/icons": "^4.11.2",
+        "autoprefixer": "^10.2.4",
         "aws4": "^1.11.0",
         "firebase": "^8.2.3",
         "firebase-admin": "^9.4.2",
@@ -22,11 +24,13 @@
         "next-sitemap": "^1.4.5",
         "node-fetch": "^2.6.1",
         "nookies": "^2.5.1",
+        "postcss": "^8.2.5",
         "react": "17.0.1",
         "react-dom": "17.0.1",
         "react-use": "^15.3.8",
         "react-youtube": "^7.13.0",
         "sass": "^1.32.4",
+        "tailwindcss": "^2.0.3",
         "youtube-dl": "^3.1.0"
     },
     "devDependencies": {
