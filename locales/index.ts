@@ -1,22 +1,33 @@
-import enGB from "./en-GB.json";
-import zhHK from "./zh-HK.json";
+import enGB from "@/locales/en-GB.json";
+import zhHK from "@/locales/zh-HK.json";
 
-const localeLookup = {
+const localeLookup: {
+    [key: string]: { [key: string]: any };
+} = {
     "en-GB": enGB,
     "zh-HK": zhHK,
 };
 
 export const locales = Object.keys(localeLookup);
 
-const errors = {
-    localeNotFound: "LOCALE_NOT_FOUND",
-    translationNotFound: "TRANSLATION_NOT_FOUND",
-};
+function getDottedKeyFromObject(
+    object: {
+        [key: string]: any;
+    },
+    key: string
+): string {
+    const keyChunks = key.split(".");
+    var data: any = object;
+    for (var chunk of keyChunks) {
+        if (data === undefined || data === null) break;
+        data = data[chunk] ?? null;
+    }
+    return (data ?? key) as string;
+}
 
-export function translate(locale: string, key: string): string {
+export function translate(locale: string = "en-GB", key: string): string {
     const localeObj = localeLookup[locale];
     if (!localeObj) return key;
-    const translated = localeObj[key];
-    if (!translated) return key;
+    const translated = getDottedKeyFromObject(localeObj, key);
     return translated;
 }

@@ -3,18 +3,17 @@ import ButtonGroup from "@material-ui/core/ButtonGroup";
 import Container from "@material-ui/core/Container";
 import Head from "next/head";
 import React from "react";
-import FeliAppBar from "../../components/Feli/FeliAppBar";
-import FeliContent from "../../components/Feli/FeliContent";
-import FeliHead from "../../components/Feli/FeliHead";
+import AppBar from "../../components/AppBar";
+import Content from "../../components/Content";
+import PageHead from "../../components/Head";
 import { simpleSearch } from "../../database/pp-explanation";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
 import Paper from "@material-ui/core/Paper";
-import uiConfig from "../../firebase/client/config-ui";
-import { useAuth } from "../../providers/FeliAuthProvider";
 import firebase from "firebase/app";
 import "firebase/auth";
+import { useAuth } from "@/firebase/client/authProvider";
 
 export default function Home({ exams }: { exams: string[] }) {
     const router = useRouter();
@@ -31,16 +30,8 @@ export default function Home({ exams }: { exams: string[] }) {
 
     return (
         <>
-            <FeliHead title={translate(router.locale, "explanation")} />
-            <FeliAppBar
-                crumbs={[
-                    {
-                        display: translate(router.locale, "explanation"),
-                        href: "/",
-                    },
-                ]}
-            />
-            <FeliContent center>
+            <PageHead title={translate(router.locale, "login")} />
+            <Content>
                 <Paper>
                     {!currentUser ? (
                         <Button onClick={handleSignIn}>
@@ -50,7 +41,7 @@ export default function Home({ exams }: { exams: string[] }) {
                         <Button onClick={handleSignOut}>Sign out</Button>
                     )}
                 </Paper>
-            </FeliContent>
+            </Content>
         </>
     );
 }

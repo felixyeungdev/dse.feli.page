@@ -1,3 +1,4 @@
+import searchVideo from "@/database/videos/search";
 import {
     getVideoFromDatabase,
     searchVideoFromDatabase,
@@ -16,7 +17,8 @@ export default async (req, res) => {
         res.status(200).json([video]);
         return;
     } else {
-        const results = await searchVideoFromDatabase(query || "", 3);
+        // const results = await searchVideoFromDatabase(query || "", 3);
+        const results = await searchVideo(query || "", 3);
         res.status(200).json(results);
     }
 };

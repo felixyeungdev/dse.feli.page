@@ -1,33 +1,27 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { addVideoToExplanation } from "../../../database/explanation";
-import Users from "../../../database/users";
-import authUser from "../../../helpers/authUser";
-import parseIdTokenFromCookie from "../../../helpers/parseIdTokenFromCookie";
+import { onError, onNoMatch } from "../_handlers";
+import dbConnect from "@/database/index";
+import authMiddleware from "@/firebase/server/authMiddleware";
+import nextConnect from "next-connect";
+import {
+    NextApiRequestWithAuth,
+    NextApiResponseWithAuth,
+} from "@/firebase/server/authMiddleware";
+import addVideoToExplanation from "@/database/explanations/addVideo";
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
-    const idToken = parseIdTokenFromCookie(req);
-    if (!idToken) {
-        res.status(400).json({
-            error: "not_allowed",
-        });
-        return;
-    }
-    const currentUser = await authUser(idToken);
-    if (!currentUser) {
-        res.status(400).json({
-            error: "token_expired",
-        });
-        return;
-    }
-    const adminRights = await Users.checkPermission(currentUser);
-    if (!adminRights) {
-        res.status(400).json({
-            error: "unauthorised",
-        });
-        return;
-    }
-    const { id } = req.query;
-    const { videoId } = req.body;
-    const result = await addVideoToExplanation(id as string, videoId);
-    res.json({ result });
-};
+const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
+    onNoMatch,
+    onError,
+})
+    .use(authMiddleware())
+    .post(async (req, res) => {
+        const { id } = req.query;
+        const { videoId } = req.body;
+
+        await dbConnect();
+
+        const result = await addVideoToExplanation(id.toString(), videoId);
+
+        res.send({ success: true, result: [...result] });
+    });
+
+export default handler;

@@ -1,6 +1,6 @@
-import FeliAppBar from "../../../components/Feli/FeliAppBar";
-import FeliContent from "../../../components/Feli/FeliContent";
-import FeliHead from "../../../components/Feli/FeliHead";
+import AppBar from "../../../components/AppBar";
+import Content from "../../../components/Content";
+import PageHead from "../../../components/Head";
 import { getExplanations } from "../../../database/explanation";
 import { translate } from "../../../locales";
 import Accordion from "@material-ui/core/Accordion";
@@ -27,6 +27,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Divider from "@material-ui/core/Divider";
+import { useAuth } from "@/firebase/client/authProvider";
 
 // subject;
 // exam;
@@ -159,16 +160,8 @@ export default function Home() {
 
     return (
         <>
-            <FeliHead title={translate(router.locale, "explanation")} />
-            <FeliAppBar
-                crumbs={[
-                    {
-                        display: translate(router.locale, "explanation"),
-                        href: "/",
-                    },
-                ]}
-            />
-            <FeliContent center>
+            <PageHead title={translate(router.locale, "explanation")} />
+            <Content>
                 <Container>
                     <Paper
                         style={{
@@ -192,7 +185,7 @@ export default function Home() {
                     onClose={dialogOnClose}
                     id={dialogId}
                 />
-            </FeliContent>
+            </Content>
         </>
     );
 }
@@ -208,6 +201,7 @@ function VideoDialog({
 }) {
     const [data, setData] = useState(null);
     const [inputVideoID, setInputVideoID] = useState("");
+    const { currentUser } = useAuth();
 
     useEffect(() => {
         getExplanationDetails(id);
@@ -233,6 +227,7 @@ function VideoDialog({
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
+                Authorization: await currentUser.getIdToken(),
             },
             body: JSON.stringify({ videoId: vidId }),
         });
@@ -244,6 +239,7 @@ function VideoDialog({
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
+                Authorization: await currentUser.getIdToken(),
             },
             body: JSON.stringify({ videoId: videoId }),
         });

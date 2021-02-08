@@ -51,7 +51,7 @@ export class ExplanationSearch {
                 (subjectSortingWeight[b.id] || subjectSortingWeight.default)
             );
         });
-        return subjects;
+        return sorted;
     }
     static async getExams(subject: string) {
         return await this.simpleSearch({ subject }, "exam");
@@ -71,6 +71,17 @@ export class ExplanationSearch {
         return await this.simpleSearch(
             { subject, exam, year, paper },
             "question"
+        );
+    }
+    static async get({ subject, exam, year, paper }, key: string) {
+        return await this.simpleSearch(
+            {
+                subject,
+                exam,
+                year,
+                paper,
+            },
+            key
         );
     }
 }

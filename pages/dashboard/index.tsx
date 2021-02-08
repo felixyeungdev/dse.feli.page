@@ -1,9 +1,9 @@
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import React, { useEffect, useState } from "react";
-import FeliAppBar from "../../components/Feli/FeliAppBar";
-import FeliContent from "../../components/Feli/FeliContent";
-import FeliHead from "../../components/Feli/FeliHead";
+import AppBar from "../../components/AppBar";
+import Content from "../../components/Content";
+import PageHead from "../../components/Head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
@@ -17,22 +17,14 @@ export default function Home({ exams }: { exams: string[] }) {
 
     return (
         <>
-            <FeliHead title={translate(router.locale, "explanation")} />
-            <FeliAppBar
-                crumbs={[
-                    {
-                        display: translate(router.locale, "explanation"),
-                        href: "/",
-                    },
-                ]}
-            />
-            <FeliContent center>
+            <PageHead title={translate(router.locale, "explanation")} />
+            <Content>
                 <ButtonGroup>
                     <Link href="/dashboard/explanations" locale={router.locale}>
                         <Button>Explanations</Button>
                     </Link>
                 </ButtonGroup>
-            </FeliContent>
+            </Content>
         </>
     );
 }

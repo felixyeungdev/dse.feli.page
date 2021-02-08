@@ -1,16 +1,10 @@
-import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
 import React, { useEffect } from "react";
-import FeliAppBar from "../components/Feli/FeliAppBar";
-import FeliContent from "../components/Feli/FeliContent";
-import FeliFooter from "../components/Feli/FeliFooter";
-import FeliHead from "../components/Feli/FeliHead";
+import Content from "@/components/Content";
+import PageHead from "../components/Head";
 import { useRouter } from "next/router";
 import languages from "../config/languages";
-import Link from "next/link";
 import { translate } from "../locales";
-import Paper from "@material-ui/core/Paper";
-import { startBackgroundJobs } from "../background";
+import LinkButton from "@/components/Button/Link";
 
 export default function Home() {
     const router = useRouter();
@@ -21,27 +15,14 @@ export default function Home() {
     }, []);
     return (
         <>
-            <FeliHead />
-            <FeliAppBar
-                crumbs={[
-                    {
-                        display: "dse.feli.page",
-                        href: "/",
-                    },
-                ]}
-            />
-            <FeliContent center>
-                <Paper>
-                    <ButtonGroup orientation="vertical" color="primary">
-                        <Link locale={router.locale} href="/explanation">
-                            <Button size="large">
-                                {translate(router.locale, "explanation")}
-                            </Button>
-                        </Link>
-                    </ButtonGroup>
-                </Paper>
-            </FeliContent>
-            <FeliFooter />
+            <PageHead />
+            <Content>
+                <div className="flex justify-center">
+                    <LinkButton locale={router.locale} href="/explanations">
+                        {translate(router.locale, "explanations")}
+                    </LinkButton>
+                </div>
+            </Content>
         </>
     );
 }

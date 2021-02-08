@@ -1,17 +1,24 @@
-import monk from "monk";
-import { getExplanations } from "../../../database/explanation";
+import { onError, onNoMatch } from "../_handlers";
+import dbConnect from "@/database/index";
+import authMiddleware from "@/firebase/server/authMiddleware";
+import nextConnect from "next-connect";
+import {
+    NextApiRequestWithAuth,
+    NextApiResponseWithAuth,
+} from "@/firebase/server/authMiddleware";
+import searchExplanations from "@/database/explanations/search";
 
-export default async (req, res) => {
-    const { subject, exam, year, paper, question, id } = req.query;
-    const searchQuery: { [key: string]: any } = {};
-    if (subject) searchQuery.subject = subject;
-    if (exam) searchQuery.exam = exam;
-    if (year) searchQuery.year = year;
-    if (paper) searchQuery.paper = paper;
-    try {
-        if (question) searchQuery.question = parseInt(question);
-    } catch (error) {}
-    if (id) searchQuery["_id"] = id;
-    const explanations = await getExplanations(searchQuery);
-    res.status(200).json([...explanations]);
-};
+const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
+    onNoMatch,
+    onError,
+})
+    .use(authMiddleware({ whitelistMethods: ["GET"] }))
+    .get(async (req, res) => {
+        await dbConnect();
+
+        const result = await searchExplanations({}, null);
+
+        res.send(result);
+    });
+
+export default handler;
