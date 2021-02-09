@@ -82,7 +82,7 @@ const ExplanationsPage = () => {
                     <label htmlFor="search" className="block">
                         Query
                     </label>
-                    <SlowInput value={slug} onChange={setSlug} />
+                    <SlowInput value={slug} onChange={setSlug} disabled/>
                 </div> */}
                 <div className="">
                     <Select
@@ -121,7 +121,7 @@ const ExplanationsPage = () => {
                         {...{ subject, exam, year, paper, question, slug }}
                     />
                 </div>
-                <h2 className="mt-4">{translate(locale, "result")}</h2>
+                <h2 className="mt-4">{translate(locale, "results")}</h2>
                 <div className="flex flex-wrap gap-4 mb-4">
                     {cards?.length > 0 ? (
                         cards
@@ -196,7 +196,7 @@ const Select = forwardRef((props: SelectProps, ref) => {
         const options = data.map((item) => {
             const { id, count } = item;
             return (
-                <option value={id ?? ""} key={id}>
+                <option value={id ?? ""} key={id} disabled={count === 0}>
                     {translate(locale, id ?? "total")}
                 </option>
             );
@@ -214,12 +214,12 @@ const Select = forwardRef((props: SelectProps, ref) => {
     };
 
     return (
-        <label className="block bg-gray-200 mt-2 py-2 px-4 rounded-md ring-gray-400 focus-within:ring-4 transition">
-            {label}
+        <label className="flex items-center justify-start bg-gray-200 mt-2 py-2 px-4 rounded-md ring-gray-400 focus-within:ring-4 transition">
+            <span>{label}</span>
             <select
                 onChange={(e) => change(e.target.value)}
                 value={value}
-                className="bg-gray-100 ml-2 px-2 py-1 rounded focus:outline-none"
+                className="bg-gray-100 ml-2 px-2 py-1 rounded focus:outline-none flex-grow"
             >
                 {options}
             </select>
@@ -230,9 +230,10 @@ const Select = forwardRef((props: SelectProps, ref) => {
 interface SlowInputProps {
     onChange: (value: string) => void;
     value: string;
+    disabled: boolean;
 }
 
-const SlowInput = ({ value, onChange }: SlowInputProps) => {
+const SlowInput = ({ value, onChange, disabled = false }: SlowInputProps) => {
     const [localValue, setLocalValue] = useState("");
 
     useEffect(() => {
@@ -255,6 +256,7 @@ const SlowInput = ({ value, onChange }: SlowInputProps) => {
             className="mt-2 bg-gray-200 hover:bg-gray-300 focus:bg-gray-300 py-2 px-4 w-full rounded-md focus:outline-none ring-gray-400 focus:ring-4 transition"
             id="subject"
             placeholder="EXAM SUBJECT YEAR/PAPER/QUESTION"
+            disabled={disabled}
         />
     );
 };
