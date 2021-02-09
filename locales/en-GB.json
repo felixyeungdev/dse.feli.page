@@ -16,5 +16,7 @@
     "toggle_theme": "Toggle Theme",
     "count": "Count",
     "results": "Results",
-    "search": "Search"
+    "clear": "Clear",
+    "search": "Search",
+    "search_select_one": "Please select at least one item above"
 }

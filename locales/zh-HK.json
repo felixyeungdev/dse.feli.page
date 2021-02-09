@@ -16,5 +16,7 @@
     "toggle_theme": "切換主題",
     "count": "數目",
     "results": "結果",
-    "search": "搜尋"
+    "clear": "清除",
+    "search": "搜尋",
+    "search_select_one": "請選擇以上至少一項"
 }

@@ -7,7 +7,7 @@ const VideoCard = ({ data }) => {
     const router = useRouter();
     const { locale } = router;
     return (
-        <div className="bg-white mb-4 rounded-lg shadow-xl overflow-hidden">
+        <div className="bg-white mb-4 rounded-lg shadow-xl overflow-hidden ring-2 ring-gray-300">
             <div className="flex justify-between items-center mx-4">
                 <div className="min-h-56 flex items-center text-xl">
                     {data.uploader}

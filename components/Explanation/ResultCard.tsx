@@ -17,7 +17,7 @@ const ExplanationResultCard = ({ data }: Props) => {
                 "-"
             )}`}
         >
-            <a className="shadow-lg rounded-lg px-8 py-4 ring-2 ring-gray-300 flex-grow hover:shadow-xl active:bg-gray-200 hover:z-10 transition">
+            <a className="rounded-lg px-8 py-4 ring-2 ring-gray-300 flex-grow hover:shadow-lg active:shadow-md active:bg-gray-200 hover:z-10 transition">
                 <div className="text-xl font-bold">{`${translate(
                     locale,
                     `${exam}`

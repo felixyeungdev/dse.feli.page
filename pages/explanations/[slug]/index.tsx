@@ -2,7 +2,9 @@ import Content from "@/components/Content";
 import VideoCard from "@/components/Video/card";
 import searchExplanations from "@/database/explanations/search";
 import getVideo from "@/database/videos/get";
+import { translate } from "@/locales/index";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router";
 import React from "react";
 
 interface Props {
@@ -22,15 +24,27 @@ const ExplanationSlug = ({
     question,
     videos = [],
 }: Props) => {
+    const router = useRouter();
+    const { locale } = router;
     return (
         <Content>
-            <h1>{`${exam} ${subject} ${year}/${paper}/Q${question}`}</h1>
-            {videos.map((videoData) => {
-                return <VideoCard data={videoData} key={videoData.id} />;
-            })}
-            {videos?.length <= 0 && (
-                <div className="text-xl">No videos found for this question</div>
-            )}
+            <h1>{`${translate(locale, `${exam}`)} ${translate(
+                locale,
+                `${subject}`
+            )} ${translate(locale, `${year}`)} ${translate(
+                locale,
+                `${paper}`
+            )} ${translate(locale, `${question}`)}`}</h1>
+            <div className="mt-4">
+                {videos.map((videoData) => {
+                    return <VideoCard data={videoData} key={videoData.id} />;
+                })}
+                {videos?.length <= 0 && (
+                    <div className="text-xl">
+                        No videos found for this question
+                    </div>
+                )}
+            </div>
         </Content>
     );
 };

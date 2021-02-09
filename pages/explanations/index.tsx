@@ -74,7 +74,9 @@ const ExplanationsPage = () => {
                 <h1>{translate(locale, "explanations")}</h1>
                 <div className="flex justify-between">
                     <h2>{translate(locale, "search")}</h2>
-                    <ActionButton onClick={clearSearch}>Clear</ActionButton>
+                    <ActionButton onClick={clearSearch}>
+                        {translate(locale, "clear")}
+                    </ActionButton>
                 </div>
                 {/* <div className="">
                     <label htmlFor="search" className="block">
@@ -125,7 +127,7 @@ const ExplanationsPage = () => {
                         cards
                     ) : (
                         <div className="text-xl">
-                            Please select at least one item above
+                            {translate(locale, "search_select_one")}
                         </div>
                     )}
                 </div>
