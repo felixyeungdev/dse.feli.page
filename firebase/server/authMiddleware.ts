@@ -8,6 +8,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import { NextHandler } from "next-connect";
 import getAccessLevel from "@/database/users/getAccessLevel";
 import checkPermission from "@/database/users/checkPermission";
+import { APIError } from "pages/api/_handlers";
 
 export interface NextApiRequestWithAuth extends NextApiRequest {
     decodedIdToken: admin.auth.DecodedIdToken;
@@ -30,13 +31,19 @@ const authMiddleware = (options: IAuthMiddleware = {}) => {
     ) => {
         const { authorization } = req.headers;
         if (!authorization && !whitelistMethods.includes(req.method))
-            throw new Error("No auth token provided");
+            throw new APIError({
+                status: 401,
+                message: "No authorization header provided",
+            });
         try {
             await dbConnect();
             initAdmin();
             const decodedIdToken = await auth(authorization ?? "");
             if (!decodedIdToken && !whitelistMethods.includes(req.method)) {
-                throw new Error("Unauthorised");
+                throw new APIError({
+                    status: 401,
+                    message: "Unauthorised",
+                });
             }
             if (decodedIdToken) {
                 await registerUser(decodedIdToken);
@@ -52,7 +59,10 @@ const authMiddleware = (options: IAuthMiddleware = {}) => {
             }
             req.decodedIdToken = decodedIdToken;
         } catch (error) {
-            throw new Error("An error occurred while authorising user");
+            throw new APIError({
+                status: 500,
+                message: "An error occurred while authorising user",
+            });
         }
         next();
     };

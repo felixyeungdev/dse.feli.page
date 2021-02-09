@@ -1,4 +1,5 @@
 import { onError, onNoMatch } from "../_handlers";
+import addVideoToExplanation from "@/database/explanations/addVideo";
 import dbConnect from "@/database/index";
 import authMiddleware from "@/firebase/server/authMiddleware";
 import nextConnect from "next-connect";
@@ -6,7 +7,6 @@ import {
     NextApiRequestWithAuth,
     NextApiResponseWithAuth,
 } from "@/firebase/server/authMiddleware";
-import addVideoToExplanation from "@/database/explanations/addVideo";
 
 const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
     onNoMatch,
@@ -21,7 +21,7 @@ const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
 
         const result = await addVideoToExplanation(id.toString(), videoId);
 
-        res.send({ success: true, result: [...result] });
+        res.send({ success: true });
     });
 
 export default handler;
