@@ -18,5 +18,13 @@
     "results": "結果",
     "clear": "清除",
     "search": "搜尋",
-    "search_select_one": "請選擇以上至少一項"
+    "search_select_one": "請選擇以上至少一項",
+    "back": "返回",
+    "footer": {
+        "support": "支援",
+        "email": "電郵",
+        "legal": "法律",
+        "privacy": "隱私",
+        "terms": "條款"
+    }
 }

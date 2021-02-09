@@ -1,3 +1,4 @@
+import LinkButton from "@/components/Button/Link";
 import Content from "@/components/Content";
 import VideoCard from "@/components/Video/card";
 import searchExplanations from "@/database/explanations/search";
@@ -28,13 +29,18 @@ const ExplanationSlug = ({
     const { locale } = router;
     return (
         <Content>
-            <h1>{`${translate(locale, `${exam}`)} ${translate(
-                locale,
-                `${subject}`
-            )} ${translate(locale, `${year}`)} ${translate(
-                locale,
-                `${paper}`
-            )} ${translate(locale, `${question}`)}`}</h1>
+            <div className="flex items-center justify-between">
+                <h1>{`${translate(locale, `${exam}`)} ${translate(
+                    locale,
+                    `${subject}`
+                )} ${translate(locale, `${year}`)} ${translate(
+                    locale,
+                    `${paper}`
+                )} ${translate(locale, `${question}`)}`}</h1>
+                <LinkButton href="/explanations" locale={locale}>
+                    {translate(locale, "back")}
+                </LinkButton>
+            </div>
             <div className="mt-4">
                 {videos.map((videoData) => {
                     return <VideoCard data={videoData} key={videoData.id} />;

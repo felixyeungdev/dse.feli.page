@@ -10,7 +10,7 @@ const FooterLink = ({ href, children }: Props) => {
         <a
             href={href}
             target="_blank"
-            className="py-0.5 px-1 block hover:text-feli active:text-feli-dark hover:underline transition-colors focus:outline-none focus:ring-2 ring-gray-600 rounded-md w-min"
+            className="py-0.5 px-1 block hover:text-feli active:text-feli-dark hover:underline transition-colors focus:outline-none focus:ring-2 ring-gray-600 rounded-md"
         >
             {children}
         </a>

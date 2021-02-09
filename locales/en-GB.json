@@ -18,5 +18,13 @@
     "results": "Results",
     "clear": "Clear",
     "search": "Search",
-    "search_select_one": "Please select at least one item above"
+    "search_select_one": "Please select at least one item above",
+    "back": "Back",
+    "footer": {
+        "support": "Support",
+        "email": "Email",
+        "legal": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    }
 }

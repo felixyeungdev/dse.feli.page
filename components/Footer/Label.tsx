@@ -6,7 +6,7 @@ interface Props {
 
 const FooterLabel = ({ children }: Props) => {
     return (
-        <div className="p-1 uppercase text-gray-500 font-bold tracking-wider">
+        <div className="p-1 uppercase text-gray-500 font-bold tracking-wider mt-4 md:mt-0">
             {children}
         </div>
     );
