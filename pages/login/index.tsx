@@ -6,7 +6,6 @@ import React from "react";
 import AppBar from "../../components/AppBar";
 import Content from "../../components/Content";
 import PageHead from "../../components/Head";
-import { simpleSearch } from "../../database/pp-explanation";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";

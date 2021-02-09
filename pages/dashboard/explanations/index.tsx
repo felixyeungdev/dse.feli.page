@@ -1,7 +1,6 @@
 import AppBar from "../../../components/AppBar";
 import Content from "../../../components/Content";
 import PageHead from "../../../components/Head";
-import { getExplanations } from "../../../database/explanation";
 import { translate } from "../../../locales";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
