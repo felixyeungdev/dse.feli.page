@@ -1,10 +1,8 @@
-import LinkButton from "@/components/Button/Link";
 import Content from "@/components/Content";
 import VideoCard from "@/components/Video/card";
 import searchExplanations from "@/database/explanations/search";
 import getVideo from "@/database/videos/get";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { useRouter } from "next/router";
 import React from "react";
 
 interface Props {

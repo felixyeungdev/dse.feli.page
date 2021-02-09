@@ -1,11 +1,5 @@
-import AppBar from "../components/AppBar";
 import Content from "../components/Content";
-import FeliFooter from "../components/Footer";
 import PageHead from "../components/Head";
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
-import Image from "next/image";
-import Link from "next/link";
 import LinkButton from "@/components/Button/Link";
 import { useRouter } from "next/router";
 

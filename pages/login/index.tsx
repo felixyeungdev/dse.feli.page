@@ -1,12 +1,7 @@
 import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import Container from "@material-ui/core/Container";
-import Head from "next/head";
 import React from "react";
-import AppBar from "../../components/AppBar";
 import Content from "../../components/Content";
 import PageHead from "../../components/Head";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
 import Paper from "@material-ui/core/Paper";

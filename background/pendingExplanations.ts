@@ -1,6 +1,3 @@
-import { addVideoToDatabase, getVideoFromDatabase } from "../database/video";
-import { pendingExplanationsCollection } from "../database/mongodb";
-import { videoSchema } from "../database/schema/video";
 import sleep from "../utils/sleep";
 import { getYouTubeInfo } from "../youtube";
 import fetch from "node-fetch";

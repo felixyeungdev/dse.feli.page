@@ -2,7 +2,6 @@ import { translate } from "@/locales/index";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import YouTube from "react-youtube";
 
 interface Props {
     data: { [key: string]: any };
