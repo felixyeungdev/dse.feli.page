@@ -35,35 +35,35 @@ const authMiddleware = (options: IAuthMiddleware = {}) => {
                 status: 401,
                 message: "No authorization header provided",
             });
-        try {
-            await dbConnect();
-            initAdmin();
-            const decodedIdToken = await auth(authorization ?? "");
-            if (!decodedIdToken && !whitelistMethods.includes(req.method)) {
-                throw new APIError({
-                    status: 401,
-                    message: "Unauthorised",
-                });
-            }
-            if (decodedIdToken) {
-                await registerUser(decodedIdToken);
-                if (requiredAccessLevel) {
-                    const userAccessLevel = await getAccessLevel(
-                        decodedIdToken
-                    );
-                    req.allowed = checkPermission(
-                        userAccessLevel as AccessLevel,
-                        requiredAccessLevel
-                    );
-                }
-            }
-            req.decodedIdToken = decodedIdToken;
-        } catch (error) {
+
+        await dbConnect();
+        initAdmin();
+        const decodedIdToken = await auth(authorization ?? "");
+        if (!decodedIdToken && !whitelistMethods.includes(req.method)) {
             throw new APIError({
-                status: 500,
-                message: "An error occurred while authorising user",
+                status: 401,
+                message: "Unauthorised",
             });
         }
+        if (decodedIdToken) {
+            await registerUser(decodedIdToken);
+            if (requiredAccessLevel) {
+                const userAccessLevel = await getAccessLevel(decodedIdToken);
+
+                req.allowed = checkPermission(
+                    userAccessLevel as AccessLevel,
+                    requiredAccessLevel
+                );
+                if (!req.allowed) {
+                    throw new APIError({
+                        status: 405,
+                        message: "Insufficient Permission",
+                    });
+                }
+            }
+        }
+        req.decodedIdToken = decodedIdToken;
+
         next();
     };
 };
