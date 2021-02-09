@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
 
-export default function Home({ exams }: { exams: string[] }) {
+export default function Home() {
     const router = useRouter();
 
     return (

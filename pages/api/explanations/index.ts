@@ -13,7 +13,7 @@ const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
     onError,
 })
     .use(authMiddleware({ whitelistMethods: ["GET"] }))
-    .get(async (req, res) => {
+    .get(async (_req, res) => {
         await dbConnect();
 
         const result = await searchExplanations({}, null);

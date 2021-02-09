@@ -28,7 +28,6 @@ import { useAuth } from "@/firebase/client/authProvider";
 
 export default function Home() {
     const [explanations, setExplanations] = useState(null);
-    const [videoActionFields, setVideoActionFields] = useState({});
     const [dialogOpened, setDialogOpened] = useState(false);
     const [dialogId, setDialogId] = useState(null);
     const router = useRouter();
@@ -83,7 +82,7 @@ export default function Home() {
             field: "videos",
             headerName: "videos",
             width: 250,
-            sortComparator: (v1, v2, p1, p2) => {
+            sortComparator: (_v1, _v2, p1, p2) => {
                 const _1length = p1.row.videos.length;
                 const _2length = p2.row.videos.length;
                 if (_1length > _2length) return -1;
@@ -128,20 +127,20 @@ export default function Home() {
         setDialogOpened(true);
     };
 
-    const alterVideo = async (id: string, video: string, action: string) => {
-        var videoId: string;
-        try {
-            videoId = new URL(video).searchParams.get("v");
-        } catch (error) {
-            videoId = video;
-        }
-        if (!videoId || videoId.length !== 11) {
-            alert("Invalid Video");
-            return;
-        }
-        if (action === "add") {
-        }
-    };
+    // const alterVideo = async (id: string, video: string, action: string) => {
+    //     var videoId: string;
+    //     try {
+    //         videoId = new URL(video).searchParams.get("v");
+    //     } catch (error) {
+    //         videoId = video;
+    //     }
+    //     if (!videoId || videoId.length !== 11) {
+    //         alert("Invalid Video");
+    //         return;
+    //     }
+    //     if (action === "add") {
+    //     }
+    // };
 
     const dialogOnClose = () => {
         setDialogOpened(false);
@@ -373,7 +372,7 @@ function VideoListItem({
     id,
     deleteClick,
     button = false,
-    onClick = (id) => {},
+    onClick = (_id) => {},
 }: {
     id: string;
     deleteClick?: () => {};

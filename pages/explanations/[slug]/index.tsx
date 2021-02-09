@@ -21,7 +21,7 @@ const ExplanationSlug = ({
     paper,
     question,
     videos = [],
-}) => {
+}: Props) => {
     return (
         <Content>
             <h1>{`${exam} ${subject} ${year}/${paper}/Q${question}`}</h1>

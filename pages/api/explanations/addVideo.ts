@@ -20,7 +20,7 @@ const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
 
         await dbConnect();
 
-        const result = await addVideoToExplanation(id.toString(), videoId);
+        await addVideoToExplanation(id.toString(), videoId);
 
         res.send({ success: true });
     });

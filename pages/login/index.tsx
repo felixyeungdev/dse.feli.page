@@ -9,7 +9,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import { useAuth } from "@/firebase/client/authProvider";
 
-export default function Home({ exams }: { exams: string[] }) {
+export default function Home() {
     const router = useRouter();
     const { currentUser } = useAuth();
     const auth = firebase.auth();

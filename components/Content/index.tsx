@@ -4,7 +4,7 @@ interface Props {
     children: ReactNode;
 }
 
-const Content = ({ children }) => {
+const Content = ({ children }: Props) => {
     return (
         <>
             <main className="flex justify-center min-h-screen">
