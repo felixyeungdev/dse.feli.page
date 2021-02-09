@@ -6,11 +6,11 @@ const checkPermission = (
 ) => {
     const userIndex = accessLevels.indexOf(userAccessLevel);
     const requiredIndex = accessLevels.indexOf(requiredAccessLevel);
-    if (userIndex <= 0) {
+    if (userIndex < 0) {
         console.error(`Unknown access level \`${userAccessLevel}\``);
         return false;
     }
-    if (requiredIndex <= 0) {
+    if (requiredIndex < 0) {
         console.error(`Unknown access level \`${requiredAccessLevel}\``);
         return false;
     }
