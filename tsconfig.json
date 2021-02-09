@@ -21,7 +21,6 @@
             "@/config/*": ["config/*"],
             "@/locales/*": ["locales/*"],
             "@/styles/*": ["styles/*"],
-            "@/theme/*": ["theme/*"],
             "@/utils/*": ["utils/*"],
             "@/youtube/*": ["youtube/*"]
         }
