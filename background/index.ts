@@ -1,6 +1,6 @@
-import { pendingExplanation } from "./pendingExplanations";
+import { pendingExplanationBackground } from "./pendingExplanations";
 
 export function startBackgroundJobs() {
     console.log("starting background jobs");
-    pendingExplanation.start();
+    pendingExplanationBackground.start();
 }

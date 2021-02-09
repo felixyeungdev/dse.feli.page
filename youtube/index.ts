@@ -2,7 +2,7 @@ import youtubedl from "youtube-dl";
 
 export const getYouTubeInfo = async (
     url: string
-): Promise<{ [key: string]: any }[]> => {
+): Promise<{ [key: string]: any }> => {
     return new Promise((resolve, reject) => {
         console.log(`Getting YouTube info for ${url}`);
         youtubedl.getInfo(url, [], function (err, info: any) {
