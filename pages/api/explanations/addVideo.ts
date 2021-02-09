@@ -7,12 +7,13 @@ import {
     NextApiRequestWithAuth,
     NextApiResponseWithAuth,
 } from "@/firebase/server/authMiddleware";
+import { AccessLevel } from "@/config/accessLevels";
 
 const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
     onNoMatch,
     onError,
 })
-    .use(authMiddleware())
+    .use(authMiddleware({ requiredAccessLevel: AccessLevel.Contributor }))
     .post(async (req, res) => {
         const { id } = req.query;
         const { videoId } = req.body;

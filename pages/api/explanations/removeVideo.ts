@@ -1,3 +1,4 @@
+import { AccessLevel } from "@/config/accessLevels";
 import { onError, onNoMatch } from "../_handlers";
 import removeVideoFromExplanation from "@/database/explanations/removeVideo";
 import dbConnect from "@/database/index";
@@ -12,7 +13,11 @@ const handler = nextConnect<NextApiRequestWithAuth, NextApiResponseWithAuth>({
     onNoMatch,
     onError,
 })
-    .use(authMiddleware())
+    .use(
+        authMiddleware({
+            requiredAccessLevel: AccessLevel.Contributor,
+        })
+    )
     .delete(async (req, res) => {
         const { id } = req.query;
         const { videoId } = req.body;
