@@ -3,10 +3,16 @@ import { ChangeEvent, useEffect, useState } from "react";
 interface SlowInputProps {
     onChange: (value: string) => void;
     value: string;
-    disabled: boolean;
+    disabled?: boolean;
+    placeholder?: string;
 }
 
-const SlowInput = ({ value, onChange, disabled = false }: SlowInputProps) => {
+const SlowInput = ({
+    value,
+    onChange,
+    disabled = false,
+    placeholder,
+}: SlowInputProps) => {
     const [localValue, setLocalValue] = useState("");
 
     useEffect(() => {
@@ -26,9 +32,9 @@ const SlowInput = ({ value, onChange, disabled = false }: SlowInputProps) => {
             onChange={onValueChange}
             value={localValue}
             type="text"
-            className="mt-2 bg-gray-200 hover:bg-gray-300 focus:bg-gray-300 py-2 px-4 w-full rounded-md focus:outline-none ring-gray-400 focus:ring-4 transition"
+            className="bg-gray-200 hover:bg-gray-300 focus:bg-gray-300 py-2 px-4 rounded-md focus:outline-none ring-gray-400 focus:ring-4 transition"
             id="subject"
-            placeholder="EXAM SUBJECT YEAR/PAPER/QUESTION"
+            placeholder={placeholder}
             disabled={disabled}
         />
     );

@@ -1,7 +1,5 @@
 import sleep from "../utils/sleep";
-import { getYouTubeInfo } from "../youtube";
 import fetch from "node-fetch";
-import parseDuration from "../utils";
 import getPlaylist from "@/database/pendingExplanations/getPlaylist";
 import PendingExplanation from "@/database/models/PendingExplanation";
 import dbConnect from "../database";
@@ -24,7 +22,7 @@ class PendingExplanationBackground {
         if (cached.started) return;
         console.log("starting pending explanation background task");
         cached.started = true;
-        this.startProcess();
+        this.startProcess(true);
     }
 
     private async startProcess(once = false) {
@@ -57,27 +55,33 @@ class PendingExplanationBackground {
     private async publishVideos() {
         var current = await getVideo();
         while (current) {
-            const data = await getYouTubeInfo(current);
-            const {
-                id,
-                uploader,
-                uploader_id,
-                channel_id,
-                title,
-                duration: durationStr,
-            } = data;
-            const duration = parseDuration(durationStr);
-            await addVideo({
-                id,
-                uploader,
-                uploader_id,
-                channel_id,
-                title,
-                duration,
-                referenced: false,
-            });
-            await removePending(current);
+            try {
+                const response = await fetch(
+                    `https://alltubedownload.net/json?url=https://www.youtube.com/watch?v=${current}`
+                );
+                const data = await response.json();
+                const {
+                    id,
+                    uploader,
+                    uploader_id,
+                    channel_id,
+                    title,
+                    duration,
+                } = data;
+                await addVideo({
+                    id,
+                    uploader,
+                    uploader_id,
+                    channel_id,
+                    title,
+                    duration,
+                    referenced: false,
+                });
+            } catch (error) {
+                console.log(error);
+            }
             current = await getVideo();
+            await removePending(current);
         }
     }
 }
