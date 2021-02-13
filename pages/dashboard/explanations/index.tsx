@@ -154,7 +154,7 @@ export default function Home() {
                 <Container>
                     <Paper
                         style={{
-                            height: "800px",
+                            height: "600px",
                             width: "100%",
                         }}
                     >
