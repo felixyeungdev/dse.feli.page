@@ -14,12 +14,18 @@ export default function Home() {
             <PageHead title={translate(router.locale, "explanation")} />
             <Content>
                 <div className="">
-                    <LinkButton href="/dashboard/explanations" locale={locale}>
-                        Explanations
-                    </LinkButton>
-                    <LinkButton href="/dashboard/pending" locale={locale}>
-                        Manage Pending Playlist & Videos
-                    </LinkButton>
+                    <h1>Dashboard</h1>
+                    <div className="flex space-x-2">
+                        <LinkButton
+                            href="/dashboard/explanations"
+                            locale={locale}
+                        >
+                            Explanations
+                        </LinkButton>
+                        <LinkButton href="/dashboard/pending" locale={locale}>
+                            Manage Pending Playlist & Videos
+                        </LinkButton>
+                    </div>
                 </div>
             </Content>
         </>
