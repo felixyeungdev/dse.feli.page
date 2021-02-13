@@ -1,13 +1,12 @@
-import Button from "@material-ui/core/Button";
 import React from "react";
 import Content from "../../components/Content";
 import PageHead from "../../components/Head";
 import { useRouter } from "next/router";
 import { translate } from "../../locales";
-import Paper from "@material-ui/core/Paper";
 import firebase from "firebase/app";
 import "firebase/auth";
 import { useAuth } from "@/firebase/client/authProvider";
+import ActionButton from "@/components/Button/Action";
 
 export default function Home() {
     const router = useRouter();
@@ -26,15 +25,15 @@ export default function Home() {
         <>
             <PageHead title={translate(router.locale, "login")} />
             <Content>
-                <Paper>
-                    {!currentUser ? (
-                        <Button onClick={handleSignIn}>
-                            Sign in with Google
-                        </Button>
-                    ) : (
-                        <Button onClick={handleSignOut}>Sign out</Button>
-                    )}
-                </Paper>
+                {!currentUser ? (
+                    <ActionButton onClick={handleSignIn}>
+                        Sign in with Google
+                    </ActionButton>
+                ) : (
+                    <ActionButton onClick={handleSignOut}>
+                        Sign out
+                    </ActionButton>
+                )}
             </Content>
         </>
     );
