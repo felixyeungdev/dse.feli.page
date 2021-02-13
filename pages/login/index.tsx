@@ -25,6 +25,7 @@ export default function Home() {
         <>
             <PageHead title={translate(router.locale, "login")} />
             <Content>
+                <h1>Sign in/out</h1>
                 {!currentUser ? (
                     <ActionButton onClick={handleSignIn}>
                         Sign in with Google
